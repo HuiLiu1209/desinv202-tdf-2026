@@ -15,7 +15,7 @@ I worked through two introductory exercises: **[Blink](./physical-computing/week
 
 <p align = "center">
     <img src="./physical-computing/week1/src/blink.gif" width="300" alt="Blink demo">
-    <img src="./physical-computing/week1/src/hello-world.gif" width="385" alt="Hello world demo">
+    <img src="./physical-computing/week1/src/hello-world.png" width="400" alt="Hello world demo">
 </p>
 
 
