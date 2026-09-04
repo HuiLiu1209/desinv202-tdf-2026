@@ -1,2 +1,1 @@
-<div align="center">
-# Technology Design Foundations
+<h1 align="center">Technology Design Foundations</h1>
