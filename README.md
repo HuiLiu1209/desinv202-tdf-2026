@@ -63,5 +63,5 @@ I used multiple LEDs to create a **[back-and-forth light sequence](./physical-co
 
 <p align = "center">
     <img src="./physical-computing/week1/src/laser-cutting.gif" width="250" alt="Blink demo">
-    <img src="./physical-computing/week1/src/ring.png" width="300" alt="Hello world demo">
+    <img src="./physical-computing/week1/src/ring.png" width="350" alt="Hello world demo">
 </p>
