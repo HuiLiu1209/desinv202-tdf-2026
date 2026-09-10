@@ -60,3 +60,8 @@ I used multiple LEDs to create a **[back-and-forth light sequence](./physical-co
 - Skipping the first and last LEDs in the reverse loop prevents the endpoint LEDs from lighting twice in a row.
 
 ### Studio - Sep 3
+
+<p align = "center">
+    <img src="./physical-computing/week1/src/laser-cutting.gif" width="250" alt="Blink demo">
+    <img src="./physical-computing/week1/src/ring.png" width="300" alt="Hello world demo">
+</p>
