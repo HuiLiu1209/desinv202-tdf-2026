@@ -61,6 +61,10 @@ I used multiple LEDs to create a **[back-and-forth light sequence](./physical-co
 
 ### Studio - Sep 3
 
+For this exercise, I wanted to make something more playful than a conventional ring, so I designed a Flash-inspired ring with a lightning-bolt element on top.
+
+I first designed the parts as 2D profiles for laser cutting and adjusted the dimensions based on the thickness of the wood and the size of my finger. After cutting the pieces, I assembled them with small M2 screws and tested how the parts fit and move together.
+
 <p align = "center">
     <img src="./physical-computing/week1/src/laser-cutting.gif" width="250" alt="Blink demo">
     <img src="./physical-computing/week1/src/ring.png" width="350" alt="Hello world demo">
