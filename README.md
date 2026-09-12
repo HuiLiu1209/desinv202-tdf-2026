@@ -16,9 +16,21 @@ Experiments, prototypes, and reflections across physical and computational desig
 
 <br>
 
+## Week2
+
+### Electronic - Sep 8
+I built a **[simple interaction](./physical-computing/week2/electronics/ultrasounds-servo-motor/ultrasounds-servo-motor.ino)** using an ultrasonic sensor and a servo motor. The ultrasonic sensor measures the distance of an object, and the servo responds based on that distance.
+
+When an object comes within 20 cm, the servo rotates to 90°. When the object moves away, it returns to 0°.
+<p align = "center">
+    <img src="./physical-computing/week2/src/ultrasound-servo-motor.gif" width="342" alt="ultrasound control servo motor demo">
+    <img src="./physical-computing/week2/src/ultrasound-wiring-diagram.png" width="350" alt="ultrasound wiring diagram">
+    <img src="./physical-computing/week2/src/ultrasound-schematic-diagram.png" width="370" alt="ultrasound schematic diagram">
+</p>
+
 ## Week 1
 
-### Lecture - Sep 1
+### Electronic - Sep 1
 This week, I started working with Arduino and learned the basic structure of an Arduino program, including `setup()` and `loop()`, digital output, delays, and serial communication.
 
 I worked through two introductory exercises: **[Blink](./physical-computing/week1/lecture/blink/blink.ino)** and **[Hello World](./physical-computing/week1/lecture/hello-world/hello-world.ino)**, then combined the two concepts into a short **[exercise](./physical-computing/week1/lecture/combine-blink-hello-world/combine-blink-hello-world.ino)**.
@@ -33,8 +45,8 @@ I worked through two introductory exercises: **[Blink](./physical-computing/week
 I used an LDR to detect changes in ambient light and **[control an LED](./physical-computing/week1/lecture/ldr-control/ldr-control.ino)** based on the sensor value. The LDR circuit is connected to the analog input pin A0, and the LED turns on when the sensor value passes a selected threshold.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/ldr-control.gif" width="300" alt="Blink demo">
-    <img src="./physical-computing/week1/src/ldr-control-circuit.png" width="225" alt="Hello world demo">
+    <img src="./physical-computing/week1/src/ldr-control.gif" width="300" alt="LDR lightning control demo">
+    <img src="./physical-computing/week1/src/ldr-control-circuit.png" width="225" alt="LDR breadboard wiring diagram">
 </p>
 
 **Take Away**
@@ -48,8 +60,8 @@ I used an LDR to detect changes in ambient light and **[control an LED](./physic
 I used multiple LEDs to create a **[back-and-forth light sequence](./physical-computing/week1/lecture/more-leds/more-leds.ino)**. The LEDs light up one by one in forward order, then reverse direction and return to the beginning.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/more-leds.gif" width="300" alt="Blink demo">
-    <img src="./physical-computing/week1/src/more-leds.png" width="225" alt="Hello world demo">
+    <img src="./physical-computing/week1/src/more-leds.gif" width="300" alt="multiplal lights demo">
+    <img src="./physical-computing/week1/src/more-leds.png" width="225" alt="multiplal lights breadboard wiring diagram">
 </p>
 
 **Take Away**
@@ -59,13 +71,13 @@ I used multiple LEDs to create a **[back-and-forth light sequence](./physical-co
 - A second `for` loop can start from the end of the array and decrement the index to create the reverse sequence.
 - Skipping the first and last LEDs in the reverse loop prevents the endpoint LEDs from lighting twice in a row.
 
-### Studio - Sep 3
+### Fabrication - Sep 3
 
 For this exercise, I wanted to make something more playful than a conventional ring, so I designed a Flash-inspired ring with a lightning-bolt element on top.
 
 I first designed the parts as 2D profiles for laser cutting and adjusted the dimensions based on the thickness of the wood and the size of my finger. After cutting the pieces, I assembled them with small M2 screws and tested how the parts fit and move together.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/laser-cutting.gif" width="250" alt="Blink demo">
-    <img src="./physical-computing/week1/src/ring.png" width="350" alt="Hello world demo">
+    <img src="./physical-computing/week1/src/laser-cutting.gif" width="250" alt="laser cutter working gif">
+    <img src="./physical-computing/week1/src/ring.png" width="350" alt="ring tear down diagram">
 </p>
