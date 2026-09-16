@@ -1,0 +1,16 @@
+{
+  "warnings": [], 
+  "counts": [
+    0, 
+    1, 
+    1, 
+    1
+  ], 
+  "errors": [], 
+  "mesh": {
+    "vertices": 87218, 
+    "valid": true, 
+    "closed": true, 
+    "faces": 174520
+  }
+}

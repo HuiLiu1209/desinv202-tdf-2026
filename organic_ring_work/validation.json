@@ -1,0 +1,19 @@
+{
+  "gh_saved": true, 
+  "area_relative_error": 0.0, 
+  "cells_area_mm2": 2273.5898594393839, 
+  "uv_area_mm2": 2273.5898594393839, 
+  "voronoi": {
+    "closed": 40, 
+    "valid": 40, 
+    "count": 40, 
+    "max_surface_distance_mm": 0.07340722052975622
+  }, 
+  "rhino_saved": true, 
+  "rounded_holes": {
+    "closed": 40, 
+    "valid": 40, 
+    "count": 40, 
+    "max_surface_distance_mm": 0.020286957116066536
+  }
+}
