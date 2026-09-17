@@ -28,6 +28,21 @@ When an object comes within 20 cm, the servo rotates to 90°. When the object mo
     <img src="./physical-computing/week2/src/ultrasound-schematic-diagram.png" width="370" alt="ultrasound schematic diagram">
 </p>
 
+### Fabrication - Sep 17
+This week, I explored 3D printing through two different ring-making approaches.
+
+The first one was a Flash ring, based on the ring I made in the previous laser-cutting exercise. Since the overall form was relatively simple, I drew the profile directly in a sketch and extruded it into a 3D form. After separating the ring into different parts, I added M2 holes at the connection points so that the pieces could be assembled after printing.
+<p align = "center">
+    <img src="./physical-computing/week2/src/ring_in_fusion.png" width="400" alt="ring in fusion360">
+</p>
+
+The second one was an organic ring made in Grasshopper. I started by creating a circle and extracting points along the curve, then rebuilt it with more points. I used random values to distribute the points around the circle and along the Z-axis, and moved them to create a second, more irregular circular profile. I then lofted the two profiles together to generate the main form. After that, I extracted the UV space of the surface, created a Voronoi pattern on it, and mapped the pattern back onto the curved geometry.
+<p align = "center">
+    <img src="./physical-computing/week2/src/ring_in_rhino.png" width="400" alt="ring in rhino">
+    <br>
+    <img src="./physical-computing/week2/src/3d_printing_ring.png" width="400" alt="3d printing ring">
+</p>
+
 ## Week 1
 
 ### Electronic - Sep 1
