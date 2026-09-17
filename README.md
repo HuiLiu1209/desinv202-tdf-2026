@@ -16,7 +16,7 @@ Experiments, prototypes, and reflections across physical and computational desig
 
 <br>
 
-## Week2
+## Week-02
 
 ### Electronic - Sep 8
 I built a **[simple interaction](./physical-computing/week2/electronics/ultrasounds-servo-motor/ultrasounds-servo-motor.ino)** using an ultrasonic sensor and a servo motor. The ultrasonic sensor measures the distance of an object, and the servo responds based on that distance.
@@ -43,7 +43,7 @@ The second one was an organic ring made in Grasshopper. I started by creating a 
     <img src="./physical-computing/week2/src/3d_printing_ring.png" width="400" alt="3d printing ring">
 </p>
 
-## Week 1
+## Week-01
 
 ### Electronic - Sep 1
 This week, I started working with Arduino and learned the basic structure of an Arduino program, including `setup()` and `loop()`, digital output, delays, and serial communication.
