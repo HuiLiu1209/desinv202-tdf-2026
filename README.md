@@ -10,22 +10,22 @@ Experiments, prototypes, and reflections across physical and computational desig
 
 | Week | Week | Week | Week |
 | --- | --- | --- | --- |
-| [Week 01](#week-01) | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) |
-| [Week 05](#week-05) | [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) |
-| [Week 09](#week-09) | [Week 10](#week-10) | [Week 11](#week-11) | [Week 12](#week-12) |
+| [Week 02](#week-02) | [Week 03](#week-03) | Week 04 | Week 05 |
+| Week 06 | Week 07 | Week 08 | Week 09 |
+| Week 10 | Week 11 | Week 12 | |
 
 <br>
 
-## Week-02
+## Week-03
 
 ### Electronic - Sep 8
-I built a **[simple interaction](./physical-computing/week2/electronics/ultrasounds-servo-motor/ultrasounds-servo-motor.ino)** using an ultrasonic sensor and a servo motor. The ultrasonic sensor measures the distance of an object, and the servo responds based on that distance.
+I built a **[simple interaction](./physical-computing/week3/electronics/ultrasounds-servo-motor/ultrasounds-servo-motor.ino)** using an ultrasonic sensor and a servo motor. The ultrasonic sensor measures the distance of an object, and the servo responds based on that distance.
 
 When an object comes within 20 cm, the servo rotates to 90°. When the object moves away, it returns to 0°.
 <p align = "center">
-    <img src="./physical-computing/week2/src/ultrasound-servo-motor.gif" width="342" alt="ultrasound control servo motor demo">
-    <img src="./physical-computing/week2/src/ultrasound-wiring-diagram.png" width="350" alt="ultrasound wiring diagram">
-    <img src="./physical-computing/week2/src/ultrasound-schematic-diagram.png" width="370" alt="ultrasound schematic diagram">
+    <img src="./physical-computing/week3/src/ultrasound-servo-motor.gif" width="342" alt="ultrasound control servo motor demo">
+    <img src="./physical-computing/week3/src/ultrasound-wiring-diagram.png" width="350" alt="ultrasound wiring diagram">
+    <img src="./physical-computing/week3/src/ultrasound-schematic-diagram.png" width="370" alt="ultrasound schematic diagram">
 </p>
 
 ### Fabrication - Sep 17
@@ -33,35 +33,35 @@ This week, I explored 3D printing through two different ring-making approaches.
 
 The first one was a Flash ring, based on the ring I made in the previous laser-cutting exercise. Since the overall form was relatively simple, I drew the profile directly in a sketch and extruded it into a 3D form. After separating the ring into different parts, I added M2 holes at the connection points so that the pieces could be assembled after printing.
 <p align = "center">
-    <img src="./physical-computing/week2/src/ring_in_fusion.png" width="400" alt="ring in fusion360">
+    <img src="./physical-computing/week3/src/ring_in_fusion.png" width="400" alt="ring in fusion360">
 </p>
 
 The second one was an organic ring made in Grasshopper. I started by creating a circle and extracting points along the curve, then rebuilt it with more points. I used random values to distribute the points around the circle and along the Z-axis, and moved them to create a second, more irregular circular profile. I then lofted the two profiles together to generate the main form. After that, I extracted the UV space of the surface, created a Voronoi pattern on it, and mapped the pattern back onto the curved geometry.
 <p align = "center">
-    <img src="./physical-computing/week2/src/ring_in_rhino.png" width="400" alt="ring in rhino">
+    <img src="./physical-computing/week3/src/ring_in_rhino.png" width="400" alt="ring in rhino">
     <br>
-    <img src="./physical-computing/week2/src/3d_printing_ring.png" width="400" alt="3d printing ring">
+    <img src="./physical-computing/week3/src/3d_printing_ring.png" width="400" alt="3d printing ring">
 </p>
 
-## Week-01
+## Week-02
 
 ### Electronic - Sep 1
 This week, I started working with Arduino and learned the basic structure of an Arduino program, including `setup()` and `loop()`, digital output, delays, and serial communication.
 
-I worked through two introductory exercises: **[Blink](./physical-computing/week1/lecture/blink/blink.ino)** and **[Hello World](./physical-computing/week1/lecture/hello-world/hello-world.ino)**, then combined the two concepts into a short **[exercise](./physical-computing/week1/lecture/combine-blink-hello-world/combine-blink-hello-world.ino)**.
+I worked through two introductory exercises: **[Blink](./physical-computing/week2/electronics/blink/blink.ino)** and **[Hello World](./physical-computing/week2/electronics/hello-world/hello-world.ino)**, then combined the two concepts into a short **[exercise](./physical-computing/week2/electronics/combine-blink-hello-world/combine-blink-hello-world.ino)**.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/blink.gif" width="300" alt="Blink demo">
-    <img src="./physical-computing/week1/src/hello-world.png" width="400" alt="Hello world demo">
+    <img src="./physical-computing/week2/src/blink.gif" width="300" alt="Blink demo">
+    <img src="./physical-computing/week2/src/hello-world.png" width="400" alt="Hello world demo">
 </p>
 
 ---
 
-I used an LDR to detect changes in ambient light and **[control an LED](./physical-computing/week1/lecture/ldr-control/ldr-control.ino)** based on the sensor value. The LDR circuit is connected to the analog input pin A0, and the LED turns on when the sensor value passes a selected threshold.
+I used an LDR to detect changes in ambient light and **[control an LED](./physical-computing/week2/electronics/ldr-control/ldr-control.ino)** based on the sensor value. The LDR circuit is connected to the analog input pin A0, and the LED turns on when the sensor value passes a selected threshold.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/ldr-control.gif" width="300" alt="LDR lightning control demo">
-    <img src="./physical-computing/week1/src/ldr-control-circuit.png" width="225" alt="LDR breadboard wiring diagram">
+    <img src="./physical-computing/week2/src/ldr-control.gif" width="300" alt="LDR lightning control demo">
+    <img src="./physical-computing/week2/src/ldr-control-circuit.png" width="225" alt="LDR breadboard wiring diagram">
 </p>
 
 **Take Away**
@@ -72,11 +72,11 @@ I used an LDR to detect changes in ambient light and **[control an LED](./physic
 
 ---
 
-I used multiple LEDs to create a **[back-and-forth light sequence](./physical-computing/week1/lecture/more-leds/more-leds.ino)**. The LEDs light up one by one in forward order, then reverse direction and return to the beginning.
+I used multiple LEDs to create a **[back-and-forth light sequence](./physical-computing/week2/electronics/more-leds/more-leds.ino)**. The LEDs light up one by one in forward order, then reverse direction and return to the beginning.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/more-leds.gif" width="300" alt="multiplal lights demo">
-    <img src="./physical-computing/week1/src/more-leds.png" width="225" alt="multiplal lights breadboard wiring diagram">
+    <img src="./physical-computing/week2/src/more-leds.gif" width="300" alt="multiplal lights demo">
+    <img src="./physical-computing/week2/src/more-leds.png" width="225" alt="multiplal lights breadboard wiring diagram">
 </p>
 
 **Take Away**
@@ -93,6 +93,6 @@ For this exercise, I wanted to make something more playful than a conventional r
 I first designed the parts as 2D profiles for laser cutting and adjusted the dimensions based on the thickness of the wood and the size of my finger. After cutting the pieces, I assembled them with small M2 screws and tested how the parts fit and move together.
 
 <p align = "center">
-    <img src="./physical-computing/week1/src/laser-cutting.gif" width="250" alt="laser cutter working gif">
-    <img src="./physical-computing/week1/src/ring.png" width="350" alt="ring tear down diagram">
+    <img src="./physical-computing/week2/src/laser-cutting.gif" width="250" alt="laser cutter working gif">
+    <img src="./physical-computing/week2/src/ring.png" width="350" alt="ring tear down diagram">
 </p>
