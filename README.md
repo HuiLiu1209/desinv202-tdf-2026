@@ -53,6 +53,8 @@ I presented the face-mirroring mechanism. During the presentation, a bug appeare
 
 Testing each facial movement separately helped me gradually refine the individual mechanisms. However, the eyebrow mechanism malfunctioned during the presentation. I suspect that multiple faces appearing in the camera frame at the same time may have triggered the bug, but I have not been able to reproduce it yet. This showed me that even when individual parts work, the complete system still needs more testing as a whole.
 
+I also realized that using screws to assemble the outer shell added unnecessary complexity. A tab-and-slot joint would have made the enclosure easier to assemble, reduced the number of extra fasteners, and created a cleaner overall structure.
+
 ## Week-04
 
 ### Expressive Mechanics: Mechanical Research - Sep 15
