@@ -11,10 +11,62 @@ Experiments, prototypes, and reflections across physical and computational desig
 | Week | Week | Week | Week |
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
-| Week 06 | Week 07 | Week 08 | Week 09 |
+| [Week 06](#week-06) | Week 07 | Week 08 | Week 09 |
 | Week 10 | Week 11 | Week 12 | |
 
 <br>
+
+## Week-06
+
+### Electronic - Sep 29
+
+**Soldering**
+
+I soldered the header pins onto the Adafruit Feather ESP32 V2 so that the board could be mounted on a breadboard. The side view shows the solder joints along the headers, while the top view shows the board positioned on the breadboard.
+
+<p align="center">
+    <img src="./physical-computing/week6/src/soldering_top_view.jpeg" width="350" alt="ESP32 on a breadboard, top view">
+    <img src="./physical-computing/week6/src/soldering_side_view.jpeg" width="198" alt="Soldered headers, side view">
+</p>
+
+**ESP32 Setup & MAC Address**
+
+I installed the ESP32 board package by Espressif Systems through Arduino IDE's Boards Manager, then selected Adafruit Feather ESP32 V2 and its USB serial port. After a communication failure at a higher upload speed, reducing the upload speed to 115200 allowed the sketch to upload successfully.
+
+I used the **[MAC address sketch](./physical-computing/week6/electronic/get-esp32-mac-address/get-esp32-mac-address.ino)** to read the board's MAC address in the Serial Monitor. The original sketch printed the address only once at startup, making it easy to miss. Updating it to print every two seconds made the output easier to check. The Serial Monitor baud rate was also set to 115200 to match the code.
+
+<p align="center">
+    <img src="./physical-computing/week6/src/boards_manager.png" width="190" alt="ESP32 package in Boards Manager">
+    <img src="./physical-computing/week6/src/mac_address.png" width="500" alt="MAC address output in Serial Monitor">
+</p>
+
+<p align="center">
+    <img src="./physical-computing/week6/src/select_board_and_port.png" width="400" alt="Selecting the board and serial port">
+    <img src="./physical-computing/week6/src/upload_speed.png" width="360" alt="Upload speed set to 115200">
+</p>
+
+### Fabrication - Oct 1
+
+**Weather API**
+
+Following the **[ESP32 Web API tutorial](https://github.com/roopa-ramanujam/ESP32-web-api-example)**, I connected the board to WiFi and used the **[weather API sketch](./physical-computing/week6/fabrication/weather-api-example/weather-api-example.ino)** to request temperature and wind speed for Jacobs Hall from Open-Meteo. Since I was working off campus, I used a WiFi network outside campus instead of Berkeley-IoT. I stored the credentials in a separate `secrets.h` file and excluded it from Git.
+
+The Serial Monitor showed a successful WiFi connection and an HTTP response code of 200. The sketch parsed the JSON response and used the onboard NeoPixel to display the weather: temperature determines the color, while wind speed controls the blinking rate. The recorded temperature was 67.9°F, which produced a green light.
+
+<p align="center">
+    <img src="./physical-computing/week6/src/weather_api_output.png" width="480" alt="Successful weather API response">
+    <img src="./physical-computing/week6/src/weather_api_demo.gif" width="385" alt="Weather data displayed through the onboard NeoPixel">
+</p>
+
+**Air Quality API**
+
+I also tested the **[OpenAQ air quality sketch](./physical-computing/week6/fabrication/air-quality-api-example-with-api-key/air-quality-api-example-with-api-key.ino)**. Unlike the weather example, this API requires an API key, which the sketch sends through the `X-API-Key` request header. I stored the key alongside the WiFi credentials in the local `secrets.h` file.
+
+The request returned an HTTP response code of 200, and the sketch extracted an ozone concentration of 0.043 ppm. The returned measurement was dated March 6, 2016, so it demonstrated successful API authentication and data parsing rather than current air quality. This example prints the readings in the Serial Monitor without controlling the LED.
+
+<p align="center">
+    <img src="./physical-computing/week6/src/air_quality.png" width="700" alt="Successful OpenAQ API response and ozone reading in Serial Monitor">
+</p>
 
 ## Week-05
 
