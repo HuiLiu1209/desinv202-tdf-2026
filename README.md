@@ -16,6 +16,12 @@ Experiments, prototypes, and reflections across physical and computational desig
 
 <br>
 
+## Week-07
+
+### Ambient Display - Oct 6
+
+
+
 ## Week-06
 
 ### Electronic - Sep 29
