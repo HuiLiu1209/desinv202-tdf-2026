@@ -11,10 +11,64 @@ Experiments, prototypes, and reflections across physical and computational desig
 | Week | Week | Week | Week |
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
-| [Week 06](#week-06) | Week 07 | Week 08 | Week 09 |
+| [Week 06](#week-06) | [Week 07](#week-07) | Week 08 | Week 09 |
 | Week 10 | Week 11 | Week 12 | |
 
 <br>
+
+## Week-07
+
+### Ambient Display: Tide API & LED Matrix Testing - Oct 6
+
+I started by looking for a data source for the ambient display and selected the [NOAA tide API](https://api.tidesandcurrents.noaa.gov/api/prod/) to explore how San Francisco's tides could be translated into light. Using the API Builder, I selected the San Francisco station and examined the returned JSON structure. Each entry in the `predictions` array contains a timestamp, `t`, and a tide height, `v`, which provide the values needed to control the lighting over time.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/tide_api_builder.png" height="180" alt="NOAA API Builder configured for San Francisco tide predictions">
+    <img src="./physical-computing/week7/src/api_response_structure.png" height="180" alt="Tide prediction JSON with timestamp and height values">
+    <img src="./physical-computing/week7/src/led_matrix_schematic.png" height="180" alt="Serpentine pixel indices on an 8 by 8 LED matrix">
+</p>
+
+I then studied how the 8×8 LED matrix is controlled. Although the LEDs form a grid, the 64 pixels are indexed along a serpentine path, so I first needed to understand how each index corresponds to a physical position. I soldered the connecting wires, connected the matrix to the ESP32, and tested individual pixels and brightness control.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/led_matrix.jpeg" height="300" alt="Powered LED matrix connected through jumper wires">
+    <img src="./physical-computing/week7/src/soldering.jpeg" height="300" alt="Soldered connections on the matrix wires">
+</p>
+
+I then experimented with assigning one day to each LED and playing the dates at the same simulated time, using changes in tide height to create different patterns of brightness across the matrix.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/led_matrix_test.jpeg" height="220" alt="Individual pixel brightness test on the LED matrix">
+    <img src="./physical-computing/week7/src/early_tide_lighting.gif" height="220" alt="Early tide-driven brightness animation on the LED matrix">
+</p>
+
+### Ambient Display: Laser Cutting, Assembly & Fiber Optics - Oct 8
+
+I began making an enclosure for the electronics. I measured the LED matrix, ESP32, and power adapter board, recording the connector positions and component heights to plan the internal layout and wire routing. Based on these measurements, I designed and laser cut a wooden enclosure with openings in the top panel corresponding to the LED grid. During assembly, I checked the alignment between the matrix and the top panel, along with the space available for the electronics and wiring underneath.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/led_matrix_measurment.jpeg" height="180" alt="Measuring the LED matrix with digital calipers">
+    <img src="./physical-computing/week7/src/esp32_measurment.jpeg" height="180" alt="ESP32 dimensions and connector positions recorded in a sketch">
+    <img src="./physical-computing/week7/src/adapter_measurment.jpeg" height="180" alt="Power adapter board dimensions and component heights">
+</p>
+
+<p align="center">
+    <img src="./physical-computing/week7/src/assemble_test.jpeg" width="700" alt="Laser-cut enclosure assembly with space for the boards and wiring">
+</p>
+
+After assembling the enclosure, I inserted a few fiber-optic strands to test whether the LED light reached their tips, then added more strands to observe the overall effect.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/fiber_test.jpeg" height="300" alt="Testing light transmission through a few fiber-optic strands">
+    <img src="./physical-computing/week7/src/ligtning_test.jpeg" height="300" alt="Fiber-optic strands installed in the enclosure with pale purple lighting">
+</p>
+
+The fibers extended the light points above the matrix to different heights, making the tide-driven brightness changes visible across a field of separate points. I compared the initial pale purple lighting with the final blue and cyan effect, and adjusted the contrast and playback speed to make the changes easier to see. For the final demonstration, a 64-day dataset of tide predictions was downloaded in advance and stored with the [program](./physical-computing/week7/led_matrix_final/led_matrix_final.ino) on the ESP32, allowing the display to loop after powering on without downloading data during the presentation.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/light_testing.gif" height="200" alt="Initial pale purple lighting test through the fiber-optic strands">
+    <img src="./physical-computing/week7/src/final_lighting.gif" height="200" alt="Final blue and cyan tide animation through the fiber-optic strands">
+</p>
 
 ## Week-06
 
