@@ -6,9 +6,7 @@
 
 #include "secrets.h"
 
-// ======================================================
-// LED MATRIX
-// ======================================================
+// 64-pixel GRB NeoPixel matrix connected to GPIO 13.
 
 #define LED_PIN 13
 #define LED_COUNT 64
@@ -19,42 +17,26 @@ Adafruit_NeoPixel matrix(
   NEO_GRB + NEO_KHZ800
 );
 
-// 你现在还是 ESP32 USB 给 Matrix 供电
-// 先锁死在 3 / 255
+// Brightness limit for the USB-powered prototype, on a 0-255 scale.
 #define MAX_BRIGHTNESS 3
 
-// 每一帧之间等待多久
-// 96 个 frame × 100ms
-// 整个“一天”大约 9.6 秒播放完
+// 96 frames at 100 ms per frame produce a 9.6-second playback cycle.
 #define FRAME_DELAY_MS 100
 
 
-// ======================================================
-// DATA SETTINGS
-// ======================================================
+// One day per LED, with 96 fifteen-minute samples per day.
 
 #define DAYS 64
 #define TIMES_PER_DAY 96
 
-// tideData[哪一天][一天中的哪个时间]
-//
-// tideData[0][0]  = 第1天 00:00
-// tideData[0][1]  = 第1天 00:15
-// tideData[1][0]  = 第2天 00:00
-//
-// ...
+// tideData[day][time slot]: slot 0 is 00:00, slot 1 is 00:15.
 float tideData[DAYS][TIMES_PER_DAY];
 
-// 如果某一天 API 获取失败
+// A day is valid only when its API response has been loaded successfully.
 bool dayValid[DAYS];
 
 
-// ======================================================
-// START DATE
-// ======================================================
-
-// 第一版 prototype：
-// 从 2026-10-05 开始，连续获取 64 天
+// First date of the prototype's 64-day NOAA prediction request.
 
 struct SimpleDate {
   int year;
@@ -69,20 +51,13 @@ SimpleDate startDate = {
 };
 
 
-// ======================================================
-// GLOBAL TIDE RANGE
-// ======================================================
-
-// 后面会扫描全部 64 天
-// 找出整体最低潮和最高潮
+// Shared extrema normalize tide heights across all successfully loaded days.
 
 float globalMinTide = 9999;
 float globalMaxTide = -9999;
 
 
-// ======================================================
-// DATE FUNCTIONS
-// ======================================================
+// Gregorian calendar helpers for advancing the API request date.
 
 bool isLeapYear(int year) {
 
@@ -167,10 +142,6 @@ String formatDate(SimpleDate date) {
 }
 
 
-// ======================================================
-// WIFI
-// ======================================================
-
 void connectWiFi() {
 
   Serial.print("Connecting to WiFi");
@@ -196,9 +167,7 @@ void connectWiFi() {
 }
 
 
-// ======================================================
-// FETCH ONE DAY
-// ======================================================
+// Load one date of NOAA predictions into the corresponding LED's data row.
 
 bool fetchOneDay(
   String date,
@@ -214,9 +183,7 @@ bool fetchOneDay(
   Serial.println(date);
 
 
-  // ------------------------------------------
-  // Build NOAA URL
-  // ------------------------------------------
+  // San Francisco station: 15-minute predictions in meters relative to MLLW.
 
   String url =
     "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter"
@@ -232,13 +199,9 @@ bool fetchOneDay(
     "&format=json";
 
 
-  // ------------------------------------------
-  // HTTPS
-  // ------------------------------------------
-
   WiFiClientSecure client;
 
-  // prototype 暂时跳过 certificate verification
+  // Certificate verification is disabled in this network prototype.
   client.setInsecure();
 
   HTTPClient http;
@@ -247,10 +210,6 @@ bool fetchOneDay(
 
   http.begin(client, url);
 
-
-  // ------------------------------------------
-  // GET
-  // ------------------------------------------
 
   int responseCode =
     http.GET();
@@ -269,19 +228,11 @@ bool fetchOneDay(
   }
 
 
-  // ------------------------------------------
-  // Get JSON
-  // ------------------------------------------
-
   String json =
     http.getString();
 
   http.end();
 
-
-  // ------------------------------------------
-  // Parse JSON
-  // ------------------------------------------
 
   JsonDocument doc;
 
@@ -310,9 +261,7 @@ bool fetchOneDay(
   }
 
 
-  // ------------------------------------------
-  // Temporary raw values
-  // ------------------------------------------
+  // Buffer up to 128 API values before resampling.
 
   float tempData[128];
 
@@ -350,15 +299,8 @@ bool fetchOneDay(
   }
 
 
-  // ------------------------------------------
-  // Convert to exactly 96 points
-  //
-  // 正常一天：
-  // 24 × 4 = 96
-  //
-  // 这里仍然做一次 resample，
-  // 防止某些日期数量不完全一样
-  // ------------------------------------------
+  // Resample by nearest source index to fill 96 daily slots.
+  // API responses with different sample counts use the same playback length.
 
   for (
     int timeIndex = 0;
@@ -384,7 +326,7 @@ bool fetchOneDay(
       value;
 
 
-    // 顺便计算整个64天共同的 min/max
+    // Update the tide range shared by all 64 dates.
 
     if (value < globalMinTide) {
       globalMinTide = value;
@@ -402,9 +344,7 @@ bool fetchOneDay(
 }
 
 
-// ======================================================
-// FETCH ALL 64 DAYS
-// ======================================================
+// Complete all daily API requests before starting playback.
 
 void fetchAllDays() {
 
@@ -435,8 +375,7 @@ void fetchAllDays() {
 
     if (!success) {
 
-      // 如果某天失败
-      // 暂时全部设成 0
+      // Clear failed rows; dayValid keeps the associated LED off during playback.
 
       for (
         int t = 0;
@@ -449,11 +388,10 @@ void fetchAllDays() {
     }
 
 
-    // 下一天
     addOneDay(currentDate);
 
 
-    // 不要连续疯狂请求 NOAA
+    // Space API requests by 200 ms to reduce the request rate.
     delay(200);
   }
 
@@ -471,19 +409,11 @@ void fetchAllDays() {
 }
 
 
-// ======================================================
-// MAP TIDE → LED
-// ======================================================
+// Each LED displays one date at the same local time as the other LEDs.
 
 void renderFrame(int timeIndex) {
 
-  // timeIndex:
-  //
-  // 0  = 00:00
-  // 1  = 00:15
-  // 2  = 00:30
-  // ...
-  // 95 = 23:45
+  // Fifteen-minute local time slots: 0 = 00:00, 95 = 23:45.
 
 
   for (
@@ -492,8 +422,7 @@ void renderFrame(int timeIndex) {
     day++
   ) {
 
-    // 如果某一天 API 失败
-    // 对应 LED 关掉
+    // Failed API requests are displayed as unlit LEDs.
 
     if (!dayValid[day]) {
 
@@ -510,12 +439,7 @@ void renderFrame(int timeIndex) {
       tideData[day][timeIndex];
 
 
-    // ------------------------------------------
-    // Normalize
-    //
-    // global min → 0
-    // global max → 1
-    // ------------------------------------------
+    // Normalize against the shared range: minimum = 0, maximum = 1.
 
     float normalized = 0;
 
@@ -546,13 +470,7 @@ void renderFrame(int timeIndex) {
       );
 
 
-    // ------------------------------------------
-    // 0-1 → RGB 0-255
-    //
-    // 实际整体亮度仍然被
-    // setBrightness(3)
-    // 限制
-    // ------------------------------------------
+    // Convert to an 8-bit color level; setBrightness applies the global limit.
 
     int brightness =
       round(
@@ -560,7 +478,7 @@ void renderFrame(int timeIndex) {
       );
 
 
-    // 第一版先全部用白色
+    // Equal red, green, and blue values produce white light.
 
     matrix.setPixelColor(
       day,
@@ -573,13 +491,10 @@ void renderFrame(int timeIndex) {
   }
 
 
-  // 64颗一起更新
   matrix.show();
 
 
-  // ------------------------------------------
-  // Serial Monitor 显示现在模拟几点
-  // ------------------------------------------
+  // Report the local tide time represented by the active frame.
 
   int totalMinutes =
     timeIndex * 15;
@@ -613,20 +528,12 @@ void renderFrame(int timeIndex) {
 }
 
 
-// ======================================================
-// SETUP
-// ======================================================
-
 void setup() {
 
   Serial.begin(115200);
 
   delay(1000);
 
-
-  // ------------------------------------------
-  // Matrix
-  // ------------------------------------------
 
   matrix.begin();
 
@@ -639,16 +546,8 @@ void setup() {
   matrix.show();
 
 
-  // ------------------------------------------
-  // WiFi
-  // ------------------------------------------
-
   connectWiFi();
 
-
-  // ------------------------------------------
-  // Fetch 64 days
-  // ------------------------------------------
 
   fetchAllDays();
 
@@ -658,15 +557,9 @@ void setup() {
 }
 
 
-// ======================================================
-// LOOP
-// ======================================================
-
 void loop() {
 
-  // =========================================
-  // 一天有 96 个 15-minute frame
-  // =========================================
+  // Play all 96 daily slots, then restart at 00:00 after the 23:45 frame.
 
   for (
     int timeIndex = 0;
@@ -684,6 +577,4 @@ void loop() {
   }
 
 
-  // 到 23:45 后
-  // 自动重新从 00:00 播放
 }
