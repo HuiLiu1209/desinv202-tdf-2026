@@ -11,10 +11,26 @@ Experiments, prototypes, and reflections across physical and computational desig
 | Week | Week | Week | Week |
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
-| [Week 06](#week-06) | [Week 07](#week-07) | Week 08 | Week 09 |
+| [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | Week 09 |
 | Week 10 | Week 11 | Week 12 | |
 
 <br>
+
+## Week-08
+
+### Ambient Display: Final Presentation - Oct 13
+
+On Tuesday, I presented the completed ambient display. The laser-cut wooden enclosure holds the electronics beneath a field of fiber-optic strands, which carry light from the 8×8 NeoPixel matrix to their tips. Each LED represents one day of San Francisco tide predictions, and all 64 days play through the same simulated time together. Changes in tide height appear as changes in brightness and blue-to-cyan color across the strands.
+
+For the presentation, I used the final version with preloaded NOAA tide predictions so the display could run without a WiFi connection. The video below shows the completed piece in operation, with the strands extending the light above the enclosure into a field of glowing points.
+
+<p align="center">
+    <img src="./physical-computing/week8/src/final_presentation.gif" width="480" alt="Final ambient display with glowing fiber-optic strands above a laser-cut wooden enclosure">
+</p>
+
+### Project Exchange with DesComp & Diego Pinochet Lecture - Oct 15
+
+On Thursday, our section met with a DesComp section to view one another's projects. This exchange was an opportunity to see other students' work and consider how different choices of materials, form, and interaction shape a project. I also attended a lecture by Diego Pinochet.
 
 ## Week-07
 
@@ -26,6 +42,12 @@ I started by looking for a data source for the ambient display and selected the 
     <img src="./physical-computing/week7/src/tide_api_builder.png" height="180" alt="NOAA API Builder configured for San Francisco tide predictions">
     <img src="./physical-computing/week7/src/api_response_structure.png" height="180" alt="Tide prediction JSON with timestamp and height values">
     <img src="./physical-computing/week7/src/led_matrix_schematic.png" height="180" alt="Serpentine pixel indices on an 8 by 8 LED matrix">
+</p>
+
+The system map summarizes the data flow from NOAA tide predictions through ESP32 processing to the NeoPixel matrix and fiber-optic tips.
+
+<p align="center">
+    <img src="./physical-computing/week7/src/system_map.png" width="400" alt="Hand-drawn system map showing NOAA tide data, ESP32 processing, the externally powered NeoPixel matrix, and fiber-optic light output">
 </p>
 
 I then studied how the 8×8 LED matrix is controlled. Although the LEDs form a grid, the 64 pixels are indexed along a serpentine path, so I first needed to understand how each index corresponds to a physical position. I soldered the connecting wires, connected the matrix to the ESP32, and tested individual pixels and brightness control.
@@ -63,12 +85,21 @@ After assembling the enclosure, I inserted a few fiber-optic strands to test whe
     <img src="./physical-computing/week7/src/ligtning_test.jpeg" height="300" alt="Fiber-optic strands installed in the enclosure with pale purple lighting">
 </p>
 
-The fibers extended the light points above the matrix to different heights, making the tide-driven brightness changes visible across a field of separate points. I compared the initial pale purple lighting with the final blue and cyan effect, and adjusted the contrast and playback speed to make the changes easier to see. For the final demonstration, a 64-day dataset of tide predictions was downloaded in advance and stored with the [program](./physical-computing/week7/led_matrix_final/led_matrix_final.ino) on the ESP32, allowing the display to loop after powering on without downloading data during the presentation.
+The fibers extended the light points above the matrix to different heights, making the tide-driven brightness changes visible across a field of separate points. I compared the initial pale purple lighting with the final blue and cyan effect, and adjusted the contrast and playback speed to make the changes easier to see. The [V1 API prototype](./physical-computing/week7/code/v1/led_matrix/led_matrix.ino) retrieves tide predictions from NOAA over WiFi at startup. For the final demonstration, the [V2 program](./physical-computing/week7/code/v2/led_matrix_final/led_matrix_final.ino) uses a preloaded 64-day dataset and runs offline with the final blue-to-cyan lighting, adjusted contrast, and interpolated playback.
 
 <p align="center">
     <img src="./physical-computing/week7/src/light_testing.gif" height="200" alt="Initial pale purple lighting test through the fiber-optic strands">
     <img src="./physical-computing/week7/src/final_lighting.gif" height="200" alt="Final blue and cyan tide animation through the fiber-optic strands">
 </p>
+
+
+### Project Files
+
+- [V1 — NOAA API prototype](./physical-computing/week7/code/v1/led_matrix/led_matrix.ino)
+- [V2 — Final demonstration code and data](./physical-computing/week7/code/v2/led_matrix_final/)
+- [Code setup and dependencies](./physical-computing/week7/code/readme.md)
+- [WiFi configuration template](./physical-computing/week7/code/v1/led_matrix/secrets.example.h)
+- [Laser-cut enclosure — Illustrator source](./physical-computing/week7/cad/ambient_display.ai)
 
 ## Week-06
 
