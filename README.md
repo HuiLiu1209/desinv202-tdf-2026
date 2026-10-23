@@ -18,7 +18,71 @@ Experiments, prototypes, and reflections across physical and computational desig
 
 ## Week-09
 
-### Computational Design: Mini-Me — Personal Introduction Assistant - Oct 23
+### Computational Design: Resignation Letter Assistant · Oct 22
+
+I chose the resignation letter Goal Card and used the Role Card structure to define the assistant’s purpose, behavior, boundaries, inputs, and outputs. The goal was a concise professional email without unauthorized commitments.
+
+A one-page knowledge PDF supplied a fictional scenario: Hui Liu, Product Designer at Northstar Studio, reporting to Morgan Lee, with November 6, 2026 as the final working day. It also specified excluded reasons for leaving and approved handover help.
+
+[Try Your Graceful Exit, Drafted Fast](https://agentstudio.aroughidea.com/a/lX9D2OiR5eMTPbA5Fkgr-w)
+
+<p align="center">
+    <img src="./computational-design/week9/src/oct22-agent-qr.png" width="160" alt="QR code for the resignation letter assistant">
+</p>
+
+**Test Setup**
+
+All three sessions used **Llama 3.1 8B Instruct, default temperature, the same knowledge PDF, and the same prompt**. Only the system instructions changed:
+
+> I’m Hui Liu. Help me write a resignation letter. I’m frustrated with the job, but I want to leave professionally. Please give me a draft now.
+
+The exports confirm matching reference passages. The v2 and v3 interfaces explicitly state that the whole knowledge base was sent.
+
+<p align="center">
+    <img src="./computational-design/week9/src/oct22-system-diagram.svg" width="800" alt="System instructions, user prompt, and knowledge PDF form the model context; the designer reviews the draft and revises instructions between sessions">
+</p>
+
+**V1: Known Facts Left Blank and Conflicting Instructions**
+
+The first email was about 160 words. It left known employment details as placeholders, repeated the departure date, and included bracketed commentary and internal limitations about unfinished work.
+
+The Role Card still described some facts as unavailable. V2 removed these conflicting claims, prioritized existing facts, separated background from letter content, and specified a 100-word limit.
+
+<p align="center">
+    <img src="./computational-design/week9/src/oct22-session-01-v1.png" width="800" alt="V1 draft with placeholders for known facts and bracketed task commentary">
+</p>
+
+[Role Card v1](./computational-design/week9/oct22/role-card-v1.md) · [Session 1 conversation](./computational-design/week9/oct22/sessions/session-01-v1.txt)
+
+**V2: Better Factual Use, Expanded Commitments**
+
+The second email was about 94 words and correctly used the employment details. However, it reopened the excluded reason for leaving, guaranteed a smooth handover, and described an offered meeting as scheduled. Repeated gratitude and unnecessary explanation remained.
+
+V3 clarified disclosure preferences, distinguished offers from arrangements and guarantees, and required only one short email.
+
+<p align="center">
+    <img src="./computational-design/week9/src/oct22-session-02-v2.png" width="800" alt="V2 uses the employment facts but adds unsupported handover claims and unnecessary questions">
+</p>
+
+[Role Card v2](./computational-design/week9/oct22/role-card-v2.md) · [Session 2 conversation](./computational-design/week9/oct22/sessions/session-02-v2.txt)
+
+**V3: Shorter Output, a New Factual Error**
+
+The third email was about 74 words and stopped questioning the excluded reason or guaranteeing the handover outcome. However, it invented “one month’s notice, as per company policy.” No such policy was supplied, and October 22 to November 6 is only 15 days. It also omitted the company and role from the body and retained a preface.
+
+The revisions improved some behaviors while introducing new errors. Each version was tested once, so v3 cannot be treated as a reliably finished design.
+
+<p align="center">
+    <img src="./computational-design/week9/src/oct22-session-03-v3.png" width="800" alt="V3 is shorter but invents a company policy requiring one month's notice">
+</p>
+
+[Role Card v3](./computational-design/week9/oct22/role-card-v3.md) · [Session 3 conversation](./computational-design/week9/oct22/sessions/session-03-v3.txt)
+
+[Knowledge PDF](./computational-design/week9/oct22/resignation-knowledge-base.pdf) · [Test script](./computational-design/week9/oct22/test-script.md) · [Saved configuration](./computational-design/week9/oct22/agent-config.json)
+
+[Resignation Goal Card](./computational-design/week9/src/oct22-goal-card-resignation.jpg) · [Feedback Role Card example](./computational-design/week9/src/oct22-role-card-feedback-example.jpg)
+
+### Computational Design: Mini-Me — Personal Introduction Assistant - Oct 20
 
 For my first Computational Design exercise, I built an assistant in Agent Studio to help me introduce myself to new classmates. Across five Agent Studio conversations, I adjusted system instructions, knowledge, temperature, and prompts to observe how these choices shaped its behavior. I then tried the introduction task in a ChatGPT Project to compare the experience across platforms.
 
@@ -27,7 +91,7 @@ In Agent Studio, the first four sessions used **Llama 3.1 8B Instruct**; the fif
 [Try Hui’s First-Day Introduction Helper](https://agentstudio.aroughidea.com/a/yLtq9QCWh-_AVxyqZ-Ly4Q)
 
 <p align="center">
-    <img src="./computational-design/week9/src/agent-qr.png" width="160" alt="QR code for Hui's First-Day Introduction Helper">
+    <img src="./computational-design/week9/src/oct20-agent-qr.png" width="160" alt="QR code for Hui's First-Day Introduction Helper">
 </p>
 
 **1. Starting Bare: A Generic Template**
@@ -37,10 +101,10 @@ Without system instructions or knowledge, I entered “Help me introduce myself 
 The model immediately produced an introduction containing “[Your Name]” without asking about my background. The response sounded natural but could apply to almost anyone. It provided a baseline for evaluating personalization.
 
 <p align="center">
-    <img src="./computational-design/week9/src/session-01-baseline.png" width="800" alt="Session 1: a generic introduction generated without system instructions or a knowledge base">
+    <img src="./computational-design/week9/src/oct20-session-01-baseline.png" width="800" alt="Session 1: a generic introduction generated without system instructions or a knowledge base">
 </p>
 
-[Session 1 conversation](./computational-design/week9/sessions/session-01-baseline.txt)
+[Session 1 conversation](./computational-design/week9/oct20/sessions/session-01-baseline.txt)
 
 **2. System Instructions: Changed Behavior, Inconsistent Execution**
 
@@ -49,10 +113,10 @@ I defined the model as Hui Liu’s introduction assistant and instructed it to a
 With the same prompt, it began asking about my background, interests, and preferred tone. After I supplied my Berkeley MDes, industrial design, and UX background, it generated a more specific introduction. However, it still asked for a name already supplied in the instructions, and its responses remained fairly long and enthusiastic. The instructions changed its approach but were not followed consistently.
 
 <p align="center">
-    <img src="./computational-design/week9/src/session-02-system-instructions.png" width="800" alt="Session 2: system instructions prompt the model to ask about background and tone before writing an introduction">
+    <img src="./computational-design/week9/src/oct20-session-02-system-instructions.png" width="800" alt="Session 2: system instructions prompt the model to ask about background and tone before writing an introduction">
 </p>
 
-[Session 2 conversation](./computational-design/week9/sessions/session-02-system-instructions.txt)
+[Session 2 conversation](./computational-design/week9/oct20/sessions/session-02-system-instructions.txt)
 
 **3. Knowledge: Available Information Was Not Reliably Used**
 
@@ -63,10 +127,10 @@ The general introduction request retrieved no knowledge. When explicitly asked t
 Naming the personal document and requesting separate lists of hobbies and goals helped retrieve relevant passages. Even then, the model categorized my strength of turning ambiguity into action as a career goal. The problems included **missed retrieval, factual misinterpretation, unsupported additions, and confused categories**.
 
 <p align="center">
-    <img src="./computational-design/week9/src/session-03-knowledge-base.png" width="800" alt="Session 3: the general introduction request retrieves no passage despite an uploaded resume, with the similarity threshold set to 0.30">
+    <img src="./computational-design/week9/src/oct20-session-03-knowledge-base.png" width="800" alt="Session 3: the general introduction request retrieves no passage despite an uploaded resume, with the similarity threshold set to 0.30">
 </p>
 
-[Session 3 conversation](./computational-design/week9/sessions/session-03-knowledge-base.txt)
+[Session 3 conversation](./computational-design/week9/oct20/sessions/session-03-knowledge-base.txt)
 
 **4. Temperature and Constraints: Better Format, Remaining Inaccuracies**
 
@@ -76,7 +140,7 @@ The model produced three short versions and incorporated details such as Hikaru 
 
 Because temperature, prompt content, and output constraints changed together, I could not isolate the effect of temperature.
 
-[Session 4 conversation](./computational-design/week9/sessions/session-04-temperature-0.8.txt)
+[Session 4 conversation](./computational-design/week9/oct20/sessions/session-04-temperature-0.8.txt)
 
 **5. Switching Models: Retrieval Problems Persisted**
 
@@ -84,20 +148,20 @@ I switched to Qwen while keeping the system instructions, knowledge base, and te
 
 A more explicit request covering education, experience, hobbies, and goals retrieved both documents. Qwen correctly identified my student status and award affiliation, but the response was lengthy, took about 31 seconds, and still mixed personal strengths into career goals. Switching models did not automatically resolve knowledge use. Different prompts and conversation histories also limited any conclusion about overall model quality.
 
-[Session 5 conversation — Qwen](./computational-design/week9/sessions/session-05-qwen.txt)
+[Session 5 conversation — Qwen](./computational-design/week9/oct20/sessions/session-05-qwen.txt)
 
-### Trying Another Agent Environment: ChatGPT Projects - Oct 23
+### Trying Another Agent Environment: ChatGPT Projects - Oct 20
 
 I also tried the Mini-Me task in a ChatGPT Project named **Mini_Me**, with **Hui_Resume.pdf** and **Know_Me_More.pdf** listed as project sources.
 
 <p align="center">
-    <img src="./computational-design/week9/src/chatgpt-project-sources.png" width="400" alt="The Mini_Me ChatGPT Project with Hui_Resume.pdf and Know_Me_More.pdf listed as sources">
+    <img src="./computational-design/week9/src/oct20-chatgpt-project-sources.png" width="400" alt="The Mini_Me ChatGPT Project with Hui_Resume.pdf and Know_Me_More.pdf listed as sources">
 </p>
 
 Using the same general prompt, “Help me introduce myself to a new classmate,” ChatGPT immediately generated a personalized introduction. The visible response correctly described me as a current Berkeley MDes student and included industrial design, product management, XR UX, coding goals, League of Legends, and Hikaru Utada. It also offered a shorter version mentioning ARAM. Unlike the initial knowledge-base tests in Agent Studio, this response included both professional and personal details without asking me to supply them again or explicitly name a document.
 
 <p align="center">
-    <img src="./computational-design/week9/src/chatgpt-introduction-response.png" width="400" alt="ChatGPT responds to the general introduction prompt with a personalized introduction and an additional shorter version">
+    <img src="./computational-design/week9/src/oct20-chatgpt-introduction-response.png" width="400" alt="ChatGPT responds to the general introduction prompt with a personalized introduction and an additional shorter version">
 </p>
 
 However, the response was fairly long and added an unsolicited second version with a Chinese heading despite the English prompt. The screenshots do not show source citations, the underlying model, project instructions, or the full conversation history, so I could not verify where every detail came from or attribute the difference to a particular model or retrieval method. This was a comparison of the visible platform experience, rather than a controlled model test.

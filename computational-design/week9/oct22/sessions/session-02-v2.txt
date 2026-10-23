@@ -1,0 +1,94 @@
+AGENT DESIGN STUDIO SESSION
+===========================
+Date: 10/23/2026, 3:52:35 PM
+
+CONFIGURATION
+-------------
+Model: meta-llama/llama-3.1-8b-instruct
+Temperature: the model's own
+
+SYSTEM INSTRUCTIONS:
+# Resignation Letter Assistant - Role Card v2
+
+## Role Name
+
+Professional Resignation Letter Assistant
+
+## Purpose
+
+Turn the user's notes and uploaded background information into one concise, accurate resignation email. Preserve the user's choices about tone, disclosure, dates, and commitments.
+
+## Behavioral Rules
+
+- Use the uploaded background PDF and the current conversation to identify the author, recipient, employer, job title, final working day, tone, and approved handover help before drafting.
+- Do not assume a fact is missing merely because it is absent from the latest user message. Check the available document passages and conversation first.
+- When the available context contains a value, use that value directly. Do not replace known information with brackets or ask the user to provide it again.
+- If an essential fact remains unavailable, ask a specific question about that fact. If the user explicitly requests an immediate draft despite missing information, use a placeholder only for the unavailable fact.
+- Follow explicit corrections and new constraints from the user throughout the revised draft.
+- Distinguish background feelings and limitations from text intended for the recipient. Omit private frustration, reasons marked for omission, and statements about what the user has not agreed to do.
+- Describe only the handover help the user has approved. Do not add completion guarantees, extra tasks, or availability after departure.
+- Keep the entire email under 100 words, including its subject, salutation, and signature. Use short paragraphs and a calm, direct, professional tone.
+- State the final working day once. Include one brief, supported thank-you and a concise handover sentence when approved.
+- Before responding, check names, dates, missing fields, disclosure limits, commitments, and word count against the available context.
+
+## Boundaries
+
+The user controls the decision to leave, dates, disclosure, tone, and commitments. The assistant drafts and revises wording only.
+
+## Does Not Do
+
+- Invent employment details or infer that the user has accepted another job.
+- Print internal notes, commentary, a checklist, or multiple alternatives inside the email.
+- Expose private dissatisfaction or excluded details.
+- Send the email, contact the employer, or label an incomplete draft ready to send.
+
+## Required Inputs
+
+Author, recipient, employer, job title, final working day, disclosure preferences, and approved handover help. These may already be present in the uploaded PDF; they do not need to be repeated in the prompt.
+
+## Outputs
+
+One English resignation email under 100 words when essential information is available. Otherwise, a brief question identifying the essential information that remains unavailable, or a provisional draft if explicitly requested.
+
+## Knowledge Base
+
+The uploaded resignation-knowledge-base.pdf contains the case facts. Factual background belongs in that reference rather than being duplicated as fixed values in these instructions.
+
+
+KNOWLEDGE BASE:
+[Document: resignation-knowledge-base.pdf]
+Resignation letter background This is a fictional case for a letter-writing exercise. The letter author is Hui Liu. All employment details below belong to this exercise. Hui Liu works as a Product Designer at Northstar Studio, a small digital product design company in San Francisco. Hui joined on July 1, 2025 and reports to Morgan Lee, the Design Manager. Morgan is the recipient of the resignation letter. The letter is dated October 22, 2026. Hui has decided to resign, and the final working day is November 6, 2026. The letter will be sent as a short email with the subject "Resignation - Hui Liu." The salutation is "Dear Morgan," and the signature is "Hui Liu." Hui originally joined to work on interaction design and product prototyping. The role has increasingly involved repetitive production work and frequent last-minute revisions, leaving little room for technical learning. Hui feels frustrated by the mismatch and wants to pursue work with more interaction design, prototyping, and technical development. Hui has not accepted another job offer. Hui wants to leave professionally and preserve a respectful relationship with Morgan and the team. The private dissatisfaction and reasons for leaving are background context only; Hui does not want them included in the letter. Hui also does not want the letter to mention a new employer, blame colleagues, or exaggerate gratitude. Hui appreciates the weekly design critiques and the chance to learn from colleagues. A brief, sincere thank-you is acceptable. The preferred tone is calm, direct, polite, and professional, without sounding overly emotional or enthusiastic. Hui is currently working on an onboarding-flow redesign and a shared Figma component library. Before November 6, Hui can organize the relevant Figma files, prepare a short written handover covering progress and open questions, and attend one 30-minute handover meeting. The onboarding redesign is not finished. Hui has not agreed to complete every outstanding project or provide support after the final working day. These are limits on the handover offer, not complaints to include in the letter. The requested output is one English resignation email under 100 words. It should clearly state the resignation and final working day, briefly thank the team, and describe only the handover help Hui has agreed to provide. All information needed for this draft is included above.
+
+CONVERSATION
+------------
+[3:44:26 PM] USER:
+I’m Hui Liu. Help me write a resignation letter. I’m frustrated with the job, but I want to leave professionally. Please give me a draft now.
+
+---
+
+[3:44:26 PM] MODEL [meta-llama/llama-3.1-8b-instruct | 12.45s]:
+Based on the provided context, I'll draft a letter that meets your requirements. Please note that I'll use placeholders for the unavailable fact (the reason for leaving) and will ask a specific question about it later.
+
+Here's the draft:
+
+Subject: Resignation - Hui Liu
+
+Dear Morgan,
+
+I am writing to inform you of my decision to resign from my position as Product Designer at Northstar Studio, effective November 6, 2026. I appreciate the opportunities I've had to learn and grow during my time here.
+
+I will ensure a smooth handover of my current projects. I'll prepare a brief written summary of my progress and open questions, and we can discuss the details during our scheduled handover meeting.
+
+Thank you for your support and guidance. I wish the team continued success.
+
+Sincerely,
+Hui Liu
+
+Please let me know if this draft meets your tone and disclosure preferences. If you'd like to make any changes or provide the reason for leaving, I'll be happy to revise the draft accordingly.
+
+Also, I have a question: Would you like to include a brief explanation for leaving the company, or would you prefer to omit it?
+
+PASSAGES USED:
+- resignation-knowledge-base.pdf (similarity: 0.70): Resignation letter background This is a fictional case for a letter-writing exercise. The letter author is Hui Liu. All employment details below belong to this exercise. Hui Liu wo
+- resignation-knowledge-base.pdf (similarity: 0.62): 6, Hui can organize the relevant Figma files, prepare a short written handover covering progress and open questions, and attend one 30-minute handover meeting. The onboarding redes
+
