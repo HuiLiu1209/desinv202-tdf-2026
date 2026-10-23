@@ -1,0 +1,74 @@
+AGENT DESIGN STUDIO SESSION
+===========================
+Date: 10/23/2026, 9:29:52 AM
+
+CONFIGURATION
+-------------
+Model: qwen/qwen3-30b-a3b-instruct-2507
+Temperature: 0.8
+
+SYSTEM INSTRUCTIONS:
+You are a personal introduction assistant for Hui Liu. Help Hui introduce themself naturally to new classmates. Before writing an introduction, ask for essential missing personal information, such as academic background, interests, and goals. Do not invent personal details. Keep your responses friendly and concise.
+
+KNOWLEDGE BASE:
+[Document: Hui_Resume.pdf]
+Hui Liu Education (510) 570 9289 liuxinghui1209@outlook.com www.linkedin.com/in/huiliu1209 University of California, Berkeley Aug 2026 – Dec 2027 Master of Design, MDes Distinguished Scholar Award Dongguan University of Technology 2021–2025 | Ranked 1st | Outstanding Graduate Bachelor of Engineering in Industrial Design, Chinese National Scholarship XR UX Designer Intern – Designing XR tools for automotive design evaluation ZEEKR / Sep 2025 – Feb 2026 Sole UX designer in a new XR Lab, defining requirements, writing PRDs, and designing UI for an internal vehicle-review platform on Varjo and Apple Vision Pro across 5+ programs. Redesigned XR interactions from on-site reviews: input accuracy, ergonomics, and feedback. Initiated a reusable XR design system for controls and interaction states. Product Manager Intern – Iterating AI vibe coding product experience & integrations Atoms / Apr 2025 – Aug 2025 Owned Supabase redesign: OAuth connection, state sync, storage choice, Edge Function. Owned GitHub integration: OAuth, repo creation, branching, and push/pull sync states. Designed Stripe integration flows for both Edge Functions and OAuth-based approaches. Designed custom-domain connection and purchase, and design-system components for the rebrand. MopMate: Towards Task-Coupled AR Assistant for Routine Maintenance Tasks UIST Adjunct ’26 Poster / First Author / Mar 2026 – Aug 2026 Conducted a formative study (61 surveys, 6 interviews) and designed the AR interactions. Built the stain-detection pipeline, from annotating 1,479 instances to fine-tuning YOLO11n for on-device inference, and wrote a custom Unity shader for visual feedback. Prototyped the remaining system on Meta Quest with AI-assisted coding, including floor tracking, gamified feedback, and an LLM guidance agent. Skills & Awards Selected Awards Skills Red Dot Award: Design Concept, Winner ×2 James Dyson Award, China Top 8 Core77 Design Awards, Student Notable ×2 K Design Award, Winner International Design Awards (IDA), Gold Golden Pin Design Award, Design Mark Figma, Rhino, Maya, KeyShot, Unity User research, User interviews, Prototyping, Wireframing, Design systems, 3D Rendering, 3D Printing, Laser cutting HTML, CSS, JavaScript, AI prototyping Experience Research
+
+[Document: Letter - 2.pdf]
+Hui Liu Goals at MDes I’ve always been exploring different areas of design, trying to figure out what I’m genuinely into. During undergrad, a hospital collaboration introduced me to service design, and I really enjoyed discovering overlooked user needs and improving the overall experience. I was also drawn to XR because of its unique interaction space beyond traditional screens. After working on XR projects and an internship, though, I realized I don’t want to stay only on the conceptual or visual side of design. At MDes, I want to build a stronger technical foundation, especially in frontend development, computational design, AI, and emerging interaction. I hope technology can become part of how I think and design, not just something handed off after the design is finished. Superpower Turning ambiguity into something clear and actionable. I enjoy working on problems that are initially messy or poorly defined, understanding what people actually need, and then organizing that complexity into a clearer structure, interaction, or product direction. Hobbies (DC / Marvel / games / music) DC: Early seasons of CW’s The Flash and Arrow; Zack Snyder’s DCEU; Lanterns recently; Not really into Gunn’s DC movies so far; Want to read DC’s Absolute Universe, just haven’t had time yet Marvel fan too, but less interested lately after too many disappointing movies (Except WandaVision, Moon Knight, Loki, and Spider Man); Zero interest in Sony’s recent Spider-Man spin-off universe Listen to Hikaru Utada the most; also Aimer & milet; Hamilton a lot recently; Cantonese pop: Eason Chan, Kay Tse, Miriam Yeung, Pakho Chau 10+ years League of Legends, mostly ARAM for the past few years; Big fan of Sony first-party games: The Last of Us, God of War III & IV, all the Marvel’s Spider-Man games, Still haven’t found time to play The Last of Us Part II 5 Questions Do you play games? What games are you into? What have you been watching lately? What are some fun things I should check out around here? What do you usually do for fun outside of school? What kind of music do you listen to? Technology Design Foundations Computational Design Section
+
+CONVERSATION
+------------
+[9:27:13 AM] USER:
+Help me introduce myself to a new classmate.
+
+---
+
+[9:27:13 AM] MODEL [qwen/qwen3-30b-a3b-instruct-2507 | 2.85s]:
+Of course! To help you introduce yourself naturally, I just need a few quick details:  
+- What’s your academic background or major?  
+- Any hobbies or interests you’d like to share?  
+- One goal or thing you’re excited about in this class or school?  
+
+Once I have those, I’ll craft a friendly, authentic introduction for you!
+
+---
+
+[9:27:35 AM] USER:
+Use the files I uploaded
+
+---
+
+[9:27:35 AM] MODEL [qwen/qwen3-30b-a3b-instruct-2507 | 6.70s]:
+I'm ready to help you craft a personal introduction! However, I don’t currently have access to any uploaded files.  
+
+Please share the details from your file—such as your name, major, interests, or goals—and I’ll write a natural, friendly introduction tailored to you. Once you provide the info, I’ll get started right away!
+
+---
+
+[9:28:54 AM] USER:
+Based on the uploaded documents, summarize Hui Liu's educational background, professional experience, hobbies, and career goals. Use only the information found in the knowledge base.
+
+---
+
+[9:28:54 AM] MODEL [qwen/qwen3-30b-a3b-instruct-2507 | 30.85s]:
+**Educational Background:**  
+Hui Liu is pursuing a Master of Design (MDes) at the University of California, Berkeley, from August 2026 to December 2027, having earned the Distinguished Scholar Award. Prior to this, they completed a Bachelor of Engineering in Industrial Design at Dongguan University of Technology (2021–2025), graduating as the top-ranked student and receiving the Chinese National Scholarship.
+
+**Professional Experience:**  
+- **XR UX Designer Intern**, ZEEKR (Sep 2025 – Feb 2026): As the sole UX designer in a new XR lab, Hui defined requirements, wrote PRDs, and designed UI for an internal vehicle-review platform on Varjo and Apple Vision Pro across five+ programs. They redesigned XR interactions to improve input accuracy, ergonomics, and feedback, and initiated a reusable XR design system for controls and interaction states.  
+- **Product Manager Intern**, Atoms (Apr 2025 – Aug 2025): Owned the Supabase redesign (including OAuth connection, state sync, storage choice, and Edge Functions), led GitHub integration (OAuth, repo creation, branching, and sync states), designed Stripe integration flows, and created custom-domain connection and purchase flows and design-system components for a rebrand.  
+- **Research Contributor**, *MopMate: Towards Task-Coupled AR Assistant for Routine Maintenance Tasks* (UIST Adjunct ’26, First Author, Mar 2026 – Aug 2026): Conducted a formative study (61 surveys, 6 interviews), designed AR interactions, built a stain-detection pipeline (1,479 annotated instances, YOLO11n fine-tuning for on-device inference), developed a custom Unity shader, and prototyped the system on Meta Quest with AI-assisted coding, floor tracking, gamified feedback, and an LLM guidance agent.
+
+**Hobbies & Interests:**  
+- **Media**: Fans of DC (early CW *The Flash* and *Arrow*, Zack Snyder’s DCEU, *Lanterns*), less interested in James Gunn’s DC films; Marvel fan with favorites in *WandaVision*, *Moon Knight*, *Loki*, and *Spider-Man* games; not interested in Sony’s recent Spider-Man spin-offs. Enjoys listening to Hikaru Utada, Aimer, milet, Hamilton, and Cantonese pop artists like Eason Chan, Kay Tse, Miriam Yeung, and Pakho Chau.  
+- **Games**: Over 10 years of experience with *League of Legends* (mostly ARAM recently); big fan of Sony’s first-party games (*The Last of Us*, *God of War III & IV*, *Spider-Man* series); has not yet played *The Last of Us Part II*.
+
+**Career Goals:**  
+Hui seeks to build a stronger technical foundation in frontend development, computational design, AI, and emerging interactions during their MDes program. They aim to integrate technology into their design thinking—not just as a handoff, but as a core part of the design process. A key strength is turning ambiguity into clear, actionable solutions. Hui is passionate about service design and XR, driven by a desire to uncover real user needs and improve experiences through thoughtful, tech-integrated design.
+
+PASSAGES USED:
+- Hui_Resume.pdf (similarity: 0.49): Hui Liu Education (510) 570 9289 liuxinghui1209@outlook.com www.linkedin.com/in/huiliu1209 University of California, Berkeley Aug 2026 – Dec 2027 Master of Design, MDes Distinguish
+- Letter - 2.pdf (similarity: 0.42): Hui Liu Goals at MDes I’ve always been exploring different areas of design, trying to figure out what I’m genuinely into. During undergrad, a hospital collaboration introduced me t
+- Hui_Resume.pdf (similarity: 0.33): nce, and wrote a custom Unity shader for visual feedback. Prototyped the remaining system on Meta Quest with AI-assisted coding, including floor tracking, gamified feedback, and an
+

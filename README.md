@@ -11,10 +11,96 @@ Experiments, prototypes, and reflections across physical and computational desig
 | Week | Week | Week | Week |
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
-| [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | Week 09 |
+| [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | [Week 09](#week-09) |
 | Week 10 | Week 11 | Week 12 | |
 
 <br>
+
+## Week-09
+
+### Computational Design: Mini-Me — Personal Introduction Assistant - Oct 23
+
+For my first Computational Design exercise, I built an assistant in Agent Studio to help me introduce myself to new classmates. Across five Agent Studio conversations, I adjusted system instructions, knowledge, temperature, and prompts to observe how these choices shaped its behavior. I then tried the introduction task in a ChatGPT Project to compare the experience across platforms.
+
+In Agent Studio, the first four sessions used **Llama 3.1 8B Instruct**; the fifth used **Qwen3 30B A3B Instruct**. The first three used the model’s default temperature, while the last two used **0.8**.
+
+[Try Hui’s First-Day Introduction Helper](https://agentstudio.aroughidea.com/a/yLtq9QCWh-_AVxyqZ-Ly4Q)
+
+<p align="center">
+    <img src="./computational-design/week9/src/agent-qr.png" width="160" alt="QR code for Hui's First-Day Introduction Helper">
+</p>
+
+**1. Starting Bare: A Generic Template**
+
+Without system instructions or knowledge, I entered “Help me introduce myself to a new classmate.”
+
+The model immediately produced an introduction containing “[Your Name]” without asking about my background. The response sounded natural but could apply to almost anyone. It provided a baseline for evaluating personalization.
+
+<p align="center">
+    <img src="./computational-design/week9/src/session-01-baseline.png" width="800" alt="Session 1: a generic introduction generated without system instructions or a knowledge base">
+</p>
+
+[Session 1 conversation](./computational-design/week9/sessions/session-01-baseline.txt)
+
+**2. System Instructions: Changed Behavior, Inconsistent Execution**
+
+I defined the model as Hui Liu’s introduction assistant and instructed it to ask for essential missing information, avoid inventing personal details, and remain friendly and concise.
+
+With the same prompt, it began asking about my background, interests, and preferred tone. After I supplied my Berkeley MDes, industrial design, and UX background, it generated a more specific introduction. However, it still asked for a name already supplied in the instructions, and its responses remained fairly long and enthusiastic. The instructions changed its approach but were not followed consistently.
+
+<p align="center">
+    <img src="./computational-design/week9/src/session-02-system-instructions.png" width="800" alt="Session 2: system instructions prompt the model to ask about background and tone before writing an introduction">
+</p>
+
+[Session 2 conversation](./computational-design/week9/sessions/session-02-system-instructions.txt)
+
+**3. Knowledge: Available Information Was Not Reliably Used**
+
+I uploaded my resume and a personal document covering my MDes goals, strengths, hobbies, and five conversation questions.
+
+The general introduction request retrieved no knowledge. When explicitly asked to use my resume, the model incorrectly described me as having graduated from Berkeley and attributed Berkeley’s Distinguished Scholar Award to my undergraduate institution. A correction fixed my student status, but it still overlooked the interests and goals document. Another response claimed it could not find my hobbies and supplied a career goal that was not explicitly documented.
+
+Naming the personal document and requesting separate lists of hobbies and goals helped retrieve relevant passages. Even then, the model categorized my strength of turning ambiguity into action as a career goal. The problems included **missed retrieval, factual misinterpretation, unsupported additions, and confused categories**.
+
+<p align="center">
+    <img src="./computational-design/week9/src/session-03-knowledge-base.png" width="800" alt="Session 3: the general introduction request retrieves no passage despite an uploaded resume, with the similarity threshold set to 0.30">
+</p>
+
+[Session 3 conversation](./computational-design/week9/sessions/session-03-knowledge-base.txt)
+
+**4. Temperature and Constraints: Better Format, Remaining Inaccuracies**
+
+I then set the temperature to 0.8 and requested three casual introductions, each under 60 words, without follow-up questions.
+
+The model produced three short versions and incorporated details such as Hikaru Utada, Hamilton, and games. However, it also added unsupported descriptions, including trying to beat my “League of Legends high score.” Some phrasing exaggerated the information I had provided. More personalized language did not necessarily mean greater accuracy.
+
+Because temperature, prompt content, and output constraints changed together, I could not isolate the effect of temperature.
+
+[Session 4 conversation](./computational-design/week9/sessions/session-04-temperature-0.8.txt)
+
+**5. Switching Models: Retrieval Problems Persisted**
+
+I switched to Qwen while keeping the system instructions, knowledge base, and temperature at 0.8. It also responded to a general request by asking for information already documented. When told “Use the files I uploaded,” it claimed it could not access uploaded files.
+
+A more explicit request covering education, experience, hobbies, and goals retrieved both documents. Qwen correctly identified my student status and award affiliation, but the response was lengthy, took about 31 seconds, and still mixed personal strengths into career goals. Switching models did not automatically resolve knowledge use. Different prompts and conversation histories also limited any conclusion about overall model quality.
+
+[Session 5 conversation — Qwen](./computational-design/week9/sessions/session-05-qwen.txt)
+
+### Trying Another Agent Environment: ChatGPT Projects - Oct 23
+
+I also tried the Mini-Me task in a ChatGPT Project named **Mini_Me**, with **Hui_Resume.pdf** and **Know_Me_More.pdf** listed as project sources.
+
+<p align="center">
+    <img src="./computational-design/week9/src/chatgpt-project-sources.png" width="400" alt="The Mini_Me ChatGPT Project with Hui_Resume.pdf and Know_Me_More.pdf listed as sources">
+</p>
+
+Using the same general prompt, “Help me introduce myself to a new classmate,” ChatGPT immediately generated a personalized introduction. The visible response correctly described me as a current Berkeley MDes student and included industrial design, product management, XR UX, coding goals, League of Legends, and Hikaru Utada. It also offered a shorter version mentioning ARAM. Unlike the initial knowledge-base tests in Agent Studio, this response included both professional and personal details without asking me to supply them again or explicitly name a document.
+
+<p align="center">
+    <img src="./computational-design/week9/src/chatgpt-introduction-response.png" width="400" alt="ChatGPT responds to the general introduction prompt with a personalized introduction and an additional shorter version">
+</p>
+
+However, the response was fairly long and added an unsolicited second version with a Chinese heading despite the English prompt. The screenshots do not show source citations, the underlying model, project instructions, or the full conversation history, so I could not verify where every detail came from or attribute the difference to a particular model or retrieval method. This was a comparison of the visible platform experience, rather than a controlled model test.
 
 ## Week-08
 

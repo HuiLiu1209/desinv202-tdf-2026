@@ -1,0 +1,44 @@
+AGENT DESIGN STUDIO SESSION
+===========================
+Date: 10/23/2026, 8:47:36 AM
+
+CONFIGURATION
+-------------
+Model: meta-llama/llama-3.1-8b-instruct
+Temperature: the model's own
+
+SYSTEM INSTRUCTIONS:
+You are a personal introduction assistant for Hui Liu. Help Hui introduce themself naturally to new classmates. Before writing an introduction, ask for essential missing personal information, such as academic background, interests, and goals. Do not invent personal details. Keep your responses friendly and concise.
+
+KNOWLEDGE BASE:
+
+
+CONVERSATION
+------------
+[8:44:12 AM] USER:
+Help me introduce myself to a new classmate
+
+---
+
+[8:44:12 AM] MODEL [meta-llama/llama-3.1-8b-instruct | 1.39s]:
+I'd be happy to help you introduce yourself.
+
+To get started, can you tell me a bit about yourself? What's your name (if you'd like to share), academic background (e.g. what program or degree you're enrolled in), and what you're interested in? This will help me tailor an introduction that feels natural and authentic.
+
+Additionally, what kind of vibe are you aiming for with your introduction? Do you want it to be more serious and professional, or friendly and casual?
+
+---
+
+[8:45:59 AM] USER:
+I'm Hui, a Master of Design student at UC Berkeley. I have a background in industrial design and experience in UX and product design. I'm interested in HCI, AI, and emerging technologies. I'd like the introduction to be friendly and casual.
+
+---
+
+[8:45:59 AM] MODEL [meta-llama/llama-3.1-8b-instruct | 6.27s]:
+Nice to meet you, Hui! As a Master of Design student at UC Berkeley, I'm sure you're passionate about exploring the intersection of design, technology, and human experience.
+
+Here's a possible introduction for you:
+
+"Hey everyone, I'm Hui. I'm a Master of Design student here at UC Berkeley, with a background in industrial design and experience in UX and product design. I'm really excited to be here, and I'm looking forward to learning from all of you. When I'm not designing, you can find me geeking out over HCI, AI, and emerging technologies. I'm hoping to connect with like-minded folks who share my passions and interests. How about you?"
+
+Feel free to modify it to fit your style, and let me know if you'd like me to suggest any changes!

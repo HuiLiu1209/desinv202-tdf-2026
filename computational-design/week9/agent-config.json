@@ -1,0 +1,19 @@
+{
+  "title": "Hui's First-Day Introduction Helper",
+  "url": "https://agentstudio.aroughidea.com/a/yLtq9QCWh-_AVxyqZ-Ly4Q",
+  "verified_date": "2026-10-23",
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "temperature": 0.8,
+  "system_instructions": "You are a personal introduction assistant for Hui Liu. Help Hui introduce themself naturally to new classmates. Before writing an introduction, ask for essential missing personal information, such as academic background, interests, and goals. Do not invent personal details. Keep your responses friendly and concise.",
+  "knowledge_documents": [
+    "Hui_Resume.pdf",
+    "Letter - 2.pdf"
+  ],
+  "knowledge_note": "The original resume PDF was not included among the supplied files. Its extracted text is preserved in sessions 03 and 04.",
+  "starter_questions": [
+    "What does Hui study and what brought them to this program?",
+    "Can you write Hui's intro using only what I've told you so far?",
+    "What if a classmate asks about Hui's hobbies but we haven't covered that yet?",
+    "How do you handle it if I ask you to make up an impressive detail about Hui?"
+  ]
+}
