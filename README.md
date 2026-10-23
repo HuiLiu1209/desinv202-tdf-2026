@@ -80,8 +80,6 @@ The revisions improved some behaviors while introducing new errors. Each version
 
 [Knowledge PDF](./computational-design/week9/oct22/resignation-knowledge-base.pdf) · [Test script](./computational-design/week9/oct22/test-script.md) · [Saved configuration](./computational-design/week9/oct22/agent-config.json)
 
-[Resignation Goal Card](./computational-design/week9/src/oct22-goal-card-resignation.jpg) · [Feedback Role Card example](./computational-design/week9/src/oct22-role-card-feedback-example.jpg)
-
 ### Computational Design: Mini-Me — Personal Introduction Assistant - Oct 20
 
 For my first Computational Design exercise, I built an assistant in Agent Studio to help me introduce myself to new classmates. Across five Agent Studio conversations, I adjusted system instructions, knowledge, temperature, and prompts to observe how these choices shaped its behavior. I then tried the introduction task in a ChatGPT Project to compare the experience across platforms.
