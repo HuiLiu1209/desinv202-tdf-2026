@@ -12,9 +12,172 @@ Experiments, prototypes, and reflections across physical and computational desig
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
 | [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | [Week 09](#week-09) |
-| Week 10 | Week 11 | Week 12 | |
+| [Week 10](#week-10) | Week 11 | Week 12 | |
 
 <br>
+
+## Week-10
+
+### Computational Design - Oct 27
+
+There was no assignment for this session.
+
+### Computational Design: Generative Software Prototypes - Oct 29
+
+**1. A Simple App: Aero Striker '89**
+
+I first used AI Studio to build an airplane shooter as a standalone game without an AI agent. I asked for an 8-bit game inside a Game Boy-style handheld interface, then refined the visual direction toward an aged console with yellowed plastic, scratches, chipped corners, and worn stickers. The game screen uses a green pixel-art aesthetic, while the shell has the texture and character of a used physical object.
+
+[Open the airplane shooter in AI Studio](https://ai.studio/apps/c6d73bbc-5bae-4e07-843a-b62d67c47265)
+
+<p align="center">
+    <img src="./computational-design/week10/oct29/src/oct29-aero-striker-gameboy-interface.png" width="700" alt="Aero Striker '89 title screen inside a worn Game Boy-style handheld with stickers, scratches, and physical-style controls">
+</p>
+
+**Design Intent / 设计意图**
+
+Explore AI-generated interactive software through a simple arcade game. The green pixel-art screen and worn console shell combine playful interaction with the nostalgia of a personal handheld device.
+
+我想通过一个简单的街机游戏探索 AI 生成交互软件的过程。绿色像素画面与带有磨损和贴纸的掌机外壳，结合了游戏的趣味和旧物的怀旧感。
+
+**Intended User Journey / 预期用户旅程**
+
+Open the game, start from the handheld screen, move the plane, shoot enemies, avoid collisions, and review the score before restarting. The design keeps the main controls within the handheld interface.
+
+玩家打开网页，通过掌机界面开始游戏，移动飞机、射击敌机并躲避碰撞，结束后查看得分并重新开始。主要操作都围绕掌机上的控件展开。
+
+**2. Letter-Writing Assistant: Dear,**
+
+[Open Dear, in AI Studio / 打开打字机写信助手](https://ai.studio/apps/743b7f71-dd6f-4c35-b9f9-c13a248beca7)
+
+For the letter-writing experiment, I asked AI Studio to build **Dear,**, a vintage mechanical typewriter interface, without supplying my previous Role Card. A **Dispatch Notes** form collects the recipient, sender, purpose, key points, tone, and language. The intended interaction is for the generated letter to appear character by character on stationery, with mechanical carriage returns at the end of each displayed line.
+
+The visual direction combines a worn green metal body, cream-colored round keys, warm paper, and a wooden desktop. I wanted the writing process to feel tangible and deliberate, with the user able to review and edit the result.
+
+<p align="center">
+    <img src="./computational-design/week10/oct29/src/oct29-dear-baseline-interface.png" width="900" alt="Initial Dear typewriter interface with a Dispatch Notes form and letter displayed on stationery">
+</p>
+
+[App generation / 应用生成过程](./computational-design/week10/oct29/src/oct29-dear-app-generation.png) · [Generated typewriter code / 生成的打字机代码](./computational-design/week10/oct29/src/oct29-dear-typewriter-code.png)
+
+**Design Intent**
+
+Dear, is intended to help people turn their notes into a concise, professional resignation email while keeping control over personal disclosure and commitments. Its vintage typewriter interface makes drafting feel deliberate and tangible. The user should receive only the finished letter on the paper, then review and edit it before copying. The assistant supports drafting; the user decides what to communicate and whether to send it.
+
+我希望 Dear, 能把零散信息整理成简短、专业的辞职邮件，同时保留用户对个人信息披露和交接承诺的控制。复古打字机让写信更有仪式感。信纸只呈现最终信件，用户在复制前审阅和修改，并自行决定是否发送。
+
+**User Journey**
+
+Hui wants to resign professionally without explaining personal frustrations. Hui enters Morgan Lee as the recipient, Hui Liu as the sender, the Product Designer role at Northstar Studio, and November 6, 2026 as the final working day. In the key points, Hui specifies the approved handover help and its limits, then selects English and a professional tone.
+
+After clicking **Start Writing on Paper**, Hui waits for generation and watches the letter appear, with the option to skip the animation. Hui reviews the facts, disclosure choices, and commitments, edits the wording, and copies the finished email. This is the intended journey for evaluating the prototype.
+
+Hui 希望专业地辞职，但不解释个人的不满。在 Dispatch Notes 中填写收信人、署名、职位、公司、最后工作日和允许提供的交接帮助，选择英文与专业语气后开始生成。信件逐字显示在纸上，Hui 可以跳过动画，检查事实和承诺、修改措辞，再复制最终邮件。
+
+**Baseline Test and the Main Problem**
+
+I tested through the app's Dispatch Notes form. I used the AI Studio builder conversation separately to request changes to the application.
+
+The test requested an English resignation email under 100 words, including the subject line. It supplied the employment facts above, excluded the reason for leaving, and allowed handover notes and an offer of one meeting. The meeting was not scheduled, and completion of all outstanding work or support after departure was not promised.
+
+The most important problem I identified was **analysis or drafting text appearing on the paper as part of the letter**. The application needed to separate the final deliverable from the rest of the generated response before starting the typing animation.
+
+测试中最重要的问题是：**思考、分析或写作规划内容也被打印到了信纸上**。因此，我把修复重点放在模型响应与打字动画之间的内容处理，让信纸与复制功能只接收最终信件。
+
+I asked AI Studio to inspect response extraction and pass only the final letter to the paper, animation, and copied text. I also asked for a simple generation status outside the paper and explicit error feedback if generation failed. The focused repair request left other features unchanged.
+
+<p align="center">
+    <img src="./computational-design/week10/oct29/src/oct29-dear-output-repair-request.png" width="900" alt="Request to exclude thinking and analysis from the printed letter, with the resignation test visible and AI Studio showing a daily usage limit">
+</p>
+
+The saved screenshot shows the repair request and a daily usage limit in AI Studio. It does not establish that this repair was implemented or that the complete output passed a retest. I have kept this as an unresolved finding in the baseline record.
+
+**Role Card and Planned System Design**
+
+I drafted a [form-based Role Card](./computational-design/week10/oct29/role-card-draft.md), adapted from the [Oct 22 Role Card v3](./computational-design/week9/oct22/role-card-v3.md). It uses facts entered in Dispatch Notes instead of relying on the earlier uploaded PDF. Its rules cover factual accuracy, disclosure preferences, limited commitments, and one concise final email. The adapted card is intended to be passed as system instructions on every generation request; integration into the hosted app has not been verified.
+
+我将 Oct 22 的 Role Card 改写为适合表单输入的版本，明确事实、隐私披露、承诺边界和最终输出格式。文档已准备好，尚未验证在线 App 是否真正接入了这份系统指令。
+
+The following diagram describes the intended system. It is the content planned for an **Info** button in the app; implementation of that panel and Role Card integration is still pending.
+
+```mermaid
+flowchart TD
+    A["User fills in Dispatch Notes"] --> B["App assembles user input"]
+    C["Adapted Role Card: system instructions"] --> D["Letter-writing model"]
+    B --> D
+    D --> E["App extracts and validates final letter"]
+    E --> F["Typing animation and editable paper"]
+    F --> G["User reviews, edits, and copies"]
+```
+
+Info dialog caption: “This assistant combines your Dispatch Notes with standing writing instructions, generates a draft, and displays only the final letter. Review and edit before copying.”
+
+Info 弹窗说明：助手结合表单信息与系统指令生成草稿，只把最终信件交给信纸显示。用户审阅和编辑后再复制。上图是预期实现结构，尚未确认已加入在线 App。
+
+**Three Simulated Revision Cycles / 三轮模拟推演**
+
+**The following cycles and sample outputs are authored simulations, not recorded AI Studio runs.** The saved screenshots above document the actual prototype work. These simulations describe how I would continue after reaching the usage limit; they do not establish that the app passed the tests.
+
+**以下三轮及示例输出为模拟推演，并非 AI Studio 实测记录。** 上方截图记录实际原型过程；下面补充额度用尽后的设计方案，不代表 App 已通过测试。
+
+The fixed test supplies Hui Liu, Morgan Lee, Northstar Studio, Product Designer, and November 6, 2026. It requests an English email under 100 words, omits the reason for leaving, permits notes and an offer of one unscheduled meeting, and does not authorize promises of completed projects or post-departure support.
+
+固定测试沿用相同人物、公司、职位和离职日期：英文邮件少于 100 词，不解释离职原因，只允许交接笔记和提出一次尚未安排的会议，不授权完成全部项目或离职后支持的承诺。
+
+| Cycle / 轮次 | Proposed change / 拟修改内容 | Illustrative output or check / 模拟输出或检查 | Reflection / 反思 |
+| --- | --- | --- | --- |
+| 1 — Output boundary / 输出边界 | Require a final-letter-only response and route only that field to the paper and copy action. / 只将最终信件字段交给信纸和复制功能。 | The paper begins with the email subject rather than drafting commentary. A sample sentence still says, “I will ensure a smooth transition.” / 不再打印写作分析，但示例仍扩大了交接承诺。 | Clean presentation alone does not establish that the letter respects the user's commitments. / 输出干净后，仍需检查承诺边界。 |
+| 2 — Commitments / 承诺边界 | Distinguish an offer from a scheduled meeting or guaranteed outcome. / 区分可提供的帮助、已安排事项和结果保证。 | A sample says, “I can prepare handover notes and offer one handover meeting,” but also includes “I cannot finish all outstanding projects.” / 会议不再被写成既定安排，但内部限制仍进入正文。 | Information can guide drafting without belonging in the letter. / 背景约束需要用于控制写作，不必全部公开。 |
+| 3 — Disclosure and concise output / 披露与简洁输出 | Keep private feelings and internal limitations out of the letter; check facts, length, and final-letter-only output. / 不写私人情绪或内部限制，检查事实、字数和输出格式。 | The sample below uses the supplied facts and a limited handover offer. / 下方示例使用已知事实，仅保留授权的交接帮助。 | This is a target example. Actual generation, copy behavior, and missing-input handling still require a live retest. / 这是目标示例，生成、复制和缺失信息处理仍需实测。 |
+
+**Simulated final letter / 模拟最终信件**
+
+> Subject: Resignation — Hui Liu
+>
+> Dear Morgan,
+>
+> Please accept my resignation from my position as Product Designer at Northstar Studio. My final working day will be November 6, 2026.
+>
+> Thank you for the opportunity to work with the team. Before my departure, I can prepare handover notes and offer one handover meeting.
+>
+> Regards,
+> Hui Liu
+
+**A Different Design Goal: Desk Critic / 另一设计目标：设计反馈助手**
+
+*Concept and simulated walkthrough; no second agent has been built or tested in AI Studio.*
+
+*以下为概念与模拟使用过程，尚未在 AI Studio 构建或测试第二个 Agent。*
+
+**Design intent:** Help design students turn a short description of an unfinished interface into focused questions and practical next experiments before a critique. The assistant should distinguish what the student supplied from its own interpretation.
+
+**设计意图：** 帮助设计学生把尚未完成的界面想法整理为明确的问题和可执行的下一步实验，并区分用户提供的事实与助手的推测。
+
+**User journey:** A student enters the intended user, task, current design, and uncertainty. Desk Critic identifies the central question, suggests two focused changes, and proposes one lightweight user test. The student chooses what to try and returns with observations.
+
+**用户旅程：** 学生输入目标用户、任务、当前方案和困惑；助手整理核心问题，提出两个修改方向和一个小规模测试；学生选择方案，再带着观察结果继续讨论。
+
+**Proposed system instructions:** Act as a design critique assistant. Use only the supplied project information. State assumptions, ask one focused question when essential context is missing, and provide a central question, two changes, and one test. Do not invent interviews, user quotes, or research findings. The student makes the design decisions.
+
+**拟定系统指令：** 作为设计反馈助手，仅依据已提供的项目资料，说明假设；缺少必要背景时提出一个明确问题。输出核心问题、两个修改方向和一个测试建议，不编造访谈、用户引语或研究结果，由学生作设计决定。
+
+**Simulated test input:** “I am designing a course dashboard for graduate students. Upcoming critiques are mixed into a chronological announcement feed. I want students to find their next critique quickly. What should I test?”
+
+**模拟测试输入：** “我在为研究生设计课程面板。即将到来的评图混在按时间排序的通知流中。我希望学生能迅速找到下一次评图，应该测试什么？”
+
+**Illustrative response:** Central question: can students identify the next critique without searching the feed? Change 1: add a “Next Critique” card containing the date, location, and preparation requirements. Change 2: visually distinguish scheduled events from general announcements. Test: ask three classmates to locate the next critique in the current layout and a revised mockup; record completion, time, and wrong turns. This is a proposed test, not a reported study result.
+
+**模拟反馈：** 核心问题是学生能否不翻阅通知流就找到下一次评图。修改一：增加含日期、地点和准备事项的“Next Critique”卡片；修改二：区分日程事件与普通通知。测试建议：请三位同学分别在原布局与修改稿中查找下一次评图，记录完成情况、用时和错误路径。这是测试方案，不是已经获得的研究结果。
+
+**Reflection / 反思**
+
+This experiment showed me that designing a convincing interface and controlling what reaches the user are separate tasks. The typewriter should print the intended letter, so response handling is part of the interaction design as well as the implementation.
+
+这次实际原型让我意识到，视觉界面与输出控制都需要设计。打字机应打印用户需要的信件，因此最终内容的提取也属于交互设计。模拟推演帮助我明确下一步规则，但无法证明真实模型会遵守这些规则。
+
+The documentation now includes a Role Card draft, an Info diagram specification, three simulated revision cycles, and a different agent concept. Live verification of the repair, Role Card integration, the Info panel, three actual revision cycles, and the second agent remains outstanding.
+
+当前文档包含 Role Card 草稿、Info 系统图方案、三轮模拟推演和另一个 Agent 概念；输出修复、系统指令接入、Info 弹窗、三轮真实实验及第二个 Agent 的运行验证仍未完成。
 
 ## Week-09
 
