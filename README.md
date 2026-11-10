@@ -12,9 +12,70 @@ Experiments, prototypes, and reflections across physical and computational desig
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
 | [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | [Week 09](#week-09) |
-| [Week 10](#week-10) | Week 11 | Week 12 | |
+| [Week 10](#week-10) | [Week 11](#week-11) | Week 12 | |
 
 <br>
+
+## Week-11
+
+### Computational Design: Letter Assistance - Nov 5
+
+In the Week 10 version of *Letter Assistance*, the form and paper hid most of the typewriter. I rebuilt the scene around a 3D Underwood so the printing mechanism would be visible. I restored the original textures and lit the machine with warm light on a dark red cloth. As each line prints, the carriage moves and the paper rises from behind the roller.
+
+Week 10 的 *Letter Assistance* 里，表单和信纸挡住了大半台打字机，看不清它怎样工作。我用 Underwood 3D 模型重做了场景，恢复原始贴图，用暗红桌布和暖光衬出机身。打印时能看到字车横移，纸张随换行从滚筒后面升起。
+
+[Open Letter Assistance](https://letter-assistance.vercel.app/) · [GitHub](https://github.com/HuiLiu1209/Letter-Assistance)
+
+<p align="center">
+    <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-typewriter.png" width="900" alt="Underwood typewriter under warm light on dark red cloth">
+</p>
+
+The old form gave the recipient, signature and tone equal weight, so it was hard to tell where to start. I replaced it with one input below the typewriter. General Letter is selected by default. The sidebar lets me switch Role Cards or reopen a finished letter.
+
+旧表单把收件人、署名和语气并排放在一起，打开后不知道先填哪项。新版默认选中 General Letter，在打字机下方就能直接输入写信需求。需要换写法时打开左侧 Role Card，回看成信时打开 Letters。
+
+<p align="center">
+    <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-workspace.png" width="440" alt="Sidebar and writing input below the typewriter">
+    <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-printed-letter.png" width="440" alt="Finished letter emerging from behind the roller">
+</p>
+
+```mermaid
+flowchart LR
+    A["Request + selected Role Card"] --> B["Gemini generates the letter"]
+    B --> C["Stream text to the typewriter"]
+    C --> D["Save the finished letter in the browser"]
+```
+
+### Computational Design: Game Boy - Nov 2
+
+I expanded Week 10’s *Aero Striker ’89* into a four-game handheld. The power switch lights the battery indicator and starts a short boot animation. The D-pad selects a game on the LCD. I added a sound to the B button after finding that a silent return to the menu was easy to miss.
+
+我在 Week 10 的飞机射击原型 *Aero Striker ’89* 上增加了三款游戏。拨动开关，电池灯亮起，屏幕播放开机动画，随后可以用十字键选游戏。最初按 B 返回菜单时很难察觉按键是否生效，我为这个操作加了提示音。
+
+[Play Game Boy](https://gameboy-khaki.vercel.app/) · [GitHub](https://github.com/HuiLiu1209/gameboy)
+
+<p align="center">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-power-off.jpg" width="285" alt="Handheld powered off">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-game-select.jpg" width="285" alt="Game selection on the LCD">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-space-raid.jpg" width="285" alt="Space Raid in play">
+</p>
+
+<p align="center">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-tetris.png" width="210" alt="Tetris">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-snake.png" width="210" alt="Snake">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-breakout.png" width="210" alt="Breakout">
+    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-space-raid.png" width="210" alt="Space Raid">
+</p>
+
+```mermaid
+stateDiagram-v2
+    Off --> Boot: Power
+    Boot --> Menu: Animation ends
+    Menu --> Playing: Select game and press A
+    Playing --> Paused: Start
+    Paused --> Playing: Start
+    Playing --> Menu: B
+```
 
 ## Week-10
 
@@ -42,23 +103,23 @@ Explore AI-generated interactive software through a simple arcade game. The gree
 
 Open the game, start from the handheld screen, move the plane, shoot enemies, avoid collisions, and review the score before restarting. The design keeps the main controls within the handheld interface.
 
-**2. Letter-Writing Assistant: Dear,**
+**2. Letter Assistance**
 
-[Open Dear, in AI Studio](https://ai.studio/apps/743b7f71-dd6f-4c35-b9f9-c13a248beca7)
+[Open Letter Assistance in AI Studio](https://ai.studio/apps/743b7f71-dd6f-4c35-b9f9-c13a248beca7)
 
-For the letter-writing experiment, I asked AI Studio to build **Dear,**, a vintage mechanical typewriter interface, without supplying my previous Role Card. A **Dispatch Notes** form collects the recipient, sender, purpose, key points, tone, and language. The intended interaction is for the generated letter to appear character by character on stationery, with mechanical carriage returns at the end of each displayed line.
+For the letter-writing experiment, I asked AI Studio to build **Letter Assistance**, a vintage mechanical typewriter interface, without supplying my previous Role Card. A **Dispatch Notes** form collects the recipient, sender, purpose, key points, tone, and language. The intended interaction is for the generated letter to appear character by character on stationery, with mechanical carriage returns at the end of each displayed line.
 
 The visual direction combines a worn green metal body, cream-colored round keys, warm paper, and a wooden desktop. I wanted the writing process to feel tangible and deliberate, with the user able to review and edit the result.
 
 <p align="center">
-    <img src="./computational-design/week10/oct29/src/oct29-dear-baseline-interface.png" width="900" alt="Initial Dear typewriter interface with a Dispatch Notes form and letter displayed on stationery">
+    <img src="./computational-design/week10/oct29/src/oct29-letter-assistance-baseline-interface.png" width="900" alt="Initial Letter Assistance typewriter interface with a Dispatch Notes form and letter displayed on stationery">
 </p>
 
-[App generation](./computational-design/week10/oct29/src/oct29-dear-app-generation.png) · [Generated typewriter code](./computational-design/week10/oct29/src/oct29-dear-typewriter-code.png)
+[App generation](./computational-design/week10/oct29/src/oct29-letter-assistance-app-generation.png) · [Generated typewriter code](./computational-design/week10/oct29/src/oct29-letter-assistance-typewriter-code.png)
 
 **Design Intent**
 
-Dear, is intended to help people turn their notes into a concise, professional resignation email while keeping control over personal disclosure and commitments. Its vintage typewriter interface makes drafting feel deliberate and tangible. The user should receive only the finished letter on the paper, then review and edit it before copying. The assistant supports drafting; the user decides what to communicate and whether to send it.
+Letter Assistance is intended to help people turn their notes into a concise, professional resignation email while keeping control over personal disclosure and commitments. Its vintage typewriter interface makes drafting feel deliberate and tangible. The user should receive only the finished letter on the paper, then review and edit it before copying. The assistant supports drafting; the user decides what to communicate and whether to send it.
 
 **User Journey**
 
@@ -77,7 +138,7 @@ The most important problem I identified was **analysis or drafting text appearin
 I asked AI Studio to inspect response extraction and pass only the final letter to the paper, animation, and copied text. I also asked for a simple generation status outside the paper and explicit error feedback if generation failed. The focused repair request left other features unchanged.
 
 <p align="center">
-    <img src="./computational-design/week10/oct29/src/oct29-dear-output-repair-request.png" width="900" alt="Request to exclude thinking and analysis from the printed letter, with the resignation test visible and AI Studio showing a daily usage limit">
+    <img src="./computational-design/week10/oct29/src/oct29-letter-assistance-output-repair-request.png" width="900" alt="Request to exclude thinking and analysis from the printed letter, with the resignation test visible and AI Studio showing a daily usage limit">
 </p>
 
 The saved screenshot shows the repair request and a daily usage limit in AI Studio. It does not establish that this repair was implemented or that the complete output passed a retest. I have kept this as an unresolved finding in the baseline record.
