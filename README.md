@@ -12,17 +12,21 @@ Experiments, prototypes, and reflections across physical and computational desig
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
 | [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | [Week 09](#week-09) |
-| [Week 10](#week-10) | [Week 11](#week-11) | Week 12 | |
+| [Week 10](#week-10) | [Week 11](#week-11) | [Week 12](#week-12) | |
 
 <br>
+
+## Week-12
+
+### Computational Design: Presentation Day - Nov 10
+
+During today’s presentations, I learned about the different workflows my classmates used for their projects.
 
 ## Week-11
 
 ### Computational Design: Letter Assistance - Nov 5
 
 In the Week 10 version of *Letter Assistance*, the form and paper hid most of the typewriter. I rebuilt the scene around a 3D Underwood so the printing mechanism would be visible. I restored the original textures and lit the machine with warm light on a dark red cloth. As each line prints, the carriage moves and the paper rises from behind the roller.
-
-Week 10 的 *Letter Assistance* 里，表单和信纸挡住了大半台打字机，看不清它怎样工作。我用 Underwood 3D 模型重做了场景，恢复原始贴图，用暗红桌布和暖光衬出机身。打印时能看到字车横移，纸张随换行从滚筒后面升起。
 
 [Open Letter Assistance](https://letter-assistance.vercel.app/) · [GitHub](https://github.com/HuiLiu1209/Letter-Assistance)
 
@@ -31,8 +35,6 @@ Week 10 的 *Letter Assistance* 里，表单和信纸挡住了大半台打字机
 </p>
 
 The old form gave the recipient, signature and tone equal weight, so it was hard to tell where to start. I replaced it with one input below the typewriter. General Letter is selected by default. The sidebar lets me switch Role Cards or reopen a finished letter.
-
-旧表单把收件人、署名和语气并排放在一起，打开后不知道先填哪项。新版默认选中 General Letter，在打字机下方就能直接输入写信需求。需要换写法时打开左侧 Role Card，回看成信时打开 Letters。
 
 <p align="center">
     <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-workspace.png" width="440" alt="Sidebar and writing input below the typewriter">
@@ -49,8 +51,6 @@ flowchart LR
 ### Computational Design: Game Boy - Nov 2
 
 I expanded Week 10’s *Aero Striker ’89* into a four-game handheld. The power switch lights the battery indicator and starts a short boot animation. The D-pad selects a game on the LCD. I added a sound to the B button after finding that a silent return to the menu was easy to miss.
-
-我在 Week 10 的飞机射击原型 *Aero Striker ’89* 上增加了三款游戏。拨动开关，电池灯亮起，屏幕播放开机动画，随后可以用十字键选游戏。最初按 B 返回菜单时很难察觉按键是否生效，我为这个操作加了提示音。
 
 [Play Game Boy](https://gameboy-khaki.vercel.app/) · [GitHub](https://github.com/HuiLiu1209/gameboy)
 
@@ -81,7 +81,7 @@ stateDiagram-v2
 
 ### Computational Design - Oct 27
 
-There was no assignment for this session.
+We reviewed the previous homework, and the slides featured my Resignation Ghostwriter V3.
 
 ### Computational Design: Generative Software Prototypes - Oct 29
 
