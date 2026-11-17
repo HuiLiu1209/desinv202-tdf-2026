@@ -18,6 +18,28 @@ Experiments, prototypes, and reflections across physical and computational desig
 
 ## Week-12
 
+### Computational Design: AI Coding Workspace Setup — Nov 12
+
+For this assignment, I set up a shared workspace for future computational design projects. I created three project folders—`TM_PE`, `TM_OD`, and `Digital Twin`—inside `Projects` and saved the directory as a VS Code workspace.
+
+<p align="center">
+    <img src="./Computational_Design/Week_12/Nov_12/Src/nov12-01-project-folders-cropped.png" width="600" alt="Projects folder containing TM_PE, TM_OD, and Digital Twin">
+</p>
+
+I configured four Codex roles: Explorer investigates the project, Builder implements changes, Reviewer independently checks the work, and Documenter maintains the documentation. An `AGENTS.md` file defines the workflow: explore, explain the findings, obtain user approval, build, review, and document. Each role uses a model and reasoning level suited to its responsibilities.
+
+<p align="center">
+    <img src="./Computational_Design/Week_12/Nov_12/Src/nov12-07-codex-agent-registration-cropped.png" width="640" alt="Codex configuration registering Explorer, Builder, Reviewer, and Documenter with a concurrency limit of four">
+</p>
+
+During setup, I replaced the tutorial’s `model_instructions` field with `developer_instructions`, which the installed version supports. The configuration files and referenced paths passed validation, and I saved ten screenshots documenting the process. The environment is ready, while the complete four-role workflow still needs to be tested in a future project.
+
+<p align="center">
+    <img src="./Computational_Design/Week_12/Nov_12/Src/nov12-10-validation-results-cropped.png" width="600" alt="Setup verification showing passed configuration checks and the model and reasoning settings for all four roles">
+</p>
+
+This exercise helped me understand AI-assisted development as a sequence of distinct, reviewable responsibilities. In future projects, I want to use independent review to check whether the implementation meets the requirements and documentation to preserve setup instructions and key decisions.
+
 ### Computational Design: Presentation Day - Nov 10
 
 During today’s presentations, I learned about the different workflows my classmates used for their projects.
@@ -31,14 +53,14 @@ In the Week 10 version of *Letter Assistance*, the form and paper hid most of th
 [Open Letter Assistance](https://letter-assistance.vercel.app/) · [GitHub](https://github.com/HuiLiu1209/Letter-Assistance)
 
 <p align="center">
-    <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-typewriter.png" width="900" alt="Underwood typewriter under warm light on dark red cloth">
+    <img src="./Computational_Design/Week_11/Nov_5/Src/nov5-letter-assistance-typewriter.png" width="900" alt="Underwood typewriter under warm light on dark red cloth">
 </p>
 
 The old form gave the recipient, signature and tone equal weight, so it was hard to tell where to start. I replaced it with one input below the typewriter. General Letter is selected by default. The sidebar lets me switch Role Cards or reopen a finished letter.
 
 <p align="center">
-    <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-workspace.png" width="440" alt="Sidebar and writing input below the typewriter">
-    <img src="./computational-design/week11/nov5/src/nov5-letter-assistance-printed-letter.png" width="440" alt="Finished letter emerging from behind the roller">
+    <img src="./Computational_Design/Week_11/Nov_5/Src/nov5-letter-assistance-workspace.png" width="440" alt="Sidebar and writing input below the typewriter">
+    <img src="./Computational_Design/Week_11/Nov_5/Src/nov5-letter-assistance-printed-letter.png" width="440" alt="Finished letter emerging from behind the roller">
 </p>
 
 ```mermaid
@@ -55,16 +77,16 @@ I expanded Week 10’s *Aero Striker ’89* into a four-game handheld. The power
 [Play Game Boy](https://gameboy-khaki.vercel.app/) · [GitHub](https://github.com/HuiLiu1209/gameboy)
 
 <p align="center">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-power-off.jpg" width="285" alt="Handheld powered off">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-game-select.jpg" width="285" alt="Game selection on the LCD">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-space-raid.jpg" width="285" alt="Space Raid in play">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-power-off.jpg" width="285" alt="Handheld powered off">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-game-select.jpg" width="285" alt="Game selection on the LCD">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-space-raid.jpg" width="285" alt="Space Raid in play">
 </p>
 
 <p align="center">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-tetris.png" width="210" alt="Tetris">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-snake.png" width="210" alt="Snake">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-breakout.png" width="210" alt="Breakout">
-    <img src="./computational-design/week11/nov2/src/nov2-gameboy-lcd-space-raid.png" width="210" alt="Space Raid">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-lcd-tetris.png" width="210" alt="Tetris">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-lcd-snake.png" width="210" alt="Snake">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-lcd-breakout.png" width="210" alt="Breakout">
+    <img src="./Computational_Design/Week_11/Nov_2/Src/nov2-gameboy-lcd-space-raid.png" width="210" alt="Space Raid">
 </p>
 
 ```mermaid
@@ -92,7 +114,7 @@ I first used AI Studio to build an airplane shooter as a standalone game without
 [Open the airplane shooter in AI Studio](https://ai.studio/apps/c6d73bbc-5bae-4e07-843a-b62d67c47265)
 
 <p align="center">
-    <img src="./computational-design/week10/oct29/src/oct29-aero-striker-gameboy-interface.png" width="700" alt="Aero Striker '89 title screen inside a worn Game Boy-style handheld with stickers, scratches, and physical-style controls">
+    <img src="./Computational_Design/Week_10/Oct_29/Src/oct29-aero-striker-gameboy-interface.png" width="700" alt="Aero Striker '89 title screen inside a worn Game Boy-style handheld with stickers, scratches, and physical-style controls">
 </p>
 
 **Design Intent**
@@ -112,10 +134,10 @@ For the letter-writing experiment, I asked AI Studio to build **Letter Assistanc
 The visual direction combines a worn green metal body, cream-colored round keys, warm paper, and a wooden desktop. I wanted the writing process to feel tangible and deliberate, with the user able to review and edit the result.
 
 <p align="center">
-    <img src="./computational-design/week10/oct29/src/oct29-letter-assistance-baseline-interface.png" width="900" alt="Initial Letter Assistance typewriter interface with a Dispatch Notes form and letter displayed on stationery">
+    <img src="./Computational_Design/Week_10/Oct_29/Src/oct29-letter-assistance-baseline-interface.png" width="900" alt="Initial Letter Assistance typewriter interface with a Dispatch Notes form and letter displayed on stationery">
 </p>
 
-[App generation](./computational-design/week10/oct29/src/oct29-letter-assistance-app-generation.png) · [Generated typewriter code](./computational-design/week10/oct29/src/oct29-letter-assistance-typewriter-code.png)
+[App generation](./Computational_Design/Week_10/Oct_29/Src/oct29-letter-assistance-app-generation.png) · [Generated typewriter code](./Computational_Design/Week_10/Oct_29/Src/oct29-letter-assistance-typewriter-code.png)
 
 **Design Intent**
 
@@ -138,14 +160,14 @@ The most important problem I identified was **analysis or drafting text appearin
 I asked AI Studio to inspect response extraction and pass only the final letter to the paper, animation, and copied text. I also asked for a simple generation status outside the paper and explicit error feedback if generation failed. The focused repair request left other features unchanged.
 
 <p align="center">
-    <img src="./computational-design/week10/oct29/src/oct29-letter-assistance-output-repair-request.png" width="900" alt="Request to exclude thinking and analysis from the printed letter, with the resignation test visible and AI Studio showing a daily usage limit">
+    <img src="./Computational_Design/Week_10/Oct_29/Src/oct29-letter-assistance-output-repair-request.png" width="900" alt="Request to exclude thinking and analysis from the printed letter, with the resignation test visible and AI Studio showing a daily usage limit">
 </p>
 
 The saved screenshot shows the repair request and a daily usage limit in AI Studio. It does not establish that this repair was implemented or that the complete output passed a retest. I have kept this as an unresolved finding in the baseline record.
 
 **Role Card and Planned System Design**
 
-I drafted a [form-based Role Card](./computational-design/week10/oct29/role-card-draft.md), adapted from the [Oct 22 Role Card v3](./computational-design/week9/oct22/role-card-v3.md). It uses facts entered in Dispatch Notes instead of relying on the earlier uploaded PDF. Its rules cover factual accuracy, disclosure preferences, limited commitments, and one concise final email. The adapted card is intended to be passed as system instructions on every generation request; integration into the hosted app has not been verified.
+I drafted a [form-based Role Card](./Computational_Design/Week_10/Oct_29/role-card-draft.md), adapted from the [Oct 22 Role Card v3](./Computational_Design/Week_9/Oct_22/role-card-v3.md). It uses facts entered in Dispatch Notes instead of relying on the earlier uploaded PDF. Its rules cover factual accuracy, disclosure preferences, limited commitments, and one concise final email. The adapted card is intended to be passed as system instructions on every generation request; integration into the hosted app has not been verified.
 
 The following diagram describes the intended system. It is the content planned for an **Info** button in the app; implementation of that panel and Role Card integration is still pending.
 
@@ -217,7 +239,7 @@ A one-page knowledge PDF supplied a fictional scenario: Hui Liu, Product Designe
 [Try Your Graceful Exit, Drafted Fast](https://agentstudio.aroughidea.com/a/lX9D2OiR5eMTPbA5Fkgr-w)
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct22-agent-qr.png" width="160" alt="QR code for the resignation letter assistant">
+    <img src="./Computational_Design/Week_9/Src/oct22-agent-qr.png" width="160" alt="QR code for the resignation letter assistant">
 </p>
 
 **Test Setup**
@@ -229,7 +251,7 @@ All three sessions used **Llama 3.1 8B Instruct, default temperature, the same k
 The exports confirm matching reference passages. The v2 and v3 interfaces explicitly state that the whole knowledge base was sent.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct22-system-diagram.svg" width="800" alt="System instructions, user prompt, and knowledge PDF form the model context; the designer reviews the draft and revises instructions between sessions">
+    <img src="./Computational_Design/Week_9/Src/oct22-system-diagram.svg" width="800" alt="System instructions, user prompt, and knowledge PDF form the model context; the designer reviews the draft and revises instructions between sessions">
 </p>
 
 **V1: Known Facts Left Blank and Conflicting Instructions**
@@ -239,10 +261,10 @@ The first email was about 160 words. It left known employment details as placeho
 The Role Card still described some facts as unavailable. V2 removed these conflicting claims, prioritized existing facts, separated background from letter content, and specified a 100-word limit.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct22-session-01-v1.png" width="800" alt="V1 draft with placeholders for known facts and bracketed task commentary">
+    <img src="./Computational_Design/Week_9/Src/oct22-session-01-v1.png" width="800" alt="V1 draft with placeholders for known facts and bracketed task commentary">
 </p>
 
-[Role Card v1](./computational-design/week9/oct22/role-card-v1.md) · [Session 1 conversation](./computational-design/week9/oct22/sessions/session-01-v1.txt)
+[Role Card v1](./Computational_Design/Week_9/Oct_22/role-card-v1.md) · [Session 1 conversation](./Computational_Design/Week_9/Oct_22/Sessions/session-01-v1.txt)
 
 **V2: Better Factual Use, Expanded Commitments**
 
@@ -251,10 +273,10 @@ The second email was about 94 words and correctly used the employment details. H
 V3 clarified disclosure preferences, distinguished offers from arrangements and guarantees, and required only one short email.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct22-session-02-v2.png" width="800" alt="V2 uses the employment facts but adds unsupported handover claims and unnecessary questions">
+    <img src="./Computational_Design/Week_9/Src/oct22-session-02-v2.png" width="800" alt="V2 uses the employment facts but adds unsupported handover claims and unnecessary questions">
 </p>
 
-[Role Card v2](./computational-design/week9/oct22/role-card-v2.md) · [Session 2 conversation](./computational-design/week9/oct22/sessions/session-02-v2.txt)
+[Role Card v2](./Computational_Design/Week_9/Oct_22/role-card-v2.md) · [Session 2 conversation](./Computational_Design/Week_9/Oct_22/Sessions/session-02-v2.txt)
 
 **V3: Shorter Output, a New Factual Error**
 
@@ -263,12 +285,12 @@ The third email was about 74 words and stopped questioning the excluded reason o
 The revisions improved some behaviors while introducing new errors. Each version was tested once, so v3 cannot be treated as a reliably finished design.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct22-session-03-v3.png" width="800" alt="V3 is shorter but invents a company policy requiring one month's notice">
+    <img src="./Computational_Design/Week_9/Src/oct22-session-03-v3.png" width="800" alt="V3 is shorter but invents a company policy requiring one month's notice">
 </p>
 
-[Role Card v3](./computational-design/week9/oct22/role-card-v3.md) · [Session 3 conversation](./computational-design/week9/oct22/sessions/session-03-v3.txt)
+[Role Card v3](./Computational_Design/Week_9/Oct_22/role-card-v3.md) · [Session 3 conversation](./Computational_Design/Week_9/Oct_22/Sessions/session-03-v3.txt)
 
-[Knowledge PDF](./computational-design/week9/oct22/resignation-knowledge-base.pdf) · [Test script](./computational-design/week9/oct22/test-script.md) · [Saved configuration](./computational-design/week9/oct22/agent-config.json)
+[Knowledge PDF](./Computational_Design/Week_9/Oct_22/resignation-knowledge-base.pdf) · [Test script](./Computational_Design/Week_9/Oct_22/test-script.md) · [Saved configuration](./Computational_Design/Week_9/Oct_22/agent-config.json)
 
 ### Computational Design: Mini-Me — Personal Introduction Assistant - Oct 20
 
@@ -279,7 +301,7 @@ In Agent Studio, the first four sessions used **Llama 3.1 8B Instruct**; the fif
 [Try Hui’s First-Day Introduction Helper](https://agentstudio.aroughidea.com/a/yLtq9QCWh-_AVxyqZ-Ly4Q)
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct20-agent-qr.png" width="160" alt="QR code for Hui's First-Day Introduction Helper">
+    <img src="./Computational_Design/Week_9/Src/oct20-agent-qr.png" width="160" alt="QR code for Hui's First-Day Introduction Helper">
 </p>
 
 **1. Starting Bare: A Generic Template**
@@ -289,10 +311,10 @@ Without system instructions or knowledge, I entered “Help me introduce myself 
 The model immediately produced an introduction containing “[Your Name]” without asking about my background. The response sounded natural but could apply to almost anyone. It provided a baseline for evaluating personalization.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct20-session-01-baseline.png" width="800" alt="Session 1: a generic introduction generated without system instructions or a knowledge base">
+    <img src="./Computational_Design/Week_9/Src/oct20-session-01-baseline.png" width="800" alt="Session 1: a generic introduction generated without system instructions or a knowledge base">
 </p>
 
-[Session 1 conversation](./computational-design/week9/oct20/sessions/session-01-baseline.txt)
+[Session 1 conversation](./Computational_Design/Week_9/Oct_20/Sessions/session-01-baseline.txt)
 
 **2. System Instructions: Changed Behavior, Inconsistent Execution**
 
@@ -301,10 +323,10 @@ I defined the model as Hui Liu’s introduction assistant and instructed it to a
 With the same prompt, it began asking about my background, interests, and preferred tone. After I supplied my Berkeley MDes, industrial design, and UX background, it generated a more specific introduction. However, it still asked for a name already supplied in the instructions, and its responses remained fairly long and enthusiastic. The instructions changed its approach but were not followed consistently.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct20-session-02-system-instructions.png" width="800" alt="Session 2: system instructions prompt the model to ask about background and tone before writing an introduction">
+    <img src="./Computational_Design/Week_9/Src/oct20-session-02-system-instructions.png" width="800" alt="Session 2: system instructions prompt the model to ask about background and tone before writing an introduction">
 </p>
 
-[Session 2 conversation](./computational-design/week9/oct20/sessions/session-02-system-instructions.txt)
+[Session 2 conversation](./Computational_Design/Week_9/Oct_20/Sessions/session-02-system-instructions.txt)
 
 **3. Knowledge: Available Information Was Not Reliably Used**
 
@@ -315,10 +337,10 @@ The general introduction request retrieved no knowledge. When explicitly asked t
 Naming the personal document and requesting separate lists of hobbies and goals helped retrieve relevant passages. Even then, the model categorized my strength of turning ambiguity into action as a career goal. The problems included **missed retrieval, factual misinterpretation, unsupported additions, and confused categories**.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct20-session-03-knowledge-base.png" width="800" alt="Session 3: the general introduction request retrieves no passage despite an uploaded resume, with the similarity threshold set to 0.30">
+    <img src="./Computational_Design/Week_9/Src/oct20-session-03-knowledge-base.png" width="800" alt="Session 3: the general introduction request retrieves no passage despite an uploaded resume, with the similarity threshold set to 0.30">
 </p>
 
-[Session 3 conversation](./computational-design/week9/oct20/sessions/session-03-knowledge-base.txt)
+[Session 3 conversation](./Computational_Design/Week_9/Oct_20/Sessions/session-03-knowledge-base.txt)
 
 **4. Temperature and Constraints: Better Format, Remaining Inaccuracies**
 
@@ -328,7 +350,7 @@ The model produced three short versions and incorporated details such as Hikaru 
 
 Because temperature, prompt content, and output constraints changed together, I could not isolate the effect of temperature.
 
-[Session 4 conversation](./computational-design/week9/oct20/sessions/session-04-temperature-0.8.txt)
+[Session 4 conversation](./Computational_Design/Week_9/Oct_20/Sessions/session-04-temperature-0.8.txt)
 
 **5. Switching Models: Retrieval Problems Persisted**
 
@@ -336,20 +358,20 @@ I switched to Qwen while keeping the system instructions, knowledge base, and te
 
 A more explicit request covering education, experience, hobbies, and goals retrieved both documents. Qwen correctly identified my student status and award affiliation, but the response was lengthy, took about 31 seconds, and still mixed personal strengths into career goals. Switching models did not automatically resolve knowledge use. Different prompts and conversation histories also limited any conclusion about overall model quality.
 
-[Session 5 conversation — Qwen](./computational-design/week9/oct20/sessions/session-05-qwen.txt)
+[Session 5 conversation — Qwen](./Computational_Design/Week_9/Oct_20/Sessions/session-05-qwen.txt)
 
 ### Trying Another Agent Environment: ChatGPT Projects - Oct 20
 
 I also tried the Mini-Me task in a ChatGPT Project named **Mini_Me**, with **Hui_Resume.pdf** and **Know_Me_More.pdf** listed as project sources.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct20-chatgpt-project-sources.png" width="400" alt="The Mini_Me ChatGPT Project with Hui_Resume.pdf and Know_Me_More.pdf listed as sources">
+    <img src="./Computational_Design/Week_9/Src/oct20-chatgpt-project-sources.png" width="400" alt="The Mini_Me ChatGPT Project with Hui_Resume.pdf and Know_Me_More.pdf listed as sources">
 </p>
 
 Using the same general prompt, “Help me introduce myself to a new classmate,” ChatGPT immediately generated a personalized introduction. The visible response correctly described me as a current Berkeley MDes student and included industrial design, product management, XR UX, coding goals, League of Legends, and Hikaru Utada. It also offered a shorter version mentioning ARAM. Unlike the initial knowledge-base tests in Agent Studio, this response included both professional and personal details without asking me to supply them again or explicitly name a document.
 
 <p align="center">
-    <img src="./computational-design/week9/src/oct20-chatgpt-introduction-response.png" width="400" alt="ChatGPT responds to the general introduction prompt with a personalized introduction and an additional shorter version">
+    <img src="./Computational_Design/Week_9/Src/oct20-chatgpt-introduction-response.png" width="400" alt="ChatGPT responds to the general introduction prompt with a personalized introduction and an additional shorter version">
 </p>
 
 However, the response was fairly long and added an unsolicited second version with a Chinese heading despite the English prompt. The screenshots do not show source citations, the underlying model, project instructions, or the full conversation history, so I could not verify where every detail came from or attribute the difference to a particular model or retrieval method. This was a comparison of the visible platform experience, rather than a controlled model test.
@@ -363,7 +385,7 @@ On Tuesday, I presented the completed ambient display. The laser-cut wooden encl
 For the presentation, I used the final version with preloaded NOAA tide predictions so the display could run without a WiFi connection. The video below shows the completed piece in operation, with the strands extending the light above the enclosure into a field of glowing points.
 
 <p align="center">
-    <img src="./physical-computing/week8/src/final_presentation.gif" width="480" alt="Final ambient display with glowing fiber-optic strands above a laser-cut wooden enclosure">
+    <img src="./Physical_Computing/Week_8/Src/final_presentation.gif" width="480" alt="Final ambient display with glowing fiber-optic strands above a laser-cut wooden enclosure">
 </p>
 
 ### Project Exchange with DesComp & Diego Pinochet Lecture - Oct 15
@@ -377,29 +399,29 @@ On Thursday, our section met with a DesComp section to view one another's projec
 I started by looking for a data source for the ambient display and selected the [NOAA tide API](https://api.tidesandcurrents.noaa.gov/api/prod/) to explore how San Francisco's tides could be translated into light. Using the API Builder, I selected the San Francisco station and examined the returned JSON structure. Each entry in the `predictions` array contains a timestamp, `t`, and a tide height, `v`, which provide the values needed to control the lighting over time.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/tide_api_builder.png" height="180" alt="NOAA API Builder configured for San Francisco tide predictions">
-    <img src="./physical-computing/week7/src/api_response_structure.png" height="180" alt="Tide prediction JSON with timestamp and height values">
-    <img src="./physical-computing/week7/src/led_matrix_schematic.png" height="180" alt="Serpentine pixel indices on an 8 by 8 LED matrix">
+    <img src="./Physical_Computing/Week_7/Src/tide_api_builder.png" height="180" alt="NOAA API Builder configured for San Francisco tide predictions">
+    <img src="./Physical_Computing/Week_7/Src/api_response_structure.png" height="180" alt="Tide prediction JSON with timestamp and height values">
+    <img src="./Physical_Computing/Week_7/Src/led_matrix_schematic.png" height="180" alt="Serpentine pixel indices on an 8 by 8 LED matrix">
 </p>
 
 The system map summarizes the data flow from NOAA tide predictions through ESP32 processing to the NeoPixel matrix and fiber-optic tips.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/system_map.png" width="400" alt="Hand-drawn system map showing NOAA tide data, ESP32 processing, the externally powered NeoPixel matrix, and fiber-optic light output">
+    <img src="./Physical_Computing/Week_7/Src/system_map.png" width="400" alt="Hand-drawn system map showing NOAA tide data, ESP32 processing, the externally powered NeoPixel matrix, and fiber-optic light output">
 </p>
 
 I then studied how the 8×8 LED matrix is controlled. Although the LEDs form a grid, the 64 pixels are indexed along a serpentine path, so I first needed to understand how each index corresponds to a physical position. I soldered the connecting wires, connected the matrix to the ESP32, and tested individual pixels and brightness control.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/led_matrix.jpeg" height="300" alt="Powered LED matrix connected through jumper wires">
-    <img src="./physical-computing/week7/src/soldering.jpeg" height="300" alt="Soldered connections on the matrix wires">
+    <img src="./Physical_Computing/Week_7/Src/led_matrix.jpeg" height="300" alt="Powered LED matrix connected through jumper wires">
+    <img src="./Physical_Computing/Week_7/Src/soldering.jpeg" height="300" alt="Soldered connections on the matrix wires">
 </p>
 
 I then experimented with assigning one day to each LED and playing the dates at the same simulated time, using changes in tide height to create different patterns of brightness across the matrix.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/led_matrix_test.jpeg" height="220" alt="Individual pixel brightness test on the LED matrix">
-    <img src="./physical-computing/week7/src/early_tide_lighting.gif" height="220" alt="Early tide-driven brightness animation on the LED matrix">
+    <img src="./Physical_Computing/Week_7/Src/led_matrix_test.jpeg" height="220" alt="Individual pixel brightness test on the LED matrix">
+    <img src="./Physical_Computing/Week_7/Src/early_tide_lighting.gif" height="220" alt="Early tide-driven brightness animation on the LED matrix">
 </p>
 
 ### Ambient Display: Laser Cutting, Assembly & Fiber Optics - Oct 8
@@ -407,37 +429,37 @@ I then experimented with assigning one day to each LED and playing the dates at 
 I began making an enclosure for the electronics. I measured the LED matrix, ESP32, and power adapter board, recording the connector positions and component heights to plan the internal layout and wire routing. Based on these measurements, I designed and laser cut a wooden enclosure with openings in the top panel corresponding to the LED grid. During assembly, I checked the alignment between the matrix and the top panel, along with the space available for the electronics and wiring underneath.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/led_matrix_measurment.jpeg" height="180" alt="Measuring the LED matrix with digital calipers">
-    <img src="./physical-computing/week7/src/esp32_measurment.jpeg" height="180" alt="ESP32 dimensions and connector positions recorded in a sketch">
-    <img src="./physical-computing/week7/src/adapter_measurment.jpeg" height="180" alt="Power adapter board dimensions and component heights">
+    <img src="./Physical_Computing/Week_7/Src/led_matrix_measurment.jpeg" height="180" alt="Measuring the LED matrix with digital calipers">
+    <img src="./Physical_Computing/Week_7/Src/esp32_measurment.jpeg" height="180" alt="ESP32 dimensions and connector positions recorded in a sketch">
+    <img src="./Physical_Computing/Week_7/Src/adapter_measurment.jpeg" height="180" alt="Power adapter board dimensions and component heights">
 </p>
 
 <p align="center">
-    <img src="./physical-computing/week7/src/assemble_test.jpeg" width="700" alt="Laser-cut enclosure assembly with space for the boards and wiring">
+    <img src="./Physical_Computing/Week_7/Src/assemble_test.jpeg" width="700" alt="Laser-cut enclosure assembly with space for the boards and wiring">
 </p>
 
 After assembling the enclosure, I inserted a few fiber-optic strands to test whether the LED light reached their tips, then added more strands to observe the overall effect.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/fiber_test.jpeg" height="300" alt="Testing light transmission through a few fiber-optic strands">
-    <img src="./physical-computing/week7/src/ligtning_test.jpeg" height="300" alt="Fiber-optic strands installed in the enclosure with pale purple lighting">
+    <img src="./Physical_Computing/Week_7/Src/fiber_test.jpeg" height="300" alt="Testing light transmission through a few fiber-optic strands">
+    <img src="./Physical_Computing/Week_7/Src/ligtning_test.jpeg" height="300" alt="Fiber-optic strands installed in the enclosure with pale purple lighting">
 </p>
 
-The fibers extended the light points above the matrix to different heights, making the tide-driven brightness changes visible across a field of separate points. I compared the initial pale purple lighting with the final blue and cyan effect, and adjusted the contrast and playback speed to make the changes easier to see. The [V1 API prototype](./physical-computing/week7/code/v1/led_matrix/led_matrix.ino) retrieves tide predictions from NOAA over WiFi at startup. For the final demonstration, the [V2 program](./physical-computing/week7/code/v2/led_matrix_final/led_matrix_final.ino) uses a preloaded 64-day dataset and runs offline with the final blue-to-cyan lighting, adjusted contrast, and interpolated playback.
+The fibers extended the light points above the matrix to different heights, making the tide-driven brightness changes visible across a field of separate points. I compared the initial pale purple lighting with the final blue and cyan effect, and adjusted the contrast and playback speed to make the changes easier to see. The [V1 API prototype](./Physical_Computing/Week_7/Code/V1/LED_Matrix/LED_Matrix.ino) retrieves tide predictions from NOAA over WiFi at startup. For the final demonstration, the [V2 program](./Physical_Computing/Week_7/Code/V2/LED_Matrix_Final/LED_Matrix_Final.ino) uses a preloaded 64-day dataset and runs offline with the final blue-to-cyan lighting, adjusted contrast, and interpolated playback.
 
 <p align="center">
-    <img src="./physical-computing/week7/src/light_testing.gif" height="200" alt="Initial pale purple lighting test through the fiber-optic strands">
-    <img src="./physical-computing/week7/src/final_lighting.gif" height="200" alt="Final blue and cyan tide animation through the fiber-optic strands">
+    <img src="./Physical_Computing/Week_7/Src/light_testing.gif" height="200" alt="Initial pale purple lighting test through the fiber-optic strands">
+    <img src="./Physical_Computing/Week_7/Src/final_lighting.gif" height="200" alt="Final blue and cyan tide animation through the fiber-optic strands">
 </p>
 
 
 ### Project Files
 
-- [V1 — NOAA API prototype](./physical-computing/week7/code/v1/led_matrix/led_matrix.ino)
-- [V2 — Final demonstration code and data](./physical-computing/week7/code/v2/led_matrix_final/)
-- [Code setup and dependencies](./physical-computing/week7/code/readme.md)
-- [WiFi configuration template](./physical-computing/week7/code/v1/led_matrix/secrets.example.h)
-- [Laser-cut enclosure — Illustrator source](./physical-computing/week7/cad/ambient_display.ai)
+- [V1 — NOAA API prototype](./Physical_Computing/Week_7/Code/V1/LED_Matrix/LED_Matrix.ino)
+- [V2 — Final demonstration code and data](./Physical_Computing/Week_7/Code/V2/LED_Matrix_Final/)
+- [Code setup and dependencies](./Physical_Computing/Week_7/Code/readme.md)
+- [WiFi configuration template](./Physical_Computing/Week_7/Code/V1/LED_Matrix/secrets.example.h)
+- [Laser-cut enclosure — Illustrator source](./Physical_Computing/Week_7/CAD/ambient_display.ai)
 
 ## Week-06
 
@@ -448,76 +470,76 @@ The fibers extended the light points above the matrix to different heights, maki
 I soldered the header pins onto the Adafruit Feather ESP32 V2 so that the board could be mounted on a breadboard. The side view shows the solder joints along the headers, while the top view shows the board positioned on the breadboard.
 
 <p align="center">
-    <img src="./physical-computing/week6/src/soldering_top_view.jpeg" width="350" alt="ESP32 on a breadboard, top view">
-    <img src="./physical-computing/week6/src/soldering_side_view.jpeg" width="198" alt="Soldered headers, side view">
+    <img src="./Physical_Computing/Week_6/Src/soldering_top_view.jpeg" width="350" alt="ESP32 on a breadboard, top view">
+    <img src="./Physical_Computing/Week_6/Src/soldering_side_view.jpeg" width="198" alt="Soldered headers, side view">
 </p>
 
 **ESP32 Setup & MAC Address**
 
 I installed the ESP32 board package by Espressif Systems through Arduino IDE's Boards Manager, then selected Adafruit Feather ESP32 V2 and its USB serial port. After a communication failure at a higher upload speed, reducing the upload speed to 115200 allowed the sketch to upload successfully.
 
-I used the **[MAC address sketch](./physical-computing/week6/electronic/get-esp32-mac-address/get-esp32-mac-address.ino)** to read the board's MAC address in the Serial Monitor. The original sketch printed the address only once at startup, making it easy to miss. Updating it to print every two seconds made the output easier to check. The Serial Monitor baud rate was also set to 115200 to match the code.
+I used the **[MAC address sketch](./Physical_Computing/Week_6/Electronic/Get_ESP32_MAC_Address/Get_ESP32_MAC_Address.ino)** to read the board's MAC address in the Serial Monitor. The original sketch printed the address only once at startup, making it easy to miss. Updating it to print every two seconds made the output easier to check. The Serial Monitor baud rate was also set to 115200 to match the code.
 
 <p align="center">
-    <img src="./physical-computing/week6/src/boards_manager.png" width="190" alt="ESP32 package in Boards Manager">
-    <img src="./physical-computing/week6/src/mac_address.png" width="500" alt="MAC address output in Serial Monitor">
+    <img src="./Physical_Computing/Week_6/Src/boards_manager.png" width="190" alt="ESP32 package in Boards Manager">
+    <img src="./Physical_Computing/Week_6/Src/mac_address.png" width="500" alt="MAC address output in Serial Monitor">
 </p>
 
 <p align="center">
-    <img src="./physical-computing/week6/src/select_board_and_port.png" width="400" alt="Selecting the board and serial port">
-    <img src="./physical-computing/week6/src/upload_speed.png" width="360" alt="Upload speed set to 115200">
+    <img src="./Physical_Computing/Week_6/Src/select_board_and_port.png" width="400" alt="Selecting the board and serial port">
+    <img src="./Physical_Computing/Week_6/Src/upload_speed.png" width="360" alt="Upload speed set to 115200">
 </p>
 
 ### Fabrication - Oct 1
 
 **Weather API**
 
-Following the **[ESP32 Web API tutorial](https://github.com/roopa-ramanujam/ESP32-web-api-example)**, I connected the board to WiFi and used the **[weather API sketch](./physical-computing/week6/fabrication/weather-api-example/weather-api-example.ino)** to request temperature and wind speed for Jacobs Hall from Open-Meteo. Since I was working off campus, I used a WiFi network outside campus instead of Berkeley-IoT. I stored the credentials in a separate `secrets.h` file and excluded it from Git.
+Following the **[ESP32 Web API tutorial](https://github.com/roopa-ramanujam/ESP32-web-api-example)**, I connected the board to WiFi and used the **[weather API sketch](./Physical_Computing/Week_6/Fabrication/Weather_API_Example/Weather_API_Example.ino)** to request temperature and wind speed for Jacobs Hall from Open-Meteo. Since I was working off campus, I used a WiFi network outside campus instead of Berkeley-IoT. I stored the credentials in a separate `secrets.h` file and excluded it from Git.
 
 The Serial Monitor showed a successful WiFi connection and an HTTP response code of 200. The sketch parsed the JSON response and used the onboard NeoPixel to display the weather: temperature determines the color, while wind speed controls the blinking rate. The recorded temperature was 67.9°F, which produced a green light.
 
 <p align="center">
-    <img src="./physical-computing/week6/src/weather_api_output.png" width="480" alt="Successful weather API response">
-    <img src="./physical-computing/week6/src/weather_api_demo.gif" width="385" alt="Weather data displayed through the onboard NeoPixel">
+    <img src="./Physical_Computing/Week_6/Src/weather_api_output.png" width="480" alt="Successful weather API response">
+    <img src="./Physical_Computing/Week_6/Src/weather_api_demo.gif" width="385" alt="Weather data displayed through the onboard NeoPixel">
 </p>
 
 **Air Quality API**
 
-I also tested the **[OpenAQ air quality sketch](./physical-computing/week6/fabrication/air-quality-api-example-with-api-key/air-quality-api-example-with-api-key.ino)**. Unlike the weather example, this API requires an API key, which the sketch sends through the `X-API-Key` request header. I stored the key alongside the WiFi credentials in the local `secrets.h` file.
+I also tested the **[OpenAQ air quality sketch](./Physical_Computing/Week_6/Fabrication/Air_Quality_API_Example_With_API_Key/Air_Quality_API_Example_With_API_Key.ino)**. Unlike the weather example, this API requires an API key, which the sketch sends through the `X-API-Key` request header. I stored the key alongside the WiFi credentials in the local `secrets.h` file.
 
 The request returned an HTTP response code of 200, and the sketch extracted an ozone concentration of 0.043 ppm. The returned measurement was dated March 6, 2016, so it demonstrated successful API authentication and data parsing rather than current air quality. This example prints the readings in the Serial Monitor without controlling the LED.
 
 <p align="center">
-    <img src="./physical-computing/week6/src/air_quality.png" width="700" alt="Successful OpenAQ API response and ozone reading in Serial Monitor">
+    <img src="./Physical_Computing/Week_6/Src/air_quality.png" width="700" alt="Successful OpenAQ API response and ozone reading in Serial Monitor">
 </p>
 
 ## Week-05
 
 ### Expressive Mechanics: Laser Cutting, Part Testing & CV - Sep 22
 
-[Fusion 360 model](./physical-computing/week5/cad/Robot_Face.f3d) and [Illustrator file](./physical-computing/week5/cad/Robot_Face.ai)
+[Fusion 360 model](./Physical_Computing/Week_5/CAD/Robot_Face.f3d) and [Illustrator file](./Physical_Computing/Week_5/CAD/Robot_Face.ai)
 
 <p align = "center">
-    <img src="./physical-computing/week5/src/wiring_diagram.png" width="365" alt="wiring diagram">
-    <img src="./physical-computing/week5/src/circuit_schematic.png" width="342" alt="circuit schematic">
+    <img src="./Physical_Computing/Week_5/Src/wiring_diagram.png" width="365" alt="wiring diagram">
+    <img src="./Physical_Computing/Week_5/Src/circuit_schematic.png" width="342" alt="circuit schematic">
 </p>
 
 During the week, I moved to the makerspace and laser cut the parts for faster iteration. This made it easier to test different pivot and axis positions. I worked through the eyes, eyebrows, and mouth individually, adjusting each mechanism until all three could move reliably without interfering with one another. Only after the physical mechanisms were working independently did I begin integrating CV.
 <p align = "center">
-    <img src="./physical-computing/week5/src/brow_part.gif" width="342" alt="brow">
-    <img src="./physical-computing/week5/src/eyelid_part.gif" width="342" alt="eyelid">
-    <img src="./physical-computing/week5/src/mouth_part.gif" width="342" alt="mouth">
+    <img src="./Physical_Computing/Week_5/Src/brow_part.gif" width="342" alt="brow">
+    <img src="./Physical_Computing/Week_5/Src/eyelid_part.gif" width="342" alt="eyelid">
+    <img src="./Physical_Computing/Week_5/Src/mouth_part.gif" width="342" alt="mouth">
 </p>
 
-The **[p5.js sketch](./physical-computing/week5/code/P5_Code/sketch.js)** uses ml5 FaceMesh to detect eye closure, raised eyebrows, and an open mouth. After calibrating a neutral expression, it sends these states to Arduino through Web Serial.
+The **[p5.js sketch](./Physical_Computing/Week_5/Code/P5_Code/sketch.js)** uses ml5 FaceMesh to detect eye closure, raised eyebrows, and an open mouth. After calibrating a neutral expression, it sends these states to Arduino through Web Serial.
 <p align = "center">
-    <img src="./physical-computing/week5/src/system_map.jpeg" width="342" alt="system map">
+    <img src="./Physical_Computing/Week_5/Src/system_map.jpeg" width="342" alt="system map">
 </p>
 
-The **[Arduino code](./physical-computing/week5/code/Uno_Servo_Code/Uno_Servo_Code.ino)** translates the expression states into movements for three servos controlling the eyes, eyebrows, and mouth.
+The **[Arduino code](./Physical_Computing/Week_5/Code/Uno_Servo_Code/Uno_Servo_Code.ino)** translates the expression states into movements for three servos controlling the eyes, eyebrows, and mouth.
 
 <p align = "center">
-    <img src="./physical-computing/week5/src/final.gif" width="342" alt="final">
+    <img src="./Physical_Computing/Week_5/Src/final.gif" width="342" alt="final">
 </p>
 
 ### Expressive Mechanics: Presentation Day - Sep 25
@@ -537,13 +559,13 @@ This week, I started by exploring different types of mechanical movement because
 
 I also read Cabaret Mechanical Movement: Understanding Movement and Making Automata. The book helped me understand how relatively simple mechanical structures can generate expressive and sometimes surprisingly complex movements.
 <p align = "center">
-    <img src="./physical-computing/week4/src/book.png" width="342" alt="Cabaret Mechanical Movement">
+    <img src="./Physical_Computing/Week_4/Src/book.png" width="342" alt="Cabaret Mechanical Movement">
 </p>
 
 Alongside these references, I watched different mechanical and automata examples on YouTube and made a few sketches of mechanisms that I found interesting. At this stage, I was mainly trying to build a vocabulary of mechanical movement and understand what kinds of motion I could potentially use in my own project.
 <p align = "center">
-    <img src="./physical-computing/week4/src/concept1.jpeg" width="342" alt="concept sketch1">
-    <img src="./physical-computing/week4/src/concept2.jpeg" width="342" alt="concept sketch2">
+    <img src="./Physical_Computing/Week_4/Src/concept1.jpeg" width="342" alt="concept sketch1">
+    <img src="./Physical_Computing/Week_4/Src/concept2.jpeg" width="342" alt="concept sketch2">
 </p>
 
 ### Expressive Mechanics: 3D-Printed Prototype Testing - Sep 18
@@ -554,7 +576,7 @@ I first tested each facial part separately before combining everything into one 
 
 One of the main problems was mechanical interference. As the servos rotated, the eyelids and mouth sometimes collided with nearby parts, preventing them from completing their full range of motion. I repeatedly adjusted the geometry, clearances, and servo angles to understand how much space each mechanism needed.
 <p align = "center">
-    <img src="./physical-computing/week5/src/failure.gif" width="342" alt="failure">
+    <img src="./Physical_Computing/Week_5/Src/failure.gif" width="342" alt="failure">
 </p>
 
 **Reflection**
@@ -564,13 +586,13 @@ The mechanism sketches helped me explore different types of movement, but the ph
 ## Week-03
 
 ### Electronic - Sep 8
-I built a **[simple interaction](./physical-computing/week3/electronics/ultrasounds-servo-motor/ultrasounds-servo-motor.ino)** using an ultrasonic sensor and a servo motor. The ultrasonic sensor measures the distance of an object, and the servo responds based on that distance.
+I built a **[simple interaction](./Physical_Computing/Week_3/Electronics/Ultrasounds_Servo_Motor/Ultrasounds_Servo_Motor.ino)** using an ultrasonic sensor and a servo motor. The ultrasonic sensor measures the distance of an object, and the servo responds based on that distance.
 
 When an object comes within 20 cm, the servo rotates to 90°. When the object moves away, it returns to 0°.
 <p align = "center">
-    <img src="./physical-computing/week3/src/ultrasound-servo-motor.gif" width="342" alt="ultrasound control servo motor demo">
-    <img src="./physical-computing/week3/src/ultrasound-wiring-diagram.png" width="350" alt="ultrasound wiring diagram">
-    <img src="./physical-computing/week3/src/ultrasound-schematic-diagram.png" width="370" alt="ultrasound schematic diagram">
+    <img src="./Physical_Computing/Week_3/Src/ultrasound-servo-motor.gif" width="342" alt="ultrasound control servo motor demo">
+    <img src="./Physical_Computing/Week_3/Src/ultrasound-wiring-diagram.png" width="350" alt="ultrasound wiring diagram">
+    <img src="./Physical_Computing/Week_3/Src/ultrasound-schematic-diagram.png" width="370" alt="ultrasound schematic diagram">
 </p>
 
 ### Fabrication - Sep 17
@@ -578,14 +600,14 @@ This week, I explored 3D printing through two different ring-making approaches.
 
 The first one was a Flash ring, based on the ring I made in the previous laser-cutting exercise. Since the overall form was relatively simple, I drew the profile directly in a sketch and extruded it into a 3D form. After separating the ring into different parts, I added M2 holes at the connection points so that the pieces could be assembled after printing.
 <p align = "center">
-    <img src="./physical-computing/week3/src/ring_in_fusion.png" width="400" alt="ring in fusion360">
+    <img src="./Physical_Computing/Week_3/Src/ring_in_fusion.png" width="400" alt="ring in fusion360">
 </p>
 
 The second one was an organic ring made in Grasshopper. I started by creating a circle and extracting points along the curve, then rebuilt it with more points. I used random values to distribute the points around the circle and along the Z-axis, and moved them to create a second, more irregular circular profile. I then lofted the two profiles together to generate the main form. After that, I extracted the UV space of the surface, created a Voronoi pattern on it, and mapped the pattern back onto the curved geometry.
 <p align = "center">
-    <img src="./physical-computing/week3/src/ring_in_rhino.png" width="400" alt="ring in rhino">
+    <img src="./Physical_Computing/Week_3/Src/ring_in_rhino.png" width="400" alt="ring in rhino">
     <br>
-    <img src="./physical-computing/week3/src/3d_printing_ring.png" width="400" alt="3d printing ring">
+    <img src="./Physical_Computing/Week_3/Src/3d_printing_ring.png" width="400" alt="3d printing ring">
 </p>
 
 ## Week-02
@@ -593,20 +615,20 @@ The second one was an organic ring made in Grasshopper. I started by creating a 
 ### Electronic - Sep 1
 This week, I started working with Arduino and learned the basic structure of an Arduino program, including `setup()` and `loop()`, digital output, delays, and serial communication.
 
-I worked through two introductory exercises: **[Blink](./physical-computing/week2/electronics/blink/blink.ino)** and **[Hello World](./physical-computing/week2/electronics/hello-world/hello-world.ino)**, then combined the two concepts into a short **[exercise](./physical-computing/week2/electronics/combine-blink-hello-world/combine-blink-hello-world.ino)**.
+I worked through two introductory exercises: **[Blink](./Physical_Computing/Week_2/Electronics/Blink/Blink.ino)** and **[Hello World](./Physical_Computing/Week_2/Electronics/Hello_World/Hello_World.ino)**, then combined the two concepts into a short **[exercise](./Physical_Computing/Week_2/Electronics/Combine_Blink_Hello_World/Combine_Blink_Hello_World.ino)**.
 
 <p align = "center">
-    <img src="./physical-computing/week2/src/blink.gif" width="300" alt="Blink demo">
-    <img src="./physical-computing/week2/src/hello-world.png" width="400" alt="Hello world demo">
+    <img src="./Physical_Computing/Week_2/Src/blink.gif" width="300" alt="Blink demo">
+    <img src="./Physical_Computing/Week_2/Src/hello-world.png" width="400" alt="Hello world demo">
 </p>
 
 ---
 
-I used an LDR to detect changes in ambient light and **[control an LED](./physical-computing/week2/electronics/ldr-control/ldr-control.ino)** based on the sensor value. The LDR circuit is connected to the analog input pin A0, and the LED turns on when the sensor value passes a selected threshold.
+I used an LDR to detect changes in ambient light and **[control an LED](./Physical_Computing/Week_2/Electronics/LDR_Control/LDR_Control.ino)** based on the sensor value. The LDR circuit is connected to the analog input pin A0, and the LED turns on when the sensor value passes a selected threshold.
 
 <p align = "center">
-    <img src="./physical-computing/week2/src/ldr-control.gif" width="300" alt="LDR lightning control demo">
-    <img src="./physical-computing/week2/src/ldr-control-circuit.png" width="225" alt="LDR breadboard wiring diagram">
+    <img src="./Physical_Computing/Week_2/Src/ldr-control.gif" width="300" alt="LDR lightning control demo">
+    <img src="./Physical_Computing/Week_2/Src/ldr-control-circuit.png" width="225" alt="LDR breadboard wiring diagram">
 </p>
 
 **Take Away**
@@ -617,11 +639,11 @@ I used an LDR to detect changes in ambient light and **[control an LED](./physic
 
 ---
 
-I used multiple LEDs to create a **[back-and-forth light sequence](./physical-computing/week2/electronics/more-leds/more-leds.ino)**. The LEDs light up one by one in forward order, then reverse direction and return to the beginning.
+I used multiple LEDs to create a **[back-and-forth light sequence](./Physical_Computing/Week_2/Electronics/More_LEDs/More_LEDs.ino)**. The LEDs light up one by one in forward order, then reverse direction and return to the beginning.
 
 <p align = "center">
-    <img src="./physical-computing/week2/src/more-leds.gif" width="300" alt="multiplal lights demo">
-    <img src="./physical-computing/week2/src/more-leds.png" width="225" alt="multiplal lights breadboard wiring diagram">
+    <img src="./Physical_Computing/Week_2/Src/more-leds.gif" width="300" alt="multiplal lights demo">
+    <img src="./Physical_Computing/Week_2/Src/more-leds.png" width="225" alt="multiplal lights breadboard wiring diagram">
 </p>
 
 **Take Away**
@@ -638,6 +660,6 @@ For this exercise, I wanted to make something more playful than a conventional r
 I first designed the parts as 2D profiles for laser cutting and adjusted the dimensions based on the thickness of the wood and the size of my finger. After cutting the pieces, I assembled them with small M2 screws and tested how the parts fit and move together.
 
 <p align = "center">
-    <img src="./physical-computing/week2/src/laser-cutting.gif" width="250" alt="laser cutter working gif">
-    <img src="./physical-computing/week2/src/ring.png" width="350" alt="ring tear down diagram">
+    <img src="./Physical_Computing/Week_2/Src/laser-cutting.gif" width="250" alt="laser cutter working gif">
+    <img src="./Physical_Computing/Week_2/Src/ring.png" width="350" alt="ring tear down diagram">
 </p>

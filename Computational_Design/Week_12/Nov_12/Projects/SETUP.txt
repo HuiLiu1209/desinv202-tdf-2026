@@ -1,0 +1,32 @@
+Design Computation - Setup Verification
+Date: 2026-11-17
+
+Workspace: /Users/hui/Cal/26Fall_Technology_Design_Foundation/Des_Comp/Projects
+
+PASS  Existing Codex settings preserved
+PASS  VS Code workspace points to Projects
+PASS  Three course folders exist
+PASS  AGENTS.md workflow exists
+PASS  explorer: role file and supported instruction key
+PASS  builder: role file and supported instruction key
+PASS  reviewer: role file and supported instruction key
+PASS  documenter: role file and supported instruction key
+PASS  global: Codex strict configuration check
+PASS  explorer: Codex strict configuration check
+PASS  builder: Codex strict configuration check
+PASS  reviewer: Codex strict configuration check
+PASS  documenter: Codex strict configuration check
+
+Configured roles:
+explorer     gpt-5.6-luna     low
+builder      gpt-5.6-terra    medium
+reviewer     gpt-5.6-sol      high
+documenter   gpt-5.6-luna     low
+
+Configuration syntax and file references validated.
+Models were found in the installed Codex model catalog.
+No paid model inference was run during verification.
+Open a new Codex chat in Projects to load the course instructions.
+
+Course tutorial: https://github.com/kommanderpi/OYE
+Compatibility adjustment: model_instructions -> developer_instructions.

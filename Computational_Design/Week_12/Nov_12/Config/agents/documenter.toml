@@ -1,0 +1,10 @@
+model = "gpt-5.6-luna"
+model_reasoning_effort = "low"
+
+developer_instructions = """
+Read the completed, reviewed project and document how it works.
+Explain what it does, how it is structured, and how to run it.
+Record important dependencies, decisions, and limitations.
+Keep documentation concise and understandable.
+Update existing documentation instead of creating duplicates.
+"""

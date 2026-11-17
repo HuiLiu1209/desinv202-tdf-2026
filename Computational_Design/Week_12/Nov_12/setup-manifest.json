@@ -1,0 +1,120 @@
+{
+  "assignment_week": 12,
+  "assignment_date": "2026-11-12",
+  "setup_completed_date": "2026-11-17",
+  "purpose": "Archive of the course workspace and coding-agent setup.",
+  "active_workspace": "/Users/hui/Cal/26Fall_Technology_Design_Foundation/Des_Comp/Projects",
+  "config_note": "Config/config.toml contains only course agent registrations, not the full personal Codex configuration.",
+  "screenshots": 10,
+  "verified_copies": [
+    {
+      "file": "Src/nov12-01-project-folders.jpg",
+      "sha256": "391de3c9b59d79a056606933726f0db747f0ebfa4f7df30d00ecfb5d24667347"
+    },
+    {
+      "file": "Src/nov12-02-vscode-workspace.jpg",
+      "sha256": "dd978e449765238d0a9fd8ae2f430d89fd6e7929209d9405730b49ebd55f4d77"
+    },
+    {
+      "file": "Src/nov12-03-explorer.jpg",
+      "sha256": "3387eaad6fc90162c18f18626ca94f46ff324dcebd6622205d664fd0c65e229c"
+    },
+    {
+      "file": "Src/nov12-04-builder.jpg",
+      "sha256": "17f4f9c1f1b7d9d490d31ded99cd44d81a32510bcdaec82176d752b3228ea3c3"
+    },
+    {
+      "file": "Src/nov12-05-reviewer.jpg",
+      "sha256": "6da5b8feee74de9456acd58a37f7597d932f458fefb1ec1077682ba4f96f9777"
+    },
+    {
+      "file": "Src/nov12-06-documenter.jpg",
+      "sha256": "7d0fc4f82742a0952a2d64d5e19be159cfb3ed3b1fa2f2482682ef3e1bdfae6b"
+    },
+    {
+      "file": "Src/nov12-07-codex-agent-registration.jpg",
+      "sha256": "19bf306656beb529c961c824e4b7b3fbc3d1634f37bd175797be9b5be5369c96"
+    },
+    {
+      "file": "Src/nov12-08-project-workflow.jpg",
+      "sha256": "f496b9242b89b9b07ee66a6e4688e277d622e66f0a55bdfbcbe2e2f3d919547c"
+    },
+    {
+      "file": "Src/nov12-09-workspace-trusted.jpg",
+      "sha256": "fc2dab42cedb21a71116475e16901473977d683bb905d32a419efd19c1bf5022"
+    },
+    {
+      "file": "Src/nov12-10-validation-results.jpg",
+      "sha256": "f5938a0740294aa691907ed49ffd0bb7ac6855b749012715af0cd113a323018e"
+    },
+    {
+      "file": "Projects/AGENTS.md",
+      "sha256": "ef43ab05e9c4d7a48093c9105cecab7b7da9ba7cc5e901ecc5c8f3f49facda0e"
+    },
+    {
+      "file": "Projects/Projects.code-workspace",
+      "sha256": "ccba6084f7d358937e612ef3b445fe5ffff19a63ac9044af60a6039075a3848b"
+    },
+    {
+      "file": "Projects/SETUP.txt",
+      "sha256": "d281d8ce7d9ca571882e34f0df90d140440e654ab90caa35a0448982e27395a1"
+    },
+    {
+      "file": "Config/agents/explorer.toml",
+      "sha256": "6e4c1da2809299c7db18ad8379195932324fbc2f5515ff373f806f88c4955774"
+    },
+    {
+      "file": "Config/agents/builder.toml",
+      "sha256": "f333c4db642d6f93a85aee7a190548812a770832ac2c96c33aab0844d4ea0dc6"
+    },
+    {
+      "file": "Config/agents/reviewer.toml",
+      "sha256": "39c4b94abf12d53dc0324bf4de0b9db007992fb9355d9e98311c6a301fef21f7"
+    },
+    {
+      "file": "Config/agents/documenter.toml",
+      "sha256": "896c17eb25bf24c8f4fbc53ede841dcff13b93a5fd9111d10ec0ed231eabb2ad"
+    }
+  ],
+  "readme_cropped_images": [
+    {
+      "source": "Src/nov12-01-project-folders.jpg",
+      "file": "Src/nov12-01-project-folders-cropped.png",
+      "operation": "rectangular crop",
+      "bounds_left_top_right_bottom": [
+        1330,
+        105,
+        2300,
+        255
+      ],
+      "display_width": 600,
+      "sha256": "78d8e6e79ce85283dee6a8adb6ffa0a51a3410dd3927c03d629226de3be7d1ae"
+    },
+    {
+      "source": "Src/nov12-07-codex-agent-registration.jpg",
+      "file": "Src/nov12-07-codex-agent-registration-cropped.png",
+      "operation": "rectangular crop",
+      "bounds_left_top_right_bottom": [
+        810,
+        585,
+        2040,
+        1315
+      ],
+      "display_width": 640,
+      "sha256": "40abf8541f9ef9883331a124cb7f8091c2ff4082927970788dfa6466843f44ff"
+    },
+    {
+      "source": "Src/nov12-10-validation-results.jpg",
+      "file": "Src/nov12-10-validation-results-cropped.png",
+      "operation": "rectangular crop",
+      "bounds_left_top_right_bottom": [
+        810,
+        350,
+        2010,
+        1230
+      ],
+      "display_width": 600,
+      "sha256": "a9364825cb503aaf544ce80b6c0d1c3b987870f2387ae7d76910cae57faf2323"
+    }
+  ]
+}

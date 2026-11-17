@@ -1,0 +1,24 @@
+# Course agent registrations only.
+# Archive copy: merge this section into your existing Codex config.toml.
+# Keep the referenced agents directory beside that config file.
+
+# Design Computation course agent roles
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+
+[agents.explorer]
+description = "Investigates the project and explains approaches before changes."
+config_file = "./agents/explorer.toml"
+
+[agents.builder]
+description = "Implements approved project changes."
+config_file = "./agents/builder.toml"
+
+[agents.reviewer]
+description = "Independently checks correctness and requirements."
+config_file = "./agents/reviewer.toml"
+
+[agents.documenter]
+description = "Documents the reviewed project and how to run it."
+config_file = "./agents/documenter.toml"
