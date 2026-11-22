@@ -12,9 +12,37 @@ Experiments, prototypes, and reflections across physical and computational desig
 | --- | --- | --- | --- |
 | [Week 02](#week-02) | [Week 03](#week-03) | [Week 04](#week-04) | [Week 05](#week-05) |
 | [Week 06](#week-06) | [Week 07](#week-07) | [Week 08](#week-08) | [Week 09](#week-09) |
-| [Week 10](#week-10) | [Week 11](#week-11) | [Week 12](#week-12) | |
+| [Week 10](#week-10) | [Week 11](#week-11) | [Week 12](#week-12) | [Week 13](#week-13) |
 
 <br>
+
+## Week-13
+
+### Computational Design: Teachable Machine Object Classifier — Nov 16
+
+I trained an image classifier in Google Teachable Machine that recognizes six desk objects: cup, watch, phone, headphone, mouse, and bottle.
+
+[Open the model](https://teachablemachine.withgoogle.com/models/nli0F56XE/) · [Data key](./Computational_Design/Week_13/Nov_16/TM_OD/data_key.json) · [Project files](./Computational_Design/Week_13/Nov_16/TM_OD/)
+
+<p align="center">
+    <img src="./Computational_Design/Week_13/Nov_16/Src/nov16-03-live-phone.jpg" width="210" alt="Live preview recognizing a phone at 95%">
+    <img src="./Computational_Design/Week_13/Nov_16/Src/nov16-04-live-bottle-insulated.jpg" width="210" alt="Live preview recognizing an insulated bottle at 98%">
+    <img src="./Computational_Design/Week_13/Nov_16/Src/nov16-05-live-bottle-water.jpg" width="210" alt="Live preview recognizing a water bottle at 100%">
+    <img src="./Computational_Design/Week_13/Nov_16/Src/nov16-06-live-watch.jpg" width="210" alt="Live preview recognizing a watch at 95%">
+</p>
+
+All 897 training images come from open-source datasets or my webcam. A Python script cropped phone, mouse, and bottle from Open Images V7 bounding boxes. I added cup, watch, and headphone photos from other open-source datasets, and recorded webcam clips of myself holding the objects. `data_key.json` records each source, the per-class counts, and the folder structure. The 90 holdout images were never uploaded.
+
+| Class | Samples | Webcam | Open-source |
+| --- | ---: | ---: | ---: |
+| cup | 47 | 0 | 47 |
+| watch | 114 | 64 | 50 |
+| phone | 311 | 112 | 199 |
+| headphone | 106 | 74 | 32 |
+| mouse | 150 | 0 | 150 |
+| bottle | 169 | 19 | 150 |
+
+After I added the webcam recordings, the model seemed to overfit. It started to remember my clothes and the room rather than the objects, and the results became slightly worse. All webcam samples show the same person, shirt, and background, so these details became shortcuts. The classes are also unbalanced: phone has 311 samples, while cup has only 47. Next, I want to record the objects in different places and outfits, balance the classes, and add a background class so the model can tell when no object is present.
 
 ## Week-12
 

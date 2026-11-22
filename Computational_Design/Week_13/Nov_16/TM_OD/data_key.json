@@ -1,0 +1,82 @@
+{
+  "project": "TM_OD",
+  "title": "Everyday Desk Object Classifier",
+  "tool": "Google Teachable Machine - Image Project (Standard image model)",
+  "task": "Recognize six everyday objects held up to a webcam: cup, watch, phone, headphone, mouse, bottle.",
+  "created": "2026-11-21",
+  "updated": "2026-11-22",
+  "author": "Hui Liu",
+
+  "model": {
+    "shareable_model_url": "https://teachablemachine.withgoogle.com/models/nli0F56XE/",
+    "files": "model/ (model.json, weights.bin, metadata.json), downloaded from Export Model -> Tensorflow.js -> Download",
+    "labels_in_model_order": ["cup", "watch", "phone", "headphone", "mouse", "bottle"],
+    "image_size": 224,
+    "tm_version": "2.4.19",
+    "tfjs_version": "1.7.4",
+    "exported": "2026-11-22T17:47:53Z"
+  },
+
+  "sources": {
+    "webcam": "Recorded in Teachable Machine with the webcam: the object held up in front of the camera, in one room.",
+    "open_images": {
+      "name": "Open Images V7 (Google)",
+      "url": "https://storage.googleapis.com/openimages/web/index.html",
+      "license": "Annotations CC BY 4.0; images listed as CC BY 2.0",
+      "open_images_classes": {"phone": "/m/050k8 Mobile phone", "mouse": "/m/020lf Computer mouse", "bottle": "/m/04dr76w Bottle"},
+      "annotation_files": [
+        "https://storage.googleapis.com/openimages/v6/oidv6-train-annotations-bbox.csv (filtered to the 3 classes)",
+        "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+        "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv"
+      ],
+      "built_by": "scripts/build_dataset.py -> dataset/train/ and dataset/holdout/"
+    },
+    "other_open_source_images": "Uploaded photos for cup, watch, headphone and 49 extra phone photos, all taken from open-source image datasets."
+  },
+
+  "classes": [
+    {"label": "cup",       "trained_on": 47,  "webcam": 0,   "open_images": 0,   "other_open_source": 47,  "holdout": 0},
+    {"label": "watch",     "trained_on": 114, "webcam": 64,  "open_images": 0,   "other_open_source": 50,  "holdout": 0},
+    {"label": "phone",     "trained_on": 311, "webcam": 112, "open_images": 150, "other_open_source": 49,  "holdout": 30},
+    {"label": "headphone", "trained_on": 106, "webcam": 74,  "open_images": 0,   "other_open_source": 32,  "holdout": 0},
+    {"label": "mouse",     "trained_on": 150, "webcam": 0,   "open_images": 150, "other_open_source": 0,   "holdout": 30},
+    {"label": "bottle",    "trained_on": 169, "webcam": 19,  "open_images": 150, "other_open_source": 0,   "holdout": 30}
+  ],
+  "totals": {"trained_on": 897, "webcam": 269, "open_images": 450, "other_open_source": 178, "holdout": 90},
+  "counts_note": "trained_on is exact (the sample export from Teachable Machine). The webcam / open_images / other_web split was worked out by comparing the exported samples to dataset/train/ and to the first webcam frame of each class.",
+
+  "processing": {
+    "open_images_script": "scripts/build_dataset.py",
+    "seed": 42,
+    "open_images_steps": [
+      "Keep boxes that are not 'group of' or 'depiction' and cover at least 4% of the photo.",
+      "Take the largest box of the class in each photo.",
+      "Expand it to a square with 15% padding, crop, resize to 224x224.",
+      "Train crops from the Open Images train split, holdout crops from validation/test."
+    ],
+    "teachable_machine": "Every sample is stored by Teachable Machine as a 224x224 JPEG, which is what dataset/tm_samples/ holds."
+  },
+
+  "structure": {
+    "dataset/tm_samples/<label>/": "The exact samples the model was trained on, exported from Teachable Machine (class menu -> Download Samples). Numbered 0.jpg, 1.jpg, ... in Teachable Machine's order: webcam frames first, uploads after.",
+    "dataset/train/<label>/": "Open Images training crops for phone, mouse, bottle (uploaded into Teachable Machine; also inside tm_samples/).",
+    "dataset/holdout/<label>/": "Open Images holdout crops for phone, mouse, bottle. Never uploaded; used to test the exported model.",
+    "dataset/manifest.json": "Each Open Images crop's label, Open Images ID, split and crop box.",
+    "docs/train-contact-sheet.jpg": "12 Open Images training samples per class.",
+    "model/": "Teachable Machine export (model.json, weights.bin, metadata.json).",
+    "scripts/build_dataset.py": "Rebuilds dataset/train and dataset/holdout from the annotation files (downloads the images)."
+  },
+
+  "training": {
+    "teachable_machine_settings": {"epochs": 50, "batch_size": 16, "learning_rate": 0.001, "note": "Teachable Machine defaults, left unchanged."},
+    "google_drive_folder": "TODO"
+  },
+
+  "known_issues": [
+    "Classes are unbalanced: phone has 311 samples, cup only 47.",
+    "cup, watch and headphone have no holdout images, so the holdout test only measures phone, mouse and bottle.",
+    "Webcam samples are all from one room, one person and one shirt. After adding them the model seemed to overfit: it picked up the clothes and background instead of the objects, and results got slightly worse.",
+    "'Bottle' in Open Images includes beer, wine and soda bottles, not only water bottles.",
+    "There is no 'nothing' class; the model always picks one of the six objects, even when none is in view."
+  ]
+}

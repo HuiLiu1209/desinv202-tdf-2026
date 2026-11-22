@@ -1,0 +1,6482 @@
+[
+ {
+  "file": "train/phone/phone_000.jpg",
+  "label": "phone",
+  "open_images_id": "02882ac168772e42",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   174,
+   0,
+   857,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_001.jpg",
+  "label": "phone",
+  "open_images_id": "d23dd7e70de6aa5a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   110,
+   0,
+   878,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_002.jpg",
+  "label": "phone",
+  "open_images_id": "0000b9115cdf1e54",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   26,
+   0,
+   794,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_003.jpg",
+  "label": "phone",
+  "open_images_id": "17a24f053ab3009e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   174,
+   0,
+   854,
+   680
+  ]
+ },
+ {
+  "file": "train/phone/phone_004.jpg",
+  "label": "phone",
+  "open_images_id": "681f379dd3f8cb67",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   175,
+   0,
+   859,
+   684
+  ]
+ },
+ {
+  "file": "train/phone/phone_005.jpg",
+  "label": "phone",
+  "open_images_id": "9271dff577437bdd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   212,
+   600,
+   812
+  ]
+ },
+ {
+  "file": "train/phone/phone_006.jpg",
+  "label": "phone",
+  "open_images_id": "dc52865eec642571",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   131,
+   0,
+   899,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_007.jpg",
+  "label": "phone",
+  "open_images_id": "1faffb72b7435a0f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   184,
+   0,
+   951,
+   767
+  ]
+ },
+ {
+  "file": "train/phone/phone_008.jpg",
+  "label": "phone",
+  "open_images_id": "f7e5d3169f062fd9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1009,
+   1009
+  ]
+ },
+ {
+  "file": "train/phone/phone_009.jpg",
+  "label": "phone",
+  "open_images_id": "65f76f5454ad9b65",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   36,
+   0,
+   783,
+   746
+  ]
+ },
+ {
+  "file": "train/phone/phone_010.jpg",
+  "label": "phone",
+  "open_images_id": "422277a977827b70",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1007,
+   1007
+  ]
+ },
+ {
+  "file": "train/phone/phone_011.jpg",
+  "label": "phone",
+  "open_images_id": "30d7f3c70c193e81",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   281,
+   356,
+   550,
+   625
+  ]
+ },
+ {
+  "file": "train/phone/phone_012.jpg",
+  "label": "phone",
+  "open_images_id": "4b00777f898051cc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   217,
+   46,
+   800,
+   629
+  ]
+ },
+ {
+  "file": "train/phone/phone_013.jpg",
+  "label": "phone",
+  "open_images_id": "78441721bb312bff",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   169,
+   49,
+   802,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_014.jpg",
+  "label": "phone",
+  "open_images_id": "8e21ee1719aab49b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   65,
+   577,
+   331,
+   843
+  ]
+ },
+ {
+  "file": "train/phone/phone_015.jpg",
+  "label": "phone",
+  "open_images_id": "b917e074f334d668",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   249,
+   520,
+   769
+  ]
+ },
+ {
+  "file": "train/phone/phone_016.jpg",
+  "label": "phone",
+  "open_images_id": "c2ddb640baa1e3a1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   30,
+   502,
+   532
+  ]
+ },
+ {
+  "file": "train/phone/phone_017.jpg",
+  "label": "phone",
+  "open_images_id": "0a58c849300f38e8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   144,
+   0,
+   827,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_018.jpg",
+  "label": "phone",
+  "open_images_id": "84724e66e6125abb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   178,
+   0,
+   946,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_019.jpg",
+  "label": "phone",
+  "open_images_id": "32f76362db2d743d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   229,
+   563,
+   792
+  ]
+ },
+ {
+  "file": "train/phone/phone_020.jpg",
+  "label": "phone",
+  "open_images_id": "46e6ba94f670892d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   433,
+   53,
+   955,
+   575
+  ]
+ },
+ {
+  "file": "train/phone/phone_021.jpg",
+  "label": "phone",
+  "open_images_id": "a706090c8ec08398",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   100,
+   557,
+   658
+  ]
+ },
+ {
+  "file": "train/phone/phone_022.jpg",
+  "label": "phone",
+  "open_images_id": "60854121c362478f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   256,
+   768,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_023.jpg",
+  "label": "phone",
+  "open_images_id": "38fce12c00704b3d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   112,
+   14,
+   846,
+   748
+  ]
+ },
+ {
+  "file": "train/phone/phone_024.jpg",
+  "label": "phone",
+  "open_images_id": "cee248e9ace4a64e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   302,
+   0,
+   982,
+   680
+  ]
+ },
+ {
+  "file": "train/phone/phone_025.jpg",
+  "label": "phone",
+  "open_images_id": "60fd879040955560",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   192,
+   0,
+   874,
+   682
+  ]
+ },
+ {
+  "file": "train/phone/phone_026.jpg",
+  "label": "phone",
+  "open_images_id": "5913334db36ce4ca",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   273,
+   0,
+   1024,
+   750
+  ]
+ },
+ {
+  "file": "train/phone/phone_027.jpg",
+  "label": "phone",
+  "open_images_id": "3cb0193092b28b3f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   148,
+   0,
+   831,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_028.jpg",
+  "label": "phone",
+  "open_images_id": "a4de41a0717d55b9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_029.jpg",
+  "label": "phone",
+  "open_images_id": "2f1fa586b708fcf5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   259,
+   0,
+   1024,
+   765
+  ]
+ },
+ {
+  "file": "train/phone/phone_030.jpg",
+  "label": "phone",
+  "open_images_id": "cffd4807328e21b2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   267,
+   0,
+   796,
+   529
+  ]
+ },
+ {
+  "file": "train/phone/phone_031.jpg",
+  "label": "phone",
+  "open_images_id": "0042be9528ce34ea",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   183,
+   682,
+   865
+  ]
+ },
+ {
+  "file": "train/phone/phone_032.jpg",
+  "label": "phone",
+  "open_images_id": "6e42b7b3f9c17082",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_033.jpg",
+  "label": "phone",
+  "open_images_id": "84fe5d41f5346cef",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   172,
+   0,
+   852,
+   680
+  ]
+ },
+ {
+  "file": "train/phone/phone_034.jpg",
+  "label": "phone",
+  "open_images_id": "3835f75a66e844c0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   537,
+   177,
+   979,
+   619
+  ]
+ },
+ {
+  "file": "train/phone/phone_035.jpg",
+  "label": "phone",
+  "open_images_id": "ce8e4b79024b7ec9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   92,
+   0,
+   860,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_036.jpg",
+  "label": "phone",
+  "open_images_id": "d390081a7d51c324",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   280,
+   639,
+   664,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_037.jpg",
+  "label": "phone",
+  "open_images_id": "1440252ff76f525f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   265,
+   0,
+   950,
+   685
+  ]
+ },
+ {
+  "file": "train/phone/phone_038.jpg",
+  "label": "phone",
+  "open_images_id": "bc8a3fe06e3b180e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_039.jpg",
+  "label": "phone",
+  "open_images_id": "2fceae74bc5ef825",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   336,
+   437,
+   773
+  ]
+ },
+ {
+  "file": "train/phone/phone_040.jpg",
+  "label": "phone",
+  "open_images_id": "055280b46011ab9a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_041.jpg",
+  "label": "phone",
+  "open_images_id": "3f946dddb69abb56",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   518,
+   236,
+   1024,
+   741
+  ]
+ },
+ {
+  "file": "train/phone/phone_042.jpg",
+  "label": "phone",
+  "open_images_id": "f9639cd5172a2cc6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   92,
+   0,
+   620,
+   528
+  ]
+ },
+ {
+  "file": "train/phone/phone_043.jpg",
+  "label": "phone",
+  "open_images_id": "121912230363889b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   119,
+   681,
+   800
+  ]
+ },
+ {
+  "file": "train/phone/phone_044.jpg",
+  "label": "phone",
+  "open_images_id": "221c7784655cd34c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   464,
+   199,
+   905,
+   640
+  ]
+ },
+ {
+  "file": "train/phone/phone_045.jpg",
+  "label": "phone",
+  "open_images_id": "1faeedcc2de0c753",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   439,
+   0,
+   729,
+   290
+  ]
+ },
+ {
+  "file": "train/phone/phone_046.jpg",
+  "label": "phone",
+  "open_images_id": "0288ac24ff42d4c3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   128,
+   766,
+   894
+  ]
+ },
+ {
+  "file": "train/phone/phone_047.jpg",
+  "label": "phone",
+  "open_images_id": "c88a4737f0cb165f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   279,
+   0,
+   963,
+   684
+  ]
+ },
+ {
+  "file": "train/phone/phone_048.jpg",
+  "label": "phone",
+  "open_images_id": "125ddf42c7cbaa79",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   88,
+   0,
+   772,
+   684
+  ]
+ },
+ {
+  "file": "train/phone/phone_049.jpg",
+  "label": "phone",
+  "open_images_id": "3ad652941e97e87c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   7,
+   0,
+   688,
+   681
+  ]
+ },
+ {
+  "file": "train/phone/phone_050.jpg",
+  "label": "phone",
+  "open_images_id": "13e6d29e0b1f3e8e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   274,
+   0,
+   957,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_051.jpg",
+  "label": "phone",
+  "open_images_id": "b26dfeaaf2834bd4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   609,
+   418,
+   862,
+   671
+  ]
+ },
+ {
+  "file": "train/phone/phone_052.jpg",
+  "label": "phone",
+  "open_images_id": "059ac7b0bdad50fd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   30,
+   0,
+   988,
+   958
+  ]
+ },
+ {
+  "file": "train/phone/phone_053.jpg",
+  "label": "phone",
+  "open_images_id": "955366f74c19ee7f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   183,
+   712,
+   494,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_054.jpg",
+  "label": "phone",
+  "open_images_id": "cc750ef48d1afc9e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   209,
+   66,
+   785,
+   642
+  ]
+ },
+ {
+  "file": "train/phone/phone_055.jpg",
+  "label": "phone",
+  "open_images_id": "91f90f7f9a39ad44",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   221,
+   106,
+   880,
+   765
+  ]
+ },
+ {
+  "file": "train/phone/phone_056.jpg",
+  "label": "phone",
+  "open_images_id": "0fd55b65902dc8ce",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   101,
+   49,
+   629,
+   577
+  ]
+ },
+ {
+  "file": "train/phone/phone_057.jpg",
+  "label": "phone",
+  "open_images_id": "bf7d55c05760130a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   64,
+   185,
+   660,
+   781
+  ]
+ },
+ {
+  "file": "train/phone/phone_058.jpg",
+  "label": "phone",
+  "open_images_id": "3c59ff10326f711f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_059.jpg",
+  "label": "phone",
+  "open_images_id": "92e4fb73e9c6c306",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   13,
+   1010,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_060.jpg",
+  "label": "phone",
+  "open_images_id": "08615b5d4a47621d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   418,
+   20,
+   1020,
+   622
+  ]
+ },
+ {
+  "file": "train/phone/phone_061.jpg",
+  "label": "phone",
+  "open_images_id": "4b596dc8ee2c0a9b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_062.jpg",
+  "label": "phone",
+  "open_images_id": "003e60ca48d19315",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   95,
+   0,
+   778,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_063.jpg",
+  "label": "phone",
+  "open_images_id": "006512eb4a092212",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   234,
+   69,
+   534,
+   369
+  ]
+ },
+ {
+  "file": "train/phone/phone_064.jpg",
+  "label": "phone",
+  "open_images_id": "27bd54a16593bd89",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   166,
+   0,
+   849,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_065.jpg",
+  "label": "phone",
+  "open_images_id": "1b5e213050a30afc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   268,
+   481,
+   749
+  ]
+ },
+ {
+  "file": "train/phone/phone_066.jpg",
+  "label": "phone",
+  "open_images_id": "cf42e14e6a78ab18",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   197,
+   0,
+   877,
+   680
+  ]
+ },
+ {
+  "file": "train/phone/phone_067.jpg",
+  "label": "phone",
+  "open_images_id": "0ac9bc1df55d5053",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   121,
+   0,
+   889,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_068.jpg",
+  "label": "phone",
+  "open_images_id": "1d21f2c102346a45",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   13,
+   231,
+   549,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_069.jpg",
+  "label": "phone",
+  "open_images_id": "a6a377c068ad541a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   211,
+   93,
+   606,
+   489
+  ]
+ },
+ {
+  "file": "train/phone/phone_070.jpg",
+  "label": "phone",
+  "open_images_id": "4ae592c1e076ea36",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   183,
+   0,
+   867,
+   684
+  ]
+ },
+ {
+  "file": "train/phone/phone_071.jpg",
+  "label": "phone",
+  "open_images_id": "4ad00a85f2c1b9a1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   24,
+   0,
+   707,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_072.jpg",
+  "label": "phone",
+  "open_images_id": "5cc4fa2f21560d7a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   722,
+   722
+  ]
+ },
+ {
+  "file": "train/phone/phone_073.jpg",
+  "label": "phone",
+  "open_images_id": "e98bb8299bc75c8b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   458,
+   120,
+   956,
+   618
+  ]
+ },
+ {
+  "file": "train/phone/phone_074.jpg",
+  "label": "phone",
+  "open_images_id": "22b451b399627588",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_075.jpg",
+  "label": "phone",
+  "open_images_id": "ae128642f905a56a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   239,
+   498,
+   737
+  ]
+ },
+ {
+  "file": "train/phone/phone_076.jpg",
+  "label": "phone",
+  "open_images_id": "575f56fadecf56d6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   168,
+   678,
+   846
+  ]
+ },
+ {
+  "file": "train/phone/phone_077.jpg",
+  "label": "phone",
+  "open_images_id": "666bf94242a15dda",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   247,
+   0,
+   930,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_078.jpg",
+  "label": "phone",
+  "open_images_id": "62083a1141b90c8c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_079.jpg",
+  "label": "phone",
+  "open_images_id": "0e5b07d16a2bf1e7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   110,
+   46,
+   857,
+   794
+  ]
+ },
+ {
+  "file": "train/phone/phone_080.jpg",
+  "label": "phone",
+  "open_images_id": "7036ee1d5fbdc3d8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_081.jpg",
+  "label": "phone",
+  "open_images_id": "24dcf1edd71df8bd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   27,
+   621,
+   336,
+   931
+  ]
+ },
+ {
+  "file": "train/phone/phone_082.jpg",
+  "label": "phone",
+  "open_images_id": "ec8a9486bcffbac2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   101,
+   862,
+   963
+  ]
+ },
+ {
+  "file": "train/phone/phone_083.jpg",
+  "label": "phone",
+  "open_images_id": "05584c580a3fb7c4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   53,
+   0,
+   734,
+   681
+  ]
+ },
+ {
+  "file": "train/phone/phone_084.jpg",
+  "label": "phone",
+  "open_images_id": "a8860c1854aed101",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   28,
+   0,
+   983,
+   955
+  ]
+ },
+ {
+  "file": "train/phone/phone_085.jpg",
+  "label": "phone",
+  "open_images_id": "0ed301080b66047f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   163,
+   0,
+   918,
+   755
+  ]
+ },
+ {
+  "file": "train/phone/phone_086.jpg",
+  "label": "phone",
+  "open_images_id": "005e0e8e16d795b4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   177,
+   0,
+   862,
+   685
+  ]
+ },
+ {
+  "file": "train/phone/phone_087.jpg",
+  "label": "phone",
+  "open_images_id": "bd1f37cc751d773a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   19,
+   1004,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_088.jpg",
+  "label": "phone",
+  "open_images_id": "011289711c5e7c50",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   110,
+   0,
+   788,
+   678
+  ]
+ },
+ {
+  "file": "train/phone/phone_089.jpg",
+  "label": "phone",
+  "open_images_id": "5f521fd2db1ddbc1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   141,
+   244,
+   409,
+   511
+  ]
+ },
+ {
+  "file": "train/phone/phone_090.jpg",
+  "label": "phone",
+  "open_images_id": "cabe88ff2bb47045",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_091.jpg",
+  "label": "phone",
+  "open_images_id": "063a9bc437a61e2d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   233,
+   0,
+   916,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_092.jpg",
+  "label": "phone",
+  "open_images_id": "adff0ef851b41e7e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   247,
+   563,
+   810
+  ]
+ },
+ {
+  "file": "train/phone/phone_093.jpg",
+  "label": "phone",
+  "open_images_id": "bde9d3f524b63ec4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   175,
+   557,
+   733
+  ]
+ },
+ {
+  "file": "train/phone/phone_094.jpg",
+  "label": "phone",
+  "open_images_id": "b0f93bb52323651b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   164,
+   693,
+   857
+  ]
+ },
+ {
+  "file": "train/phone/phone_095.jpg",
+  "label": "phone",
+  "open_images_id": "e45933dcb91cdb54",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   91,
+   0,
+   859,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_096.jpg",
+  "label": "phone",
+  "open_images_id": "043a7a4a4dfe896a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   123,
+   768,
+   891
+  ]
+ },
+ {
+  "file": "train/phone/phone_097.jpg",
+  "label": "phone",
+  "open_images_id": "e42809a9ef2c626f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   178,
+   485,
+   663
+  ]
+ },
+ {
+  "file": "train/phone/phone_098.jpg",
+  "label": "phone",
+  "open_images_id": "277fb16e977e55db",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   217,
+   505,
+   722
+  ]
+ },
+ {
+  "file": "train/phone/phone_099.jpg",
+  "label": "phone",
+  "open_images_id": "a332dc7959177763",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   102,
+   0,
+   870,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_100.jpg",
+  "label": "phone",
+  "open_images_id": "a0861b4872bf95ab",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   144,
+   173,
+   994,
+   1024
+  ]
+ },
+ {
+  "file": "train/phone/phone_101.jpg",
+  "label": "phone",
+  "open_images_id": "2a2e7474410e357a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   141,
+   777,
+   918
+  ]
+ },
+ {
+  "file": "train/phone/phone_102.jpg",
+  "label": "phone",
+  "open_images_id": "b289447235508ea9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   335,
+   227,
+   703,
+   595
+  ]
+ },
+ {
+  "file": "train/phone/phone_103.jpg",
+  "label": "phone",
+  "open_images_id": "d405b6069231ee1b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   41,
+   0,
+   724,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_104.jpg",
+  "label": "phone",
+  "open_images_id": "b132675dec56962a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   654,
+   397,
+   896,
+   639
+  ]
+ },
+ {
+  "file": "train/phone/phone_105.jpg",
+  "label": "phone",
+  "open_images_id": "b168a672087396b7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   144,
+   0,
+   827,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_106.jpg",
+  "label": "phone",
+  "open_images_id": "0edf8af5176d0f11",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   176,
+   0,
+   859,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_107.jpg",
+  "label": "phone",
+  "open_images_id": "8ec14afb864ec8f3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   203,
+   111,
+   512,
+   420
+  ]
+ },
+ {
+  "file": "train/phone/phone_108.jpg",
+  "label": "phone",
+  "open_images_id": "50a8070fbb6e8adc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   51,
+   0,
+   734,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_109.jpg",
+  "label": "phone",
+  "open_images_id": "3833e5d7be243723",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   116,
+   360,
+   476
+  ]
+ },
+ {
+  "file": "train/phone/phone_110.jpg",
+  "label": "phone",
+  "open_images_id": "a20c522dad33d5a4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   313,
+   388,
+   610,
+   685
+  ]
+ },
+ {
+  "file": "train/phone/phone_111.jpg",
+  "label": "phone",
+  "open_images_id": "f6454a7fd946f80f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   537,
+   461,
+   999
+  ]
+ },
+ {
+  "file": "train/phone/phone_112.jpg",
+  "label": "phone",
+  "open_images_id": "8dd853c6f5e34488",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   260,
+   130,
+   679,
+   549
+  ]
+ },
+ {
+  "file": "train/phone/phone_113.jpg",
+  "label": "phone",
+  "open_images_id": "3dfb039392e34ca2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   198,
+   628,
+   826
+  ]
+ },
+ {
+  "file": "train/phone/phone_114.jpg",
+  "label": "phone",
+  "open_images_id": "03cf788293866e59",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   683,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_115.jpg",
+  "label": "phone",
+  "open_images_id": "4d2c57f11faecacb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   92,
+   0,
+   860,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_116.jpg",
+  "label": "phone",
+  "open_images_id": "06e1c84b62809448",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   509,
+   332,
+   849,
+   672
+  ]
+ },
+ {
+  "file": "train/phone/phone_117.jpg",
+  "label": "phone",
+  "open_images_id": "118aee4eca9fe03f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   51,
+   0,
+   819,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_118.jpg",
+  "label": "phone",
+  "open_images_id": "e2ec33f28322b3a9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   127,
+   0,
+   895,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_119.jpg",
+  "label": "phone",
+  "open_images_id": "6dcf5223339ed5b3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   100,
+   0,
+   868,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_120.jpg",
+  "label": "phone",
+  "open_images_id": "a8e4ec9fd6f76d93",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   121,
+   0,
+   910,
+   789
+  ]
+ },
+ {
+  "file": "train/phone/phone_121.jpg",
+  "label": "phone",
+  "open_images_id": "92e3d4b729a06d50",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   141,
+   0,
+   821,
+   680
+  ]
+ },
+ {
+  "file": "train/phone/phone_122.jpg",
+  "label": "phone",
+  "open_images_id": "b4bbef33f192b322",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   217,
+   509,
+   727
+  ]
+ },
+ {
+  "file": "train/phone/phone_123.jpg",
+  "label": "phone",
+  "open_images_id": "93486e848c93019e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   246,
+   0,
+   773,
+   527
+  ]
+ },
+ {
+  "file": "train/phone/phone_124.jpg",
+  "label": "phone",
+  "open_images_id": "4270a65b689a2688",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   332,
+   115,
+   984,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_125.jpg",
+  "label": "phone",
+  "open_images_id": "eb36b6b2b7f5f755",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   305,
+   0,
+   983,
+   678
+  ]
+ },
+ {
+  "file": "train/phone/phone_126.jpg",
+  "label": "phone",
+  "open_images_id": "0673350f0d05efd6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   321,
+   0,
+   1024,
+   702
+  ]
+ },
+ {
+  "file": "train/phone/phone_127.jpg",
+  "label": "phone",
+  "open_images_id": "cacf84ae13d2da8f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   131,
+   0,
+   814,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_128.jpg",
+  "label": "phone",
+  "open_images_id": "de89bd2482971f5c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   134,
+   158,
+   712,
+   736
+  ]
+ },
+ {
+  "file": "train/phone/phone_129.jpg",
+  "label": "phone",
+  "open_images_id": "0f0acd03741b2e86",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   108,
+   0,
+   876,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_130.jpg",
+  "label": "phone",
+  "open_images_id": "805cf27a532e81d7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   125,
+   0,
+   893,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_131.jpg",
+  "label": "phone",
+  "open_images_id": "0790fd9878db3470",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   467,
+   0,
+   1024,
+   556
+  ]
+ },
+ {
+  "file": "train/phone/phone_132.jpg",
+  "label": "phone",
+  "open_images_id": "e47e7967bf9c14b1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   366,
+   0,
+   959,
+   592
+  ]
+ },
+ {
+  "file": "train/phone/phone_133.jpg",
+  "label": "phone",
+  "open_images_id": "33c76495f9d890ec",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   133,
+   493,
+   627
+  ]
+ },
+ {
+  "file": "train/phone/phone_134.jpg",
+  "label": "phone",
+  "open_images_id": "18d47ad515a219fd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   436,
+   137,
+   964,
+   665
+  ]
+ },
+ {
+  "file": "train/phone/phone_135.jpg",
+  "label": "phone",
+  "open_images_id": "ee1f9cc924b541ba",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_136.jpg",
+  "label": "phone",
+  "open_images_id": "beeff978da8477bb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   181,
+   0,
+   949,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_137.jpg",
+  "label": "phone",
+  "open_images_id": "f27d2fb07b95510b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   122,
+   0,
+   902,
+   780
+  ]
+ },
+ {
+  "file": "train/phone/phone_138.jpg",
+  "label": "phone",
+  "open_images_id": "90e4f523ffa99f40",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   158,
+   0,
+   836,
+   678
+  ]
+ },
+ {
+  "file": "train/phone/phone_139.jpg",
+  "label": "phone",
+  "open_images_id": "d9319ab2d152ebba",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   588,
+   271,
+   1024,
+   707
+  ]
+ },
+ {
+  "file": "train/phone/phone_140.jpg",
+  "label": "phone",
+  "open_images_id": "0064c1d786be5321",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   3,
+   0,
+   771,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_141.jpg",
+  "label": "phone",
+  "open_images_id": "dc1aab86c73579a9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   157,
+   0,
+   839,
+   682
+  ]
+ },
+ {
+  "file": "train/phone/phone_142.jpg",
+  "label": "phone",
+  "open_images_id": "10f5eb2b685026ad",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   191,
+   0,
+   874,
+   683
+  ]
+ },
+ {
+  "file": "train/phone/phone_143.jpg",
+  "label": "phone",
+  "open_images_id": "29709e30e22996af",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_144.jpg",
+  "label": "phone",
+  "open_images_id": "4576807ce693e6e3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   130,
+   0,
+   898,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_145.jpg",
+  "label": "phone",
+  "open_images_id": "cab66cec1c9a0cf8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   184,
+   683,
+   867
+  ]
+ },
+ {
+  "file": "train/phone/phone_146.jpg",
+  "label": "phone",
+  "open_images_id": "93094dbad6193afd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   99,
+   173,
+   532,
+   605
+  ]
+ },
+ {
+  "file": "train/phone/phone_147.jpg",
+  "label": "phone",
+  "open_images_id": "55f7609906a5c2ce",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/phone/phone_148.jpg",
+  "label": "phone",
+  "open_images_id": "67c2ab05fb2d050a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   303,
+   228,
+   664,
+   589
+  ]
+ },
+ {
+  "file": "train/phone/phone_149.jpg",
+  "label": "phone",
+  "open_images_id": "12ce4f063cb863e6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   177,
+   173,
+   651,
+   647
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_000.jpg",
+  "label": "mouse",
+  "open_images_id": "64e5dca27af3db1f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   268,
+   147,
+   777,
+   656
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_001.jpg",
+  "label": "mouse",
+  "open_images_id": "39182cae9a2c0bff",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   357,
+   104,
+   911,
+   659
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_002.jpg",
+  "label": "mouse",
+  "open_images_id": "1dfb7a312b59cdf0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   478,
+   109,
+   931,
+   563
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_003.jpg",
+  "label": "mouse",
+  "open_images_id": "c1cc8291b8274546",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   211,
+   92,
+   799,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_004.jpg",
+  "label": "mouse",
+  "open_images_id": "46299b3e3b600ff2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   2,
+   160,
+   609,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_005.jpg",
+  "label": "mouse",
+  "open_images_id": "10e328c689d9bafc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   342,
+   0,
+   1020,
+   678
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_006.jpg",
+  "label": "mouse",
+  "open_images_id": "53ab0575628af68b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   164,
+   0,
+   844,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_007.jpg",
+  "label": "mouse",
+  "open_images_id": "c3b3d8897640c70e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   471,
+   270,
+   820,
+   619
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_008.jpg",
+  "label": "mouse",
+  "open_images_id": "43e250443b5054a8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   82,
+   65,
+   1024,
+   1006
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_009.jpg",
+  "label": "mouse",
+  "open_images_id": "eb15643e598d4099",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   251,
+   307,
+   611,
+   666
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_010.jpg",
+  "label": "mouse",
+  "open_images_id": "4104b2f6b399d015",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   311,
+   0,
+   961,
+   650
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_011.jpg",
+  "label": "mouse",
+  "open_images_id": "a41075dc34ab29ce",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   275,
+   383,
+   514,
+   623
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_012.jpg",
+  "label": "mouse",
+  "open_images_id": "d05c287fe2d3638a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   176,
+   19,
+   837,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_013.jpg",
+  "label": "mouse",
+  "open_images_id": "1ab7a3059416e346",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   158,
+   0,
+   838,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_014.jpg",
+  "label": "mouse",
+  "open_images_id": "90a1727fe2b65384",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   383,
+   40,
+   1024,
+   681
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_015.jpg",
+  "label": "mouse",
+  "open_images_id": "5bba87fe2d62110f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   162,
+   0,
+   845,
+   683
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_016.jpg",
+  "label": "mouse",
+  "open_images_id": "3bac9b649f7f6896",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   180,
+   0,
+   860,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_017.jpg",
+  "label": "mouse",
+  "open_images_id": "2cdd3fb379217ac3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   513,
+   566,
+   856,
+   909
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_018.jpg",
+  "label": "mouse",
+  "open_images_id": "39fd17b516f6a292",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   329,
+   694,
+   1024
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_019.jpg",
+  "label": "mouse",
+  "open_images_id": "08753e2ec0c9d6cc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   21,
+   0,
+   854,
+   833
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_020.jpg",
+  "label": "mouse",
+  "open_images_id": "ade0d84eb89e2e21",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   123,
+   305,
+   432,
+   614
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_021.jpg",
+  "label": "mouse",
+  "open_images_id": "c9dc9159af675715",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   68,
+   0,
+   836,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_022.jpg",
+  "label": "mouse",
+  "open_images_id": "e93fd07e5c51adc7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   161,
+   0,
+   929,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_023.jpg",
+  "label": "mouse",
+  "open_images_id": "bbab8026793bfe00",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   389,
+   0,
+   998,
+   609
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_024.jpg",
+  "label": "mouse",
+  "open_images_id": "892a2ed22a0769e8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   249,
+   145,
+   766,
+   662
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_025.jpg",
+  "label": "mouse",
+  "open_images_id": "03f583982bf00728",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   484,
+   115,
+   978,
+   608
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_026.jpg",
+  "label": "mouse",
+  "open_images_id": "49701de6c927bf2f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   695,
+   358,
+   1024,
+   686
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_027.jpg",
+  "label": "mouse",
+  "open_images_id": "2944d1b4eae3aef4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   296,
+   77,
+   725,
+   506
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_028.jpg",
+  "label": "mouse",
+  "open_images_id": "37e895dc207fc060",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   688,
+   395,
+   930,
+   637
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_029.jpg",
+  "label": "mouse",
+  "open_images_id": "8a06195a1bd8cda6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   118,
+   0,
+   877,
+   759
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_030.jpg",
+  "label": "mouse",
+  "open_images_id": "5701209e7877e0f0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   469,
+   240,
+   908,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_031.jpg",
+  "label": "mouse",
+  "open_images_id": "18c92743f244e78e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   122,
+   338,
+   432,
+   648
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_032.jpg",
+  "label": "mouse",
+  "open_images_id": "4b402fd33c54f5b5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   126,
+   768,
+   894
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_033.jpg",
+  "label": "mouse",
+  "open_images_id": "d1708a76d2340391",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   173,
+   176,
+   620,
+   623
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_034.jpg",
+  "label": "mouse",
+  "open_images_id": "fe92eb70e9390621",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   252,
+   683,
+   579,
+   1010
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_035.jpg",
+  "label": "mouse",
+  "open_images_id": "de71aa017f8f9916",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   156,
+   0,
+   924,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_036.jpg",
+  "label": "mouse",
+  "open_images_id": "47e76d376a29323a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   261,
+   168,
+   772,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_037.jpg",
+  "label": "mouse",
+  "open_images_id": "7799c7e6268c1b77",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   155,
+   0,
+   835,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_038.jpg",
+  "label": "mouse",
+  "open_images_id": "1dfbaa9a1c6d025d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   682,
+   682
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_039.jpg",
+  "label": "mouse",
+  "open_images_id": "553dacea0b35df28",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   527,
+   351,
+   850,
+   674
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_040.jpg",
+  "label": "mouse",
+  "open_images_id": "4796b482977307db",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   296,
+   0,
+   976,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_041.jpg",
+  "label": "mouse",
+  "open_images_id": "700d685d5be30e80",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   272,
+   148,
+   736,
+   612
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_042.jpg",
+  "label": "mouse",
+  "open_images_id": "6ed5a27d0b84582b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   100,
+   178,
+   615,
+   693
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_043.jpg",
+  "label": "mouse",
+  "open_images_id": "2ffb337185d7287a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   210,
+   0,
+   978,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_044.jpg",
+  "label": "mouse",
+  "open_images_id": "226f894db1565574",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   137,
+   0,
+   905,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_045.jpg",
+  "label": "mouse",
+  "open_images_id": "ef4ee1a2041d940d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   128,
+   0,
+   896,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_046.jpg",
+  "label": "mouse",
+  "open_images_id": "f922e976c7011d08",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   202,
+   0,
+   793,
+   591
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_047.jpg",
+  "label": "mouse",
+  "open_images_id": "2dd89a0ac8f9d12a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   412,
+   143,
+   832,
+   563
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_048.jpg",
+  "label": "mouse",
+  "open_images_id": "37783edb112cca6c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   219,
+   0,
+   752,
+   532
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_049.jpg",
+  "label": "mouse",
+  "open_images_id": "5825e6ae1212e152",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   133,
+   152,
+   749,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_050.jpg",
+  "label": "mouse",
+  "open_images_id": "1975fe305200674b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   75,
+   167,
+   489,
+   581
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_051.jpg",
+  "label": "mouse",
+  "open_images_id": "d5ae4b85afe82da6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   28,
+   54,
+   741,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_052.jpg",
+  "label": "mouse",
+  "open_images_id": "631868163b7972cb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   349,
+   349
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_053.jpg",
+  "label": "mouse",
+  "open_images_id": "abe902d7369b99e9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   418,
+   477,
+   660,
+   719
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_054.jpg",
+  "label": "mouse",
+  "open_images_id": "11fc3846bbf0a8b1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   171,
+   0,
+   851,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_055.jpg",
+  "label": "mouse",
+  "open_images_id": "4a957d0b5014fe81",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   158,
+   0,
+   838,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_056.jpg",
+  "label": "mouse",
+  "open_images_id": "df8e22f61f54ea76",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   280,
+   113,
+   674,
+   507
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_057.jpg",
+  "label": "mouse",
+  "open_images_id": "11b5cce32ed91e2a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   393,
+   159,
+   915,
+   681
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_058.jpg",
+  "label": "mouse",
+  "open_images_id": "6e504c2c7639afa6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   341,
+   0,
+   1024,
+   683
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_059.jpg",
+  "label": "mouse",
+  "open_images_id": "2462bc7ba8cd69d5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   114,
+   0,
+   794,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_060.jpg",
+  "label": "mouse",
+  "open_images_id": "28404b4c59cd2265",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   263,
+   113,
+   772,
+   623
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_061.jpg",
+  "label": "mouse",
+  "open_images_id": "5aaca29fee4a8c2b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_062.jpg",
+  "label": "mouse",
+  "open_images_id": "51378edccc6b7afa",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   313,
+   0,
+   926,
+   613
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_063.jpg",
+  "label": "mouse",
+  "open_images_id": "6214cd045a12dc5f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   113,
+   212,
+   484,
+   583
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_064.jpg",
+  "label": "mouse",
+  "open_images_id": "4d5f67c332f2d5e9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   332,
+   0,
+   1012,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_065.jpg",
+  "label": "mouse",
+  "open_images_id": "48528d50c7cb654a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   163,
+   455,
+   618
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_066.jpg",
+  "label": "mouse",
+  "open_images_id": "ffe70598300f2f40",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   303,
+   380,
+   625,
+   702
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_067.jpg",
+  "label": "mouse",
+  "open_images_id": "2c6ba58cf7a93155",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   316,
+   99,
+   784,
+   567
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_068.jpg",
+  "label": "mouse",
+  "open_images_id": "18441f736b4384e0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   201,
+   0,
+   881,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_069.jpg",
+  "label": "mouse",
+  "open_images_id": "3803b7dad09e5c14",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   129,
+   0,
+   897,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_070.jpg",
+  "label": "mouse",
+  "open_images_id": "1994a828e48b62e0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   298,
+   0,
+   939,
+   640
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_071.jpg",
+  "label": "mouse",
+  "open_images_id": "8d2b98bae4f35843",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   226,
+   166,
+   739,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_072.jpg",
+  "label": "mouse",
+  "open_images_id": "50a8afc49a8c690c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   172,
+   15,
+   861,
+   704
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_073.jpg",
+  "label": "mouse",
+  "open_images_id": "1ccfc4941e4eb212",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   171,
+   0,
+   851,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_074.jpg",
+  "label": "mouse",
+  "open_images_id": "70540da91c43795c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   347,
+   676,
+   1024
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_075.jpg",
+  "label": "mouse",
+  "open_images_id": "0a538666793eb2c9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   167,
+   0,
+   847,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_076.jpg",
+  "label": "mouse",
+  "open_images_id": "17825e787d460960",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   122,
+   0,
+   802,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_077.jpg",
+  "label": "mouse",
+  "open_images_id": "09ff0801ec0e35ba",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   225,
+   650,
+   587,
+   1012
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_078.jpg",
+  "label": "mouse",
+  "open_images_id": "07fa1f2dd69684f1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   409,
+   413,
+   763,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_079.jpg",
+  "label": "mouse",
+  "open_images_id": "6816fce54ea2e8c4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   177,
+   0,
+   860,
+   683
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_080.jpg",
+  "label": "mouse",
+  "open_images_id": "2d90645451b987fe",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   248,
+   31,
+   948,
+   731
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_081.jpg",
+  "label": "mouse",
+  "open_images_id": "88cf21f446dad863",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   266,
+   113,
+   833,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_082.jpg",
+  "label": "mouse",
+  "open_images_id": "28f618a7e62188b2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   158,
+   0,
+   838,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_083.jpg",
+  "label": "mouse",
+  "open_images_id": "3206b86af10fa072",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   63,
+   317,
+   449,
+   702
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_084.jpg",
+  "label": "mouse",
+  "open_images_id": "4f2ab374615ee877",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   168,
+   0,
+   848,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_085.jpg",
+  "label": "mouse",
+  "open_images_id": "90f94387bcde13bd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   45,
+   89,
+   765,
+   809
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_086.jpg",
+  "label": "mouse",
+  "open_images_id": "9988fc2b1ee87f29",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   209,
+   34,
+   715,
+   540
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_087.jpg",
+  "label": "mouse",
+  "open_images_id": "126ab9aaf41daca1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   132,
+   0,
+   900,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_088.jpg",
+  "label": "mouse",
+  "open_images_id": "cac4588aa894f6f7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   239,
+   137,
+   785,
+   683
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_089.jpg",
+  "label": "mouse",
+  "open_images_id": "e3b41e84fe3dd489",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   154,
+   0,
+   834,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_090.jpg",
+  "label": "mouse",
+  "open_images_id": "2d3b376fa292d0ce",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   10,
+   109,
+   493,
+   592
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_091.jpg",
+  "label": "mouse",
+  "open_images_id": "3ff79abeccb7c4b3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   382,
+   29,
+   825,
+   472
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_092.jpg",
+  "label": "mouse",
+  "open_images_id": "6b458d10d5752d05",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   245,
+   113,
+   794,
+   663
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_093.jpg",
+  "label": "mouse",
+  "open_images_id": "bc41fda0fe2a8705",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_094.jpg",
+  "label": "mouse",
+  "open_images_id": "01e47f826eecc121",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   249,
+   0,
+   929,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_095.jpg",
+  "label": "mouse",
+  "open_images_id": "1c83d79add8d8797",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   558,
+   223,
+   1024,
+   689
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_096.jpg",
+  "label": "mouse",
+  "open_images_id": "14ecfd20e8c4ac7f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   643,
+   643
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_097.jpg",
+  "label": "mouse",
+  "open_images_id": "528deebb2c7fe34e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_098.jpg",
+  "label": "mouse",
+  "open_images_id": "bc40a7f386a7d743",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   177,
+   0,
+   857,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_099.jpg",
+  "label": "mouse",
+  "open_images_id": "5108242994d30d7c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   192,
+   0,
+   879,
+   687
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_100.jpg",
+  "label": "mouse",
+  "open_images_id": "02838d66a250a2d7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   260,
+   0,
+   941,
+   681
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_101.jpg",
+  "label": "mouse",
+  "open_images_id": "096aaa1b95809241",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   128,
+   0,
+   896,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_102.jpg",
+  "label": "mouse",
+  "open_images_id": "4fa4df95f26c7cc4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   170,
+   31,
+   819,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_103.jpg",
+  "label": "mouse",
+  "open_images_id": "34aae7b2696900f5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   238,
+   0,
+   918,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_104.jpg",
+  "label": "mouse",
+  "open_images_id": "6992abc159cbc19e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   156,
+   39,
+   742,
+   625
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_105.jpg",
+  "label": "mouse",
+  "open_images_id": "2d58d99207f81121",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   495,
+   95,
+   945,
+   545
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_106.jpg",
+  "label": "mouse",
+  "open_images_id": "50d9f46daf7009eb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   240,
+   0,
+   546,
+   306
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_107.jpg",
+  "label": "mouse",
+  "open_images_id": "666f08e0bc8e9b71",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   159,
+   0,
+   842,
+   683
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_108.jpg",
+  "label": "mouse",
+  "open_images_id": "10c1adeecfd4948c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   127,
+   0,
+   895,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_109.jpg",
+  "label": "mouse",
+  "open_images_id": "47bfed9d99bf5e03",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   338,
+   72,
+   711,
+   445
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_110.jpg",
+  "label": "mouse",
+  "open_images_id": "5b95f54ef91a59fc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   587,
+   42,
+   1024,
+   478
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_111.jpg",
+  "label": "mouse",
+  "open_images_id": "1e5b0094edb96309",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   234,
+   72,
+   811,
+   650
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_112.jpg",
+  "label": "mouse",
+  "open_images_id": "4e76908aa4159087",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   168,
+   0,
+   936,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_113.jpg",
+  "label": "mouse",
+  "open_images_id": "db48f3c01922266a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   122,
+   274,
+   473,
+   626
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_114.jpg",
+  "label": "mouse",
+  "open_images_id": "f6a4e0183b1c2df6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   303,
+   644,
+   948
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_115.jpg",
+  "label": "mouse",
+  "open_images_id": "6820356c14440b0f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   245,
+   0,
+   924,
+   678
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_116.jpg",
+  "label": "mouse",
+  "open_images_id": "42cf27ea4ba79feb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   138,
+   0,
+   875,
+   737
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_117.jpg",
+  "label": "mouse",
+  "open_images_id": "fe5805a0890d49c0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   529,
+   249,
+   965,
+   685
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_118.jpg",
+  "label": "mouse",
+  "open_images_id": "f35dcb4ea86b128d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   166,
+   0,
+   846,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_119.jpg",
+  "label": "mouse",
+  "open_images_id": "0ee9dac931af3117",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   245,
+   0,
+   1013,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_120.jpg",
+  "label": "mouse",
+  "open_images_id": "ac415282d95c12db",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   4,
+   55,
+   456,
+   507
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_121.jpg",
+  "label": "mouse",
+  "open_images_id": "12df181d760f818d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   273,
+   118,
+   799,
+   644
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_122.jpg",
+  "label": "mouse",
+  "open_images_id": "01679a88ce1ed69e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   171,
+   0,
+   851,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_123.jpg",
+  "label": "mouse",
+  "open_images_id": "090beae148ac924d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   119,
+   0,
+   800,
+   681
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_124.jpg",
+  "label": "mouse",
+  "open_images_id": "f2d53bbf9987ec30",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   291,
+   299,
+   759,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_125.jpg",
+  "label": "mouse",
+  "open_images_id": "2777e047c100b672",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   256,
+   768,
+   1024
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_126.jpg",
+  "label": "mouse",
+  "open_images_id": "38f1fa987d8dc67e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   170,
+   0,
+   850,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_127.jpg",
+  "label": "mouse",
+  "open_images_id": "03c82ca8431c2440",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   553,
+   480,
+   844,
+   771
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_128.jpg",
+  "label": "mouse",
+  "open_images_id": "aaef38629ef16892",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   212,
+   0,
+   906,
+   694
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_129.jpg",
+  "label": "mouse",
+  "open_images_id": "12386b4d4a5d4708",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   179,
+   0,
+   587,
+   408
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_130.jpg",
+  "label": "mouse",
+  "open_images_id": "42110dbe367b3d64",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   112,
+   0,
+   792,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_131.jpg",
+  "label": "mouse",
+  "open_images_id": "b3e510087760f6a0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   609,
+   24,
+   1024,
+   439
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_132.jpg",
+  "label": "mouse",
+  "open_images_id": "159eb20a751744f8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   138,
+   59,
+   847,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_133.jpg",
+  "label": "mouse",
+  "open_images_id": "0b582795311bf811",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   109,
+   0,
+   962,
+   853
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_134.jpg",
+  "label": "mouse",
+  "open_images_id": "1fb56458af0004d9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   330,
+   142,
+   715,
+   528
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_135.jpg",
+  "label": "mouse",
+  "open_images_id": "70667605267741fc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   200,
+   0,
+   1024,
+   823
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_136.jpg",
+  "label": "mouse",
+  "open_images_id": "74eba5404e3ccac4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   3,
+   232,
+   343,
+   572
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_137.jpg",
+  "label": "mouse",
+  "open_images_id": "f554514bcc5f255d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   803,
+   356,
+   1024,
+   577
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_138.jpg",
+  "label": "mouse",
+  "open_images_id": "5f6f9bec956aa49c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   206,
+   0,
+   886,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_139.jpg",
+  "label": "mouse",
+  "open_images_id": "b7c3f6a263b7976f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   417,
+   74,
+   1023,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_140.jpg",
+  "label": "mouse",
+  "open_images_id": "41db740dad62d00c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   127,
+   48,
+   558,
+   479
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_141.jpg",
+  "label": "mouse",
+  "open_images_id": "3be30ba035c24293",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   147,
+   0,
+   915,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_142.jpg",
+  "label": "mouse",
+  "open_images_id": "05c6175f25b9efa5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   229,
+   292,
+   521
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_143.jpg",
+  "label": "mouse",
+  "open_images_id": "9dde072353fceeaa",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   316,
+   137,
+   744,
+   564
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_144.jpg",
+  "label": "mouse",
+  "open_images_id": "527e8e23f2777c30",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   465,
+   65,
+   1024,
+   624
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_145.jpg",
+  "label": "mouse",
+  "open_images_id": "3095e4f7a243cd29",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   169,
+   0,
+   849,
+   680
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_146.jpg",
+  "label": "mouse",
+  "open_images_id": "16264763c217327b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   338,
+   19,
+   971,
+   652
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_147.jpg",
+  "label": "mouse",
+  "open_images_id": "89335a7d6c2e68aa",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   192,
+   0,
+   960,
+   768
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_148.jpg",
+  "label": "mouse",
+  "open_images_id": "1bb5cf12ec99f1e3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   235,
+   89,
+   716,
+   570
+  ]
+ },
+ {
+  "file": "train/mouse/mouse_149.jpg",
+  "label": "mouse",
+  "open_images_id": "01eb3f53e357c2e6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   419,
+   419
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_000.jpg",
+  "label": "bottle",
+  "open_images_id": "b22cd4d4d9aa4d0c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   4,
+   0,
+   684,
+   680
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_001.jpg",
+  "label": "bottle",
+  "open_images_id": "115f5eacf8eccb81",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   424,
+   599,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_002.jpg",
+  "label": "bottle",
+  "open_images_id": "cc0aa3b375876033",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   582,
+   356,
+   994,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_003.jpg",
+  "label": "bottle",
+  "open_images_id": "10242e88276ed5b1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   118,
+   682,
+   800
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_004.jpg",
+  "label": "bottle",
+  "open_images_id": "e3f517aa3847f39e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_005.jpg",
+  "label": "bottle",
+  "open_images_id": "37cd9f628f6720ea",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   332,
+   7,
+   1024,
+   699
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_006.jpg",
+  "label": "bottle",
+  "open_images_id": "c66944a533518981",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   536,
+   536
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_007.jpg",
+  "label": "bottle",
+  "open_images_id": "35859a8e0e37945b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   18,
+   158,
+   479,
+   619
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_008.jpg",
+  "label": "bottle",
+  "open_images_id": "389126288fbc4e73",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_009.jpg",
+  "label": "bottle",
+  "open_images_id": "060d2b801bbee671",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_010.jpg",
+  "label": "bottle",
+  "open_images_id": "61b81725dfda110a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   113,
+   0,
+   881,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_011.jpg",
+  "label": "bottle",
+  "open_images_id": "10553cf7bd107164",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   210,
+   135,
+   721,
+   646
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_012.jpg",
+  "label": "bottle",
+  "open_images_id": "8724827e48755150",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   453,
+   363,
+   773,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_013.jpg",
+  "label": "bottle",
+  "open_images_id": "98b735e5c0b866f2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   128,
+   0,
+   896,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_014.jpg",
+  "label": "bottle",
+  "open_images_id": "96e8bd2bd559ad2e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   127,
+   768,
+   895
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_015.jpg",
+  "label": "bottle",
+  "open_images_id": "25539ddb0bcb2915",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_016.jpg",
+  "label": "bottle",
+  "open_images_id": "f95ba63bfe633261",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_017.jpg",
+  "label": "bottle",
+  "open_images_id": "5a7aa6d32932323f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   266,
+   59,
+   801,
+   594
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_018.jpg",
+  "label": "bottle",
+  "open_images_id": "7f2bf57b4e7805bd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   477,
+   247,
+   948,
+   719
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_019.jpg",
+  "label": "bottle",
+  "open_images_id": "225b177f1b56dcfa",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   67,
+   312,
+   586,
+   831
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_020.jpg",
+  "label": "bottle",
+  "open_images_id": "0329e6958e4f5069",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   142,
+   768,
+   910
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_021.jpg",
+  "label": "bottle",
+  "open_images_id": "058922ff596fb694",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   33,
+   990,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_022.jpg",
+  "label": "bottle",
+  "open_images_id": "51c59473b4383cd7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   638,
+   297,
+   1024,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_023.jpg",
+  "label": "bottle",
+  "open_images_id": "48adcbce221721a2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   101,
+   355,
+   514,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_024.jpg",
+  "label": "bottle",
+  "open_images_id": "9d0d681a109b6a5b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_025.jpg",
+  "label": "bottle",
+  "open_images_id": "bf0158c0ca1550a7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   176,
+   371,
+   548
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_026.jpg",
+  "label": "bottle",
+  "open_images_id": "93c4d9858a2dd55b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   595,
+   595
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_027.jpg",
+  "label": "bottle",
+  "open_images_id": "00d7a12134449fe1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   259,
+   0,
+   835,
+   576
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_028.jpg",
+  "label": "bottle",
+  "open_images_id": "622dd5a819b1981b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_029.jpg",
+  "label": "bottle",
+  "open_images_id": "21215beb90792ad4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   100,
+   0,
+   868,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_030.jpg",
+  "label": "bottle",
+  "open_images_id": "65e9d85fc822e3b9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   147,
+   768,
+   915
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_031.jpg",
+  "label": "bottle",
+  "open_images_id": "8ff043b2272b5834",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   574,
+   47,
+   1024,
+   497
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_032.jpg",
+  "label": "bottle",
+  "open_images_id": "4b3036676cafa058",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   219,
+   241,
+   661,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_033.jpg",
+  "label": "bottle",
+  "open_images_id": "aa6c022d51382ab0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_034.jpg",
+  "label": "bottle",
+  "open_images_id": "e5cefeb4f193782e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_035.jpg",
+  "label": "bottle",
+  "open_images_id": "66981e8d7b06228c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   342,
+   681,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_036.jpg",
+  "label": "bottle",
+  "open_images_id": "e76314422e08921f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   17,
+   17,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_037.jpg",
+  "label": "bottle",
+  "open_images_id": "8b00c9751954406e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   283,
+   0,
+   966,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_038.jpg",
+  "label": "bottle",
+  "open_images_id": "97f4c34dca52fd26",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   399,
+   0,
+   920,
+   520
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_039.jpg",
+  "label": "bottle",
+  "open_images_id": "c87f81d7c60e8476",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   194,
+   0,
+   962,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_040.jpg",
+  "label": "bottle",
+  "open_images_id": "2dcea25f837a4dbc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   186,
+   603,
+   789
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_041.jpg",
+  "label": "bottle",
+  "open_images_id": "9bd9066f17f1105d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   10,
+   258,
+   435,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_042.jpg",
+  "label": "bottle",
+  "open_images_id": "6784ec0bb47143f4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   97,
+   707,
+   414,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_043.jpg",
+  "label": "bottle",
+  "open_images_id": "2343f55ea18e5d3c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   682,
+   682
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_044.jpg",
+  "label": "bottle",
+  "open_images_id": "53527afd99dc66a4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   59,
+   768,
+   827
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_045.jpg",
+  "label": "bottle",
+  "open_images_id": "8849e62fc2dff4c5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   345,
+   422,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_046.jpg",
+  "label": "bottle",
+  "open_images_id": "384e1400a0c9993c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   85,
+   32,
+   547,
+   494
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_047.jpg",
+  "label": "bottle",
+  "open_images_id": "a51f8ef9720417e0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   141,
+   0,
+   824,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_048.jpg",
+  "label": "bottle",
+  "open_images_id": "5920d905ad63ce81",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   272,
+   0,
+   955,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_049.jpg",
+  "label": "bottle",
+  "open_images_id": "1890fbab9907dcb4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   127,
+   768,
+   895
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_050.jpg",
+  "label": "bottle",
+  "open_images_id": "fc5b1ba2fc54da86",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   429,
+   258,
+   794,
+   623
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_051.jpg",
+  "label": "bottle",
+  "open_images_id": "bdc1cfdfdc7eeb5a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   287,
+   429,
+   716
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_052.jpg",
+  "label": "bottle",
+  "open_images_id": "e674f6f846b01cae",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   96,
+   286,
+   491,
+   681
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_053.jpg",
+  "label": "bottle",
+  "open_images_id": "c5fd9903055a2890",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   337,
+   389,
+   726
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_054.jpg",
+  "label": "bottle",
+  "open_images_id": "c819f723f656f7f9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_055.jpg",
+  "label": "bottle",
+  "open_images_id": "a7ea135bbc5c20ec",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   144,
+   768,
+   912
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_056.jpg",
+  "label": "bottle",
+  "open_images_id": "e1b781b6508297d9",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   112,
+   768,
+   880
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_057.jpg",
+  "label": "bottle",
+  "open_images_id": "388bb8c6a9d2872e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   341,
+   0,
+   1024,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_058.jpg",
+  "label": "bottle",
+  "open_images_id": "62e354d5eee29159",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   104,
+   768,
+   872
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_059.jpg",
+  "label": "bottle",
+  "open_images_id": "2fc33b493c8035a2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_060.jpg",
+  "label": "bottle",
+  "open_images_id": "d52fabaeac466638",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   375,
+   648,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_061.jpg",
+  "label": "bottle",
+  "open_images_id": "98a8eb534ae02967",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   309,
+   0,
+   753,
+   443
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_062.jpg",
+  "label": "bottle",
+  "open_images_id": "8bb068e74c0c83e6",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   196,
+   571,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_063.jpg",
+  "label": "bottle",
+  "open_images_id": "185ea66e6fc6524a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   128,
+   766,
+   894
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_064.jpg",
+  "label": "bottle",
+  "open_images_id": "d41ad45b75a0a614",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   366,
+   0,
+   981,
+   615
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_065.jpg",
+  "label": "bottle",
+  "open_images_id": "e69aae9af4441f25",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   48,
+   109,
+   485,
+   546
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_066.jpg",
+  "label": "bottle",
+  "open_images_id": "9779707c04bcd898",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   128,
+   0,
+   808,
+   680
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_067.jpg",
+  "label": "bottle",
+  "open_images_id": "8090cc3fbb1753ed",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   111,
+   768,
+   879
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_068.jpg",
+  "label": "bottle",
+  "open_images_id": "e6540bed67b68a1b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   1,
+   177,
+   497,
+   673
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_069.jpg",
+  "label": "bottle",
+  "open_images_id": "2d3f8636bda37aca",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   230,
+   0,
+   959,
+   728
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_070.jpg",
+  "label": "bottle",
+  "open_images_id": "c534d1a4665f0350",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   216,
+   70,
+   608,
+   462
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_071.jpg",
+  "label": "bottle",
+  "open_images_id": "74e59c5820900b17",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_072.jpg",
+  "label": "bottle",
+  "open_images_id": "059267442f05dd5f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   23,
+   744,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_073.jpg",
+  "label": "bottle",
+  "open_images_id": "1ed1ae7f81874729",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   108,
+   0,
+   877,
+   769
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_074.jpg",
+  "label": "bottle",
+  "open_images_id": "7e2c047e93c56d1f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   87,
+   768,
+   855
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_075.jpg",
+  "label": "bottle",
+  "open_images_id": "1804abf0879a252f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   45,
+   824,
+   869
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_076.jpg",
+  "label": "bottle",
+  "open_images_id": "32010f6043c0a0e5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   151,
+   271,
+   573,
+   693
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_077.jpg",
+  "label": "bottle",
+  "open_images_id": "cbc6904e696b50c0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   449,
+   0,
+   1024,
+   574
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_078.jpg",
+  "label": "bottle",
+  "open_images_id": "6e9c70e5dadcfedf",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   504,
+   0,
+   881,
+   376
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_079.jpg",
+  "label": "bottle",
+  "open_images_id": "ea475d61515810eb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   344,
+   0,
+   1024,
+   680
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_080.jpg",
+  "label": "bottle",
+  "open_images_id": "8c3a816486c23c09",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   171,
+   361,
+   444,
+   634
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_081.jpg",
+  "label": "bottle",
+  "open_images_id": "9493bd489e168bdc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   516,
+   516
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_082.jpg",
+  "label": "bottle",
+  "open_images_id": "391d3846e47c36b0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   524,
+   165,
+   1024,
+   664
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_083.jpg",
+  "label": "bottle",
+  "open_images_id": "c930f0992a85d926",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   304,
+   560,
+   768,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_084.jpg",
+  "label": "bottle",
+  "open_images_id": "478174322f527875",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   47,
+   634,
+   682
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_085.jpg",
+  "label": "bottle",
+  "open_images_id": "b7e9e8e51b85e7fe",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_086.jpg",
+  "label": "bottle",
+  "open_images_id": "1d0db4172cf98dfe",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   316,
+   424,
+   740
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_087.jpg",
+  "label": "bottle",
+  "open_images_id": "c5707619931103bc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   396,
+   284,
+   681
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_088.jpg",
+  "label": "bottle",
+  "open_images_id": "6fec68715770f45e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   130,
+   768,
+   898
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_089.jpg",
+  "label": "bottle",
+  "open_images_id": "f8b3585fe0a670f0",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   81,
+   686,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_090.jpg",
+  "label": "bottle",
+  "open_images_id": "9520d65f67acc279",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   610,
+   610
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_091.jpg",
+  "label": "bottle",
+  "open_images_id": "dfe6e9c8f8648525",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   97,
+   0,
+   816,
+   719
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_092.jpg",
+  "label": "bottle",
+  "open_images_id": "177d62245f7345c8",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   229,
+   512,
+   741
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_093.jpg",
+  "label": "bottle",
+  "open_images_id": "0aabcf5f5332b8a7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   341,
+   0,
+   1024,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_094.jpg",
+  "label": "bottle",
+  "open_images_id": "ca578ca4d9c9edfb",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   137,
+   768,
+   905
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_095.jpg",
+  "label": "bottle",
+  "open_images_id": "430ac577d3b23594",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   463,
+   0,
+   997,
+   534
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_096.jpg",
+  "label": "bottle",
+  "open_images_id": "fa63e5da2efdb8e5",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   360,
+   283,
+   643
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_097.jpg",
+  "label": "bottle",
+  "open_images_id": "10e6beefb27800ce",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   139,
+   768,
+   907
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_098.jpg",
+  "label": "bottle",
+  "open_images_id": "82539842815b3c12",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_099.jpg",
+  "label": "bottle",
+  "open_images_id": "d1fe8c233d25ee3e",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   134,
+   768,
+   902
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_100.jpg",
+  "label": "bottle",
+  "open_images_id": "244b6b18c49e426f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   111,
+   768,
+   879
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_101.jpg",
+  "label": "bottle",
+  "open_images_id": "b0dfddaeebd5d64d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   683,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_102.jpg",
+  "label": "bottle",
+  "open_images_id": "29d5f20e1c84a368",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   665,
+   665
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_103.jpg",
+  "label": "bottle",
+  "open_images_id": "f6f74b6a15f24300",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_104.jpg",
+  "label": "bottle",
+  "open_images_id": "3eb5f1be95e4e13f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   112,
+   768,
+   880
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_105.jpg",
+  "label": "bottle",
+  "open_images_id": "bc6be81f736cb81a",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_106.jpg",
+  "label": "bottle",
+  "open_images_id": "786f0c35a9d99032",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_107.jpg",
+  "label": "bottle",
+  "open_images_id": "eba9ed8f7475dc44",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   303,
+   418,
+   721
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_108.jpg",
+  "label": "bottle",
+  "open_images_id": "fea3449a4da4a374",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   394,
+   316,
+   710
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_109.jpg",
+  "label": "bottle",
+  "open_images_id": "e452ae686cb09542",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   280,
+   416,
+   696
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_110.jpg",
+  "label": "bottle",
+  "open_images_id": "1763135fd85e993d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   80,
+   768,
+   848
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_111.jpg",
+  "label": "bottle",
+  "open_images_id": "54428d325a84d443",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   283,
+   103,
+   925,
+   745
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_112.jpg",
+  "label": "bottle",
+  "open_images_id": "6f50a66acad20d40",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   123,
+   103,
+   621,
+   601
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_113.jpg",
+  "label": "bottle",
+  "open_images_id": "c28903b5d529e6b4",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   36,
+   220,
+   840,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_114.jpg",
+  "label": "bottle",
+  "open_images_id": "4e5a5609669f00b3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   114,
+   171,
+   684,
+   741
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_115.jpg",
+  "label": "bottle",
+  "open_images_id": "d987fcca66f603ae",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_116.jpg",
+  "label": "bottle",
+  "open_images_id": "7adf972ad4377999",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   220,
+   0,
+   988,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_117.jpg",
+  "label": "bottle",
+  "open_images_id": "eafb91e97e52d049",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   770,
+   770
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_118.jpg",
+  "label": "bottle",
+  "open_images_id": "5004e512447447fd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   77,
+   77,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_119.jpg",
+  "label": "bottle",
+  "open_images_id": "d741cd82c5cd35bc",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   313,
+   357,
+   670
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_120.jpg",
+  "label": "bottle",
+  "open_images_id": "156e474220d052e2",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   150,
+   0,
+   918,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_121.jpg",
+  "label": "bottle",
+  "open_images_id": "69dcc5ff9e2607b1",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_122.jpg",
+  "label": "bottle",
+  "open_images_id": "552d4d5f6ebff600",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   124,
+   768,
+   892
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_123.jpg",
+  "label": "bottle",
+  "open_images_id": "331826fb344c6f17",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   150,
+   0,
+   638,
+   487
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_124.jpg",
+  "label": "bottle",
+  "open_images_id": "64d99e1050bec688",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   139,
+   768,
+   907
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_125.jpg",
+  "label": "bottle",
+  "open_images_id": "32bca1a5165b2eed",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   96,
+   0,
+   864,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_126.jpg",
+  "label": "bottle",
+  "open_images_id": "2e33b160f0657c15",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_127.jpg",
+  "label": "bottle",
+  "open_images_id": "7e5c4d21ea5f5392",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   445,
+   445
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_128.jpg",
+  "label": "bottle",
+  "open_images_id": "b8554d6ff5d64053",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   238,
+   683,
+   921
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_129.jpg",
+  "label": "bottle",
+  "open_images_id": "98ae9693df88d896",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   103,
+   230,
+   640,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_130.jpg",
+  "label": "bottle",
+  "open_images_id": "4a1604c909c10d25",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   136,
+   768,
+   904
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_131.jpg",
+  "label": "bottle",
+  "open_images_id": "3484c961180167d7",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   123,
+   7,
+   620,
+   503
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_132.jpg",
+  "label": "bottle",
+  "open_images_id": "2c05596144dc578d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   245,
+   0,
+   1024,
+   779
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_133.jpg",
+  "label": "bottle",
+  "open_images_id": "d463548598509563",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   136,
+   768,
+   904
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_134.jpg",
+  "label": "bottle",
+  "open_images_id": "020514c846e08c9b",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   121,
+   0,
+   889,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_135.jpg",
+  "label": "bottle",
+  "open_images_id": "11cefd70de5451bd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   341,
+   0,
+   1024,
+   683
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_136.jpg",
+  "label": "bottle",
+  "open_images_id": "d84b8a9d16f74958",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   199,
+   430,
+   630
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_137.jpg",
+  "label": "bottle",
+  "open_images_id": "c0906cb108bbfa6c",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   286,
+   103,
+   812,
+   629
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_138.jpg",
+  "label": "bottle",
+  "open_images_id": "56b30e976f1518e3",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   562,
+   562
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_139.jpg",
+  "label": "bottle",
+  "open_images_id": "c409b0bd64fbbd12",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   51,
+   662,
+   713
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_140.jpg",
+  "label": "bottle",
+  "open_images_id": "f2fdf52ce7ed0823",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   307,
+   252,
+   723,
+   668
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_141.jpg",
+  "label": "bottle",
+  "open_images_id": "7679a58ac4020218",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   154,
+   0,
+   500,
+   346
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_142.jpg",
+  "label": "bottle",
+  "open_images_id": "7376089ca876ef3d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   281,
+   21,
+   1024,
+   764
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_143.jpg",
+  "label": "bottle",
+  "open_images_id": "5b843f7cbdb4ef0f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   171,
+   681,
+   852
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_144.jpg",
+  "label": "bottle",
+  "open_images_id": "32eeeb39f63a9320",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   360,
+   0,
+   1024,
+   663
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_145.jpg",
+  "label": "bottle",
+  "open_images_id": "ab10d28201f8fa6f",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   9,
+   345,
+   354
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_146.jpg",
+  "label": "bottle",
+  "open_images_id": "0e1f1b3e80b16ebf",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   247,
+   768,
+   1015
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_147.jpg",
+  "label": "bottle",
+  "open_images_id": "a75297bcd5f8c7dd",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_148.jpg",
+  "label": "bottle",
+  "open_images_id": "ad524d5e603d8470",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "train/bottle/bottle_149.jpg",
+  "label": "bottle",
+  "open_images_id": "3bb0fc351d7b620d",
+  "open_images_split": "train",
+  "crop_xyxy_px": [
+   249,
+   0,
+   612,
+   362
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_000.jpg",
+  "label": "phone",
+  "open_images_id": "66771a4870c324f9",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   169,
+   0,
+   745,
+   576
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_001.jpg",
+  "label": "phone",
+  "open_images_id": "ebef55cd41f778ab",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   149,
+   0,
+   829,
+   680
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_002.jpg",
+  "label": "phone",
+  "open_images_id": "d9576e318f2b9396",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   127,
+   0,
+   895,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_003.jpg",
+  "label": "phone",
+  "open_images_id": "dfe3e15d51bccd7b",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   321,
+   42,
+   929,
+   650
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_004.jpg",
+  "label": "phone",
+  "open_images_id": "fedf97e1b88cb843",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   128,
+   768,
+   896
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_005.jpg",
+  "label": "phone",
+  "open_images_id": "bd55ece1044ab937",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   175,
+   0,
+   858,
+   683
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_006.jpg",
+  "label": "phone",
+  "open_images_id": "9fb4bcbe992bd842",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   975,
+   975
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_007.jpg",
+  "label": "phone",
+  "open_images_id": "04a504fe281c930e",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1022,
+   1022
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_008.jpg",
+  "label": "phone",
+  "open_images_id": "e1cd5c924f8d337b",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1017,
+   1017
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_009.jpg",
+  "label": "phone",
+  "open_images_id": "47c7dbe9da3c8c87",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   250,
+   547,
+   797
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_010.jpg",
+  "label": "phone",
+  "open_images_id": "0d4d1169ecf7e56e",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   67,
+   0,
+   832,
+   765
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_011.jpg",
+  "label": "phone",
+  "open_images_id": "251896944150f233",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   182,
+   14,
+   865,
+   697
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_012.jpg",
+  "label": "phone",
+  "open_images_id": "701f228e7772487f",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   148,
+   0,
+   831,
+   683
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_013.jpg",
+  "label": "phone",
+  "open_images_id": "ac85e5892b80408a",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   19,
+   0,
+   787,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_014.jpg",
+  "label": "phone",
+  "open_images_id": "d7f59a3da7db74ec",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   256,
+   768,
+   1024
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_015.jpg",
+  "label": "phone",
+  "open_images_id": "940ff5fb5ea1004d",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   136,
+   0,
+   817,
+   681
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_016.jpg",
+  "label": "phone",
+  "open_images_id": "b02cb2358a21f9bb",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   180,
+   0,
+   1024,
+   844
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_017.jpg",
+  "label": "phone",
+  "open_images_id": "271b34be18046221",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   49,
+   0,
+   971,
+   922
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_018.jpg",
+  "label": "phone",
+  "open_images_id": "63703eda1367452c",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   164,
+   0,
+   932,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_019.jpg",
+  "label": "phone",
+  "open_images_id": "88d2508b4fba0184",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   183,
+   0,
+   951,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_020.jpg",
+  "label": "phone",
+  "open_images_id": "f156a3448d382cc2",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   145,
+   0,
+   912,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_021.jpg",
+  "label": "phone",
+  "open_images_id": "d0824763a3292fdd",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   139,
+   0,
+   884,
+   745
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_022.jpg",
+  "label": "phone",
+  "open_images_id": "149a5bf3d8cc976b",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   731,
+   731
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_023.jpg",
+  "label": "phone",
+  "open_images_id": "df85e966037f9ae8",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   212,
+   0,
+   980,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_024.jpg",
+  "label": "phone",
+  "open_images_id": "dd66346b0daf7e6c",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   292,
+   0,
+   973,
+   681
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_025.jpg",
+  "label": "phone",
+  "open_images_id": "3d0d99675f747000",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   254,
+   25,
+   745,
+   516
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_026.jpg",
+  "label": "phone",
+  "open_images_id": "9e98e26668bd22a5",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   168,
+   0,
+   936,
+   768
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_027.jpg",
+  "label": "phone",
+  "open_images_id": "01ac026097ecc699",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   170,
+   0,
+   853,
+   683
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_028.jpg",
+  "label": "phone",
+  "open_images_id": "f2a857d82894ff0d",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   118,
+   349,
+   467
+  ]
+ },
+ {
+  "file": "holdout/phone/phone_029.jpg",
+  "label": "phone",
+  "open_images_id": "0bccf77baa84e121",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   230,
+   237,
+   760,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_000.jpg",
+  "label": "mouse",
+  "open_images_id": "4bab8bcfb47b0986",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   183,
+   0,
+   890,
+   707
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_001.jpg",
+  "label": "mouse",
+  "open_images_id": "8509d5c40c40b78a",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   179,
+   27,
+   835,
+   683
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_002.jpg",
+  "label": "mouse",
+  "open_images_id": "2bc941fac87f3826",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   260,
+   0,
+   775,
+   515
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_003.jpg",
+  "label": "mouse",
+  "open_images_id": "804317fa143f01df",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   208,
+   768,
+   976
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_004.jpg",
+  "label": "mouse",
+  "open_images_id": "ee3ca9ff374d5212",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   169,
+   682,
+   851
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_005.jpg",
+  "label": "mouse",
+  "open_images_id": "bd3c645a72b90dc3",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   456,
+   301,
+   781,
+   626
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_006.jpg",
+  "label": "mouse",
+  "open_images_id": "74936adc221e0f6e",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   188,
+   0,
+   952,
+   764
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_007.jpg",
+  "label": "mouse",
+  "open_images_id": "b1072d33aeb8faf9",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   408,
+   444,
+   853
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_008.jpg",
+  "label": "mouse",
+  "open_images_id": "59f46f699d6823de",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   424,
+   0,
+   1024,
+   600
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_009.jpg",
+  "label": "mouse",
+  "open_images_id": "8059c71a9709f2ab",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   344,
+   0,
+   1024,
+   680
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_010.jpg",
+  "label": "mouse",
+  "open_images_id": "be96346af6d930ef",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   2,
+   765,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_011.jpg",
+  "label": "mouse",
+  "open_images_id": "4dc1f23946c2d47c",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   113,
+   0,
+   881,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_012.jpg",
+  "label": "mouse",
+  "open_images_id": "a88cf9722f76deeb",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   173,
+   0,
+   941,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_013.jpg",
+  "label": "mouse",
+  "open_images_id": "27a42265dc273376",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   641,
+   641
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_014.jpg",
+  "label": "mouse",
+  "open_images_id": "f47157a9f83d43f1",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   102,
+   426,
+   339,
+   663
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_015.jpg",
+  "label": "mouse",
+  "open_images_id": "ed6fd1df89836efe",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   318,
+   62,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_016.jpg",
+  "label": "mouse",
+  "open_images_id": "45069d7de7100c0d",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   383,
+   0,
+   1024,
+   640
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_017.jpg",
+  "label": "mouse",
+  "open_images_id": "cf96b3b874e7d583",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   160,
+   0,
+   928,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_018.jpg",
+  "label": "mouse",
+  "open_images_id": "4a59b15a948b3965",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   160,
+   0,
+   928,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_019.jpg",
+  "label": "mouse",
+  "open_images_id": "f4581c5e117f45dd",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   2,
+   0,
+   1024,
+   1022
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_020.jpg",
+  "label": "mouse",
+  "open_images_id": "8ce355f47f0d1c45",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   153,
+   0,
+   917,
+   764
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_021.jpg",
+  "label": "mouse",
+  "open_images_id": "0d710305021a46b5",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   440,
+   268,
+   939,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_022.jpg",
+  "label": "mouse",
+  "open_images_id": "85b572241d10e14c",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   103,
+   0,
+   785,
+   682
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_023.jpg",
+  "label": "mouse",
+  "open_images_id": "7d5f6e99070af3eb",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   536,
+   90,
+   921,
+   474
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_024.jpg",
+  "label": "mouse",
+  "open_images_id": "c95d9c2d3db9c72c",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   256,
+   0,
+   1024,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_025.jpg",
+  "label": "mouse",
+  "open_images_id": "9920919c9507942e",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   128,
+   0,
+   896,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_026.jpg",
+  "label": "mouse",
+  "open_images_id": "0f817e05eecad078",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   388,
+   102,
+   976,
+   691
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_027.jpg",
+  "label": "mouse",
+  "open_images_id": "e7f4f0470c3b2597",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   82,
+   207,
+   624,
+   749
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_028.jpg",
+  "label": "mouse",
+  "open_images_id": "0e01043680c40c32",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   117,
+   0,
+   885,
+   768
+  ]
+ },
+ {
+  "file": "holdout/mouse/mouse_029.jpg",
+  "label": "mouse",
+  "open_images_id": "30e15713103581c7",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   390,
+   0,
+   965,
+   574
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_000.jpg",
+  "label": "bottle",
+  "open_images_id": "7201baca749f301f",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   312,
+   278,
+   768,
+   734
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_001.jpg",
+  "label": "bottle",
+  "open_images_id": "2537579ba36604b1",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   124,
+   768,
+   892
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_002.jpg",
+  "label": "bottle",
+  "open_images_id": "5bb5473e89bd1099",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   138,
+   683,
+   821
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_003.jpg",
+  "label": "bottle",
+  "open_images_id": "dcb1025f7f6acda6",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   466,
+   20,
+   1024,
+   577
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_004.jpg",
+  "label": "bottle",
+  "open_images_id": "49b5655d76b69134",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   296,
+   679,
+   975
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_005.jpg",
+  "label": "bottle",
+  "open_images_id": "44d6c8275ffec7b8",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   216,
+   0,
+   897,
+   681
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_006.jpg",
+  "label": "bottle",
+  "open_images_id": "4ba5b0c3c04d2680",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   122,
+   683,
+   805
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_007.jpg",
+  "label": "bottle",
+  "open_images_id": "d4adee61cc52f8d7",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   446,
+   320,
+   767
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_008.jpg",
+  "label": "bottle",
+  "open_images_id": "071ddd9232b9c22c",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   683,
+   683
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_009.jpg",
+  "label": "bottle",
+  "open_images_id": "236ebc6694716c9a",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   519,
+   519
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_010.jpg",
+  "label": "bottle",
+  "open_images_id": "a119ed96a3eb26da",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   27,
+   65,
+   437,
+   475
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_011.jpg",
+  "label": "bottle",
+  "open_images_id": "c264f4ac854e66eb",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   144,
+   768,
+   912
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_012.jpg",
+  "label": "bottle",
+  "open_images_id": "f88abb808cde7c0c",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   0,
+   683,
+   683
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_013.jpg",
+  "label": "bottle",
+  "open_images_id": "83d4e7afd10210de",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   104,
+   0,
+   787,
+   683
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_014.jpg",
+  "label": "bottle",
+  "open_images_id": "501727520e6af47d",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   1678,
+   531,
+   4285,
+   3138
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_015.jpg",
+  "label": "bottle",
+  "open_images_id": "24766458a9f83849",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   0,
+   768,
+   768
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_016.jpg",
+  "label": "bottle",
+  "open_images_id": "94c9300e6ff97eb2",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   15,
+   0,
+   698,
+   683
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_017.jpg",
+  "label": "bottle",
+  "open_images_id": "9e3f2894c677e22d",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   23,
+   768,
+   791
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_018.jpg",
+  "label": "bottle",
+  "open_images_id": "10004554bc874b75",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   125,
+   768,
+   893
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_019.jpg",
+  "label": "bottle",
+  "open_images_id": "b4637efd9aeff4b8",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   344,
+   0,
+   1024,
+   680
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_020.jpg",
+  "label": "bottle",
+  "open_images_id": "b9a257dd13a633b1",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   307,
+   717,
+   1024
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_021.jpg",
+  "label": "bottle",
+  "open_images_id": "a5fe819cd6e05935",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   102,
+   819,
+   921
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_022.jpg",
+  "label": "bottle",
+  "open_images_id": "9f6d18a0a5b25e77",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   50,
+   0,
+   842,
+   792
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_023.jpg",
+  "label": "bottle",
+  "open_images_id": "8f5895b7b49f26a8",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   581,
+   598,
+   987,
+   1004
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_024.jpg",
+  "label": "bottle",
+  "open_images_id": "a9b128063150b294",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   0,
+   337,
+   332,
+   669
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_025.jpg",
+  "label": "bottle",
+  "open_images_id": "3ef5a2893b3df4a4",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_026.jpg",
+  "label": "bottle",
+  "open_images_id": "f622fd5ee331370a",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   534,
+   182,
+   1024,
+   671
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_027.jpg",
+  "label": "bottle",
+  "open_images_id": "179f6966eec24e2a",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   341,
+   0,
+   1024,
+   683
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_028.jpg",
+  "label": "bottle",
+  "open_images_id": "50c0057044d205ff",
+  "open_images_split": "validation",
+  "crop_xyxy_px": [
+   0,
+   0,
+   1024,
+   1024
+  ]
+ },
+ {
+  "file": "holdout/bottle/bottle_029.jpg",
+  "label": "bottle",
+  "open_images_id": "47d1932acf658349",
+  "open_images_split": "test",
+  "crop_xyxy_px": [
+   100,
+   0,
+   868,
+   768
+  ]
+ }
+]
